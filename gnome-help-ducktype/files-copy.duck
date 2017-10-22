@@ -1,0 +1,80 @@
+@include gnome-help.defs
+
+= Copy or move files and folders
+  [topic .task version="1.0 ui/1.0"]
+@link[guide >files#common-file-tasks]
+
+@revision[pkgversion="3.5.92" version="0.2" date="2012-09-15" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-20" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="review"]
+
+@credit[author]
+  @name Cristopher Thomas
+  @email crisnoh@gmail.com
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany.antopolski@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Copy or move items to a new folder.
+
+A file or folder can be copied or moved to a new location by dragging and
+dropping with the mouse, using the copy and paste commands, or by using
+keyboard shortcuts.
+
+For example, you might want to copy a presentation onto a memory stick so
+you can take it to work with you. Or, you could make a back-up copy of a
+document before you make changes to it (and then use the old copy if you don’t
+like your changes).
+
+These instructions apply to both files and folders. You copy and move files
+and folders in exactly the same way.
+
+[steps ui:expanded=false]
+. Copy and paste files
+* Select the file you want to copy by clicking on it once.
+* Right-click and pick $gui(Copy), or press $keyseq($key(Ctrl)$key(C)).
+* Navigate to another folder, where you want to put the copy of the file.
+* Click the menu button and pick $gui(Paste) to finish copying the file,
+  or press $keyseq($key(Ctrl)$key(V)). There will now be a copy of the
+  file in the original folder and the other folder.
+
+[steps ui:expanded=false]
+. Cut and paste files to move them
+* Select the file you want to move by clicking on it once.
+* Right-click and pick $gui(Cut), or press $keyseq($key(Ctrl)$key(X)).
+* Navigate to another folder, where you want to move the file.
+* Click the menu button in the toolbar and pick $gui(Paste) to finish
+  moving the file, or press $keyseq($key(Ctrl)$key(V)). The file will
+  be taken out of its original folder and moved to the other folder.
+
+[steps ui:expanded=false]
+. Drag files to copy or move
+
+* Open the file manager and go to the folder which contains the file you
+  want to copy.
+
+* Click $gui(Files) in the top bar, select $gui(New Window) (or press
+  $keyseq($key(Ctrl)$key(N))) to open a second window. In the new window,
+  navigate to the folder where you want to move or copy the file.
+
+* Click and drag the file from one window to another. This will $em(move it)
+  if the destination is on the $em(same) device, or $em(copy it) if the
+  destination is on a $em(different) device.
+
+  For example, if you drag a file from a USB memory stick to your Home folder,
+  it will be copied, because you’re dragging from one device to another.
+
+  You can force the file to be copied by holding down the $key(Ctrl) key
+  while dragging, or force it to be moved by holding down the $key(Shift)
+  key while dragging.
+
+[note]
+  You cannot copy or move a file into a folder that is $em(read-only).
+  Some folders are read-only to prevent you from making changes to their
+  contents. You can change things from being read-only by
+  $link[>nautilus-file-properties-permissions](changing file permissions).

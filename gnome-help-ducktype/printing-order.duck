@@ -1,0 +1,53 @@
+@include gnome-help.defs
+
+= Make pages print in a different order
+  [guide .task]
+@link[guide >printing#paper]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Collate and reverse the print order.
+
+
+== Reverse
+   [#reverse]
+
+Printers usually print the first page first, and the last page last, so
+the pages end up in reverse order when you pick them up. If needed, you can
+reverse this printing order.
+
+[steps]
+. To reverse the order:
+
+* Press $keyseq($key(Ctrl)$key(P)) to open the Print dialog.
+
+* In the $gui(General) tab, under $gui(Copies), check
+  $gui(Reverse). The last page will be printed first, and so on.
+
+
+== Collate
+   [#collate]
+
+If you are printing more than one copy of the document, the print-outs
+will be grouped by page number by default (that is, all of the copies of page
+one come out, then the copies of page two, and so on). $em(Collating)
+will make each copy come out with its pages grouped together in the right
+order instead.
+
+[steps]
+. To collate:
+
+* Press $keyseq($key(Ctrl)$key(P)) to open the Print dialog.
+
+* In the $gui(General) tab, under $gui(Copies), check $gui(Collate).

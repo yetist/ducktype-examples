@@ -1,0 +1,29 @@
+@include gnome-help.defs
+
+= Why do I need to do calibration myself?
+  [topic .question]
+@link[guide >color#calibration]
+@desc Calibrating is important if you care about the colors you display or print.
+
+@credit[author]
+  @name Richard Hughes
+  @email richard@hughsie.com
+@xi:include[>>legal.xml]
+
+Generic profiles are usually bad.
+When a manufacturer creates a new model, they just take a few items
+from the production line and average them together:
+
+[media its:translate=no image src=figures/color-average.png]
+  [p its:translate=yes]
+    Averaged profiles
+
+Display panels differ quite a lot from unit to unit and change
+substantially as the display ages.
+It is also more difficult for printers, as just changing the type
+or weight of paper can invalidate the characterization state and
+make the profile inaccurate.
+
+The best way of ensuring the profile you have is accurate is by doing
+the calibration yourself, or by letting an external company supply
+you with a profile based on your exact characterization state.

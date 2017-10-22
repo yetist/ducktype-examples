@@ -1,0 +1,52 @@
+@include gnome-help.defs
+
+= I hear crackling or buzzing when sounds are playing
+  [topic .problem]
+@link[guide >sound-broken]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="outdated"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@xi:include[>>legal.xml]
+
+@desc Check your audio cables and sound card drivers.
+
+If you hear crackling or buzzing when sounds are playing on your computer,
+you may have a problem with the audio cables or connectors, or a problem with
+the drivers for the sound card.
+
+* Check that the speakers are plugged in correctly.
+
+  If the speakers are not fully plugged in, or if they are plugged into the
+  wrong socket, you might hear a buzzing sound.
+
+* Make sure the speaker/headphone cable is not damaged.
+
+  Audio cables and connectors can gradually wear with use. Try plugging the
+  cable or headphones into another audio device (like an MP3 player or a CD
+  player) to check if there is still a crackling sound. If there is, you may need
+  to replace the cable or headphones.
+
+* Check if the sound drivers are not very good.
+
+  Some sound cards do not work very well on Linux because they do not have very
+  good drivers. This problem is more difficult to identify. Try searching for
+  the make and model of your sound card on the internet, plus the search term
+  “Linux”, to see if other people are having the same problem.
+
+  You can use the $cmd(lspci) command to get more information about your
+  sound card.
+
+[comment]
+  [cite date="2012-02-19"]
+    shaunm
+
+  Are we shipping any sort of device manager? If we do (or even if we
+  recommend one, but people need to install it), and if you can get all
+  the information you need about the sound card from that, we should
+  link to that for getting info on your sound card.

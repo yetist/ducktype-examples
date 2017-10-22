@@ -1,0 +1,51 @@
+@include gnome-help.defs
+
+= Media card reader problems
+  [topic .problem]
+@link[guide >media#photos]
+@link[guide >hardware#problems]
+
+@revision[pkgversion="3.13.92" date="2014-09-20" status="review"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@xi:include[>>legal.xml]
+
+@desc Troubleshoot media card readers
+
+Many computers contain readers for SD, MMC, SM, MS, CF, and other
+storage media cards. These should be automatically detected and
+$link[>disk-partitions](mounted). Here are some troubleshooting steps
+if they are not:
+
+[steps]
+* Make sure that the card is put in correctly. Many cards look as though they are
+  upside down when correctly inserted. Also make sure that the card is firmly seated
+  in the slot; some cards, especially CF, require a small amount of force to insert
+  correctly. (Be careful not to push too hard! If you come up against something solid,
+  do not force it.)
+
+* Open $app(Files) from the $Activities; overview. Does the inserted
+  card appear in the $gui(Devices) list in the left sidebar? Sometimes the
+  card appears in this list but is not mounted; click it once to mount. (If the
+  sidebar is not visible, press $key(F9) or click $gui[.menu](Files) in
+  the top bar and select the $gui[.menuitem](Sidebar).)
+
+* If your card does not show up in the sidebar, press
+  $keyseq($key(Ctrl)$key(L)), then type
+  $input(computer:///) and press $key(Enter). If your card reader
+  is correctly configured, the reader should come up as a drive when no card is
+  present, and the card itself when the card has been mounted.
+
+* If you see the card reader but not the card, the problem may be with the card itself.
+  Try a different card or check the card on a different reader if possible.
+
+If no cards or drives are shown when browsing the $gui(Computer)
+location, it is possible that your card reader does not work with Linux due to
+driver issues. If your card reader is internal (inside the computer instead of
+sitting outside) this is more likely. The best solution is to directly connect
+your device (camera, cell phone, etc.) to a USB port on the computer. USB
+external card readers are also available, and are far better supported by
+Linux.

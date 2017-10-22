@@ -1,0 +1,45 @@
+@include gnome-help.defs
+
+= Why do I have less battery life than I did on Windows/Mac OS?
+  [topic .question]
+@link[guide >power#faq]
+@link[seealso >power-batteryestimate]
+@link[seealso >power-batterylife]
+@link[seealso >power-batteryslow]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+@revision[pkgversion="3.20" date="2016-06-15" status="final"]
+
+@desc Tweaks from the manufacturer and differing battery life
+      estimates may be the cause of this problem.
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+Some computers appear to have a shorter battery life when running on Linux
+than they do when running Windows or Mac OS. One reason for this is that
+computer vendors install special software for Windows/Mac OS that optimizes
+various hardware/software settings for a given model of computer. These tweaks
+are often highly specific, and may not be documented, so including them in
+Linux is difficult.
+
+Unfortunately, there is not an easy way of applying these tweaks yourself
+without knowing exactly what they are. You may find that using some
+$link[>power-batterylife](power-saving methods) helps, though. If your
+computer has a $link[>power-batteryslow](variable-speed processor),
+you might find that changing its settings is also useful.
+
+Another possible reason for the discrepancy is that the method of estimating
+battery life is different on Windows/Mac OS than on Linux. The actual battery
+life could be exactly the same, but the different methods give different
+estimates.

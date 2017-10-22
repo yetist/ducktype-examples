@@ -1,0 +1,153 @@
+@include gnome-help.defs
+
+= Enter special characters
+  [topic .task]
+@link[guide >tips]
+@link[seealso >keyboard-layouts]
+
+@revision[pkgversion="3.8.2" version="0.3" date="2013-05-18" status="review"]
+@revision[pkgversion="3.10" date="2013-11-01" status="review"]
+@revision[pkgversion="3.26" date="2017-08-04" status="review"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+@credit[editor]
+  @name Andre Klapper
+  @email ak-47@gmx.net
+
+@xi:include[>>legal.xml]
+
+@desc Type characters not found on your keyboard, including foreign alphabets, mathematical symbols, and dingbats.
+
+You can enter and view thousands of characters from most of the world’s
+writing systems, even those not found on your keyboard. This page lists
+some different ways you can enter special characters.
+
+[links section]
+. Methods to enter characters
+
+
+== Character map
+   [#charmap]
+
+GNOME comes with a character map application that allows you to browse
+all the characters in Unicode. Use the character map to find the character
+you want, and then copy and paste it to wherever you need it.
+
+You can find $app(Character Map) in the $gui(Activities)
+overview. For more information on the character map, see the
+$link[>>help:gucharmap](Character Map Manual).
+
+
+== Characters
+   [#characters]
+
+Another useful application shipped with GNOME is $app(Characters).
+It lets you find and insert unusual characters by browsing character
+categories or searching for keywords.
+
+You can launch Characters from the Activities overview. For more
+information on Characters, see the $link[>>help:gnome-characters](
+Characters Manual).
+
+
+== Compose key
+   [#compose]
+
+A compose key is a special key that allows you to press multiple keys
+in a row to get a special character. For example, to type the accented
+letter $em(é), you can press $key(compose) then $key(')
+then $key(e).
+
+Keyboards don’t have specific compose keys. Instead, you can define
+one of the existing keys on your keyboard as a compose key.
+
+[note .important]
+  You need to have $app(Tweaks) installed on your computer to
+  change this setting.
+
+  [if:if test="action:install"]
+    $link[.button action="install:gnome-tweaks"](Install $app(Tweaks))
+
+[steps]
+. Define a compose key
+
+* Open the $Activities; overview and start typing $gui(Tweaks).
+
+* Click $gui(Tweaks) to open the application.
+
+* Click the $gui(Keyboard & Mouse) tab.
+
+* Click $gui(Disabled) next to the $gui(Compose Key) setting.
+
+* Turn the switch on in the dialog and pick the keyboard shortcut you want to use.
+
+* Tick the checkbox of the key that you want to set as the Compose key.
+
+* Close the dialog.
+
+* Close the $gui(Tweaks) window.
+
+You can type many common characters using the compose key, for example:
+
+* Press $key(compose) then $key(') then a letter to
+  place an acute accent over that letter, such as $em(é).
+* Press $key(compose) then $key(`) (back tick) then a
+  letter to place a grave accent over that letter, such as
+  $em(è).
+* Press $key(compose) then $key(") then a letter to
+  place an umlaut over that letter, such as $em(ë).
+* Press $key(compose) then $key(-) then a letter to
+  place a macron over that letter, such as $em(ē).
+
+For more compose key sequences, see
+$link[>>http://en.wikipedia.org/wiki/Compose_key#Common_compose_combinations](the
+compose key page on Wikipedia).
+
+
+== Code points
+   [#ctrlshiftu]
+
+You can enter any Unicode character using only your keyboard with the
+numeric code point of the character. Every character is identified by a
+four-character code point. To find the code point for a character, find the
+character in the character map application and look in the status bar or the
+$gui(Character Details) tab. The code point is the four characters after
+$gui(U+).
+
+To enter a character by its code point, hold down $key(Ctrl) and
+$key(Shift), type $key(U) followed by the four-character code
+point, then release $key(Ctrl) and $key(Shift). If you often use
+characters that you can’t easily access with other methods, you might find
+it useful to memorize the code point for those characters so you can enter
+them quickly.
+
+
+== Keyboard layouts
+   [#layout]
+
+You can make your keyboard behave like the keyboard for another language,
+regardless of the letters printed on the keys. You can even easily switch
+between different keyboard layouts using an icon in the top bar. To learn
+how, see $link[>keyboard-layouts].
+
+
+== Input methods
+   [#im]
+
+An Input Method expands the previous methods by allowing to enter
+characters not only with keyboard but also any input devices. For instance
+you could enter characters with a mouse using a gesture method, or enter
+Japanese characters using a Latin keyboard.
+
+To choose an input method, right-click over a text widget, and in the menu
+$gui(Input Method), choose an input method you want to use. There is no
+default input method provided, so refer to the input methods documentation to
+see how to use them.

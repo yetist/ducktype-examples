@@ -1,0 +1,153 @@
+@include gnome-help.defs
+
+= Useful keyboard shortcuts
+  [topic .tip version="1.0 ui/1.0"]
+@link[guide >tips]
+@link[guide >keyboard]
+@link[guide >shell-overview#apps]
+@link[seealso >keyboard-key-super]
+
+@revision[pkgversion="3.8.0" version="0.4" date="2013-04-23" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+@revision[pkgversion="3.20" date="2016-08-13" status="candidate"]
+
+@credit[author copyright]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+  @years 2012
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Get around the desktop using the keyboard.
+
+This page provides an overview of keyboard shortcuts that can help you
+use your desktop and applications more efficiently. If you cannot use a
+mouse or pointing device at all, see $link[>keyboard-nav] for more
+information on navigating user interfaces with only the keyboard.
+
+[table rules="rows" frame="top bottom" ui:expanded="true"]
+. Getting around the desktop
+
+[tr xml:id="alt-f1"]
+* $keyseq($key(Alt)$key(F1)) or the $key[>keyboard-key-super](Super) key
+* Switch between the $gui(Activities) overview and desktop. In
+  the overview, start typing to instantly search your applications, contacts,
+  and documents.
+
+[tr xml:id="alt-f2"]
+* $keyseq($key(Alt)$key(F2))
+* Pop up command window (for quickly running commands)
+
+[tr xml:id="super-tab"]
+* $keyseq($key(Super)$key(Tab))
+* $link[>shell-windows-switching](Quickly switch between
+  windows). Hold down $key(Shift) for reverse order.
+
+[tr xml:id="super-tick"]
+* $keyseq($key(Super)$key(`))
+* Switch between windows from the same application, or from the selected
+  application after $keyseq($key(Super)$key(Tab)).
+
+  This shortcut uses $key(`) on US keyboards, where the $key(`)
+  key is above $key(Tab). On all other keyboards, the shortcut is
+  $key(Super) plus the key above $key(Tab).
+    
+[tr xml:id="ctrl-alt-tab"]
+[-] To be updated to $key(Tab) in the future.
+* $keyseq($key(Ctrl)$key(Alt)$key(Tab))
+* Give keyboard focus to the top bar. In the $gui(Activities)
+  overview, switch keyboard focus between the top bar, dash, windows
+  overview, applications list, search field, and message tray. Use the
+  arrow keys to navigate.
+    
+[tr xml:id="super-a"]
+* $keyseq($key(Super)$key(A))
+* Show the list of applications.
+
+[tr xml:id="super-updown"]
+* $keyseq($key(Super)$key(Page Up)) or
+  $keyseq($key(Ctrl)$key(Alt)$key(Up)), and
+  $keyseq($key(Super)$key(Page Down)) or
+  $keyseq($key(Ctrl)$key(Alt)$key(Down))
+* $link[>shell-workspaces-switch](Switch between workspaces).
+
+[tr xml:id="super-shift-updown"]
+* $keyseq($key(Super)$key(Shift)$key(Page Up)) and
+  $keyseq($key(Super)$key(Shift)$key(Page Down))
+* $link[>shell-workspaces-movewindow](Move the current window to a
+  different workspace).
+
+[tr xml:id="super-shift-left"]
+* $keyseq($key(Super)$key(Shift)$key($2190;))
+* Move the current window one monitor to the left.
+
+[tr xml:id="super-shift-right"]
+* $keyseq($key(Super)$key(Shift)$key($2192;))
+* Move the current window one monitor to the right.
+
+[tr xml:id="ctrl-alt-Del"]
+* $keyseq($key(Ctrl)$key(Alt)$key(Delete))
+* $link[>shell-exit](Power Off).
+
+[tr xml:id="ctrl-alt-l"]
+* $keyseq($key(Super)$key(L))
+* $link[>shell-exit#lock-screen](Lock the screen.)
+
+[tr xml:id="super-m"]
+* $keyseq($key(Super)$key(M))
+* Open $link[>shell-notifications#messagetray](the message
+  tray). Press $keyseq($key(Super)$key(M)) again or
+  $key(Esc) to close.
+
+
+[table rules="rows" frame="top bottom" ui:expanded="false"]
+. Common editing shortcuts
+[tr]
+* $keyseq($key(Ctrl)$key(A))
+* Select all text or items in a list.
+
+[tr]
+* $keyseq($key(Ctrl)$key(X))
+* Cut (remove) selected text or items and place it on the clipboard.
+
+[tr]
+* $keyseq($key(Ctrl)$key(C))
+* Copy selected text or items to the clipboard.
+
+[tr]
+* $keyseq($key(Ctrl)$key(V))
+* Paste the contents of the clipboard.
+
+[tr]
+* $keyseq($key(Ctrl)$key(Z))
+* Undo the last action.
+
+
+[table rules="rows" frame="top bottom" ui:expanded="false"]
+. Capturing from the screen
+
+[tr]
+* $key(Prnt Scrn)
+* $link[>screen-shot-record#screenshot](Take a screenshot.)
+
+[tr]
+* $keyseq($key(Alt)$key(Prnt Scrn))
+* $link[>screen-shot-record#screenshot](Take a screenshot of a
+  window.)
+
+[tr]
+* $keyseq($key(Shift)$key(Prnt Scrn))
+* $link[>screen-shot-record#screenshot](Take a screenshot of an
+  area of the screen.) The pointer changes to a crosshair. Click and
+  drag to select an area.
+
+[tr]
+* $keyseq($key(Ctrl)$key(Alt)$key(Shift)$key(R))
+* $link[>screen-shot-record#screencast](Start and end screencast
+  recording.)

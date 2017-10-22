@@ -1,0 +1,36 @@
+@include gnome-help.defs
+
+= Read screen in Braille
+  [topic .task a11y]
+@link[guide >a11y#vision group="blind"]
+@link[seealso >a11y-screen-reader]
+
+@revision[pkgversion="3.9.92" date="2013-09-18" status="incomplete"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@xi:include[>>legal.xml]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Jana Heves
+  @email jsvarova@gnome.org
+
+@desc Use the $app(Orca) screen reader with a refreshable Braille
+      display.
+
+GNOME provides the $app(Orca) screen reader to display the user
+interface on a refreshable Braille display. Depending on how you installed
+GNOME, you might not have Orca installed. If not, install Orca first.
+
+[p if:test="action:install"]
+  $link[.button action=install:orca](Install Orca)
+
+Refer to the $link[>>help:orca](Orca Help) for more information.
+
+[comment]
+  [cite date="2012-02-19"]
+    shaunm
+  I'd like this page to have more on how to start Orca, then pass
+  off to the Orca help for more information.

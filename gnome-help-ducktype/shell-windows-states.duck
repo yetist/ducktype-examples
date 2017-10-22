@@ -1,0 +1,45 @@
+@include gnome-help.defs
+
+= Move and resize windows
+  [topic .task version="1.0 if/1.0"]
+@link[guide >shell-windows#working-with-windows]
+
+@revision[pkgversion="3.4.0" date="2012-03-24" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author copyright]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+  @years 2012
+
+@xi:include[>>legal.xml]
+
+@desc Arrange windows in a workspace to help you work more
+      efficiently.
+
+You can move and resize windows to help you work more efficiently. In
+addition to the dragging behavior you might expect, GNOME features shortcuts
+and modifiers to help you arrange windows quickly.
+
+* Move a window by dragging the titlebar, or hold down $Super; and drag
+  anywhere in the window. Hold down $key(Shift) while moving to snap the
+  window to the edges of the screen and other windows.
+
+* Resize a window by dragging the edges or corner of the window. Hold
+  down $key(Shift) while resizing to snap the window to the edges
+  of the screen and other windows.
+
+  [p if:test="platform:gnome-classic"]
+  You can also resize a maximized window by clicking the maximize button
+  in the titlebar.
+
+* Move or resize a window using only the keyboard. Press
+  $keyseq($key(Alt)$key(F7)) to move a window or
+  $keyseq($key(Alt)$key(F8)) to resize. Use the arrow
+  keys to move or resize, then press $key(Enter) to finish, or press
+  $key(Esc) to return to the original position and size.
+
+* $link[>shell-windows-maximize](Maximize a window) by
+  dragging it to the top of the screen. Drag a window to one side of the
+  screen to maximize it along the side, allowing you to
+  $link[>shell-windows-tiled](tile windows side by side).

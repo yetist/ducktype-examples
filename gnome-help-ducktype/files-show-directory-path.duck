@@ -1,0 +1,58 @@
+@include gnome-help.defs
+
+= Show the directory path with text rather than buttons
+  [topic .task]
+@link[guide >files#more-file-tasks]
+
+@revision[pkgversion="3.16" date="2015-01-28" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jcampbell@gnome.org
+
+@xi:include[>>legal.xml]
+
+@desc Type your desired directory path in the Location Bar.
+
+By default, the $gui(Location Bar) of the file browser uses buttons
+to show you which folder you are viewing. In some cases, though, you may not
+want to not use the buttons, and you may want to type the directory path
+with text instead. $app(Files) allows you to do this, either
+temporarily or permanently.
+
+[steps]
+. To temporarily set the $gui(Location Bar) to allow text entry:
+
+* Press $keyseq($key(Ctrl)$key(L)), or select the
+  $gui(Menu Button) in the top-right corner of the window, and select
+  $gui(Enter Location).
+
+* The $gui(Location Bar) will display the path to the current
+  directory as text.
+
+* Type the path to your desired directory, and press $key(Enter).
+  
+When you press $key(Enter), the file browser will show you the
+location that you entered, and the $gui(Location Bar) will change back
+to using buttons.
+
+[note .tip]
+  If you want to show the buttons in the
+  $gui(Location Bar) without pressing $key(Enter), press
+  $key(Esc). The $gui(Location Bar) will revert to showing buttons
+  without changing the current directory.
+
+
+== Permanently set the directory path to allow text entry
+   [#set-directory-path-perm]
+
+You can set $app(Files) to permanently show the directory
+path as text by entering the following command into a terminal window:
+
+$cmd(gsettings set org.gnome.nautilus.preferences always-use-location-entry true)
+
+To reset the $gui(Location Bar) to use buttons, enter this command
+into a terminal window:
+    
+$cmd(gsettings set org.gnome.nautilus.preferences always-use-location-entry false)  

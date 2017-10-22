@@ -1,0 +1,40 @@
+@include gnome-help.defs
+
+= Use your mouse left-handed
+  [topic .task]
+@link[guide >mouse]
+
+@revision[pkgversion="3.8" date="2013-03-13" status="candidate"]
+@revision[pkgversion="3.10" date="2013-10-29" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Reverse the left and right mouse buttons in the mouse settings.
+
+You can swap the behavior of the left and right buttons on your
+mouse or touchpad to make it more comfortable for left-handed use.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Mouse & Touchpad).
+
+* Click on $gui(Mouse & Touchpad) to open the panel.
+
+* In the $gui(General) section, switch $gui(Primary button) to $gui(Right).
+
+[note]
+This setting will affect both your mouse and touchpad, as well as any
+other pointing device.

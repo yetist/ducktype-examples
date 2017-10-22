@@ -1,0 +1,52 @@
+@include gnome-help.defs
+
+= Adjust the double-click speed
+  [topic .task .ally]
+@link[guide >mouse]
+@link[guide >a11y#mobility group="clicking"]
+
+@revision[pkgversion="3.8" date="2013-03-13" status="candidate"]
+@revision[pkgversion="3.9" date="2013-10-16" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+@revision[pkgversion="3.20" date="20156-06-15" status="final"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Shobha Tyagi
+  @email tyagishobha@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Control how quickly you need to press the mouse button
+      a second time to double-click.
+
+Double-clicking only happens when you press the mouse button twice
+quickly enough. If the second press is too long after the first, you’ll
+just get two separate clicks, not a double click. If you have difficulty
+pressing the mouse button quickly, you should increase the timeout.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Universal Access).
+
+* Click on $gui(Universal Access) to open the panel.
+
+* Under $gui(Pointing & Clicking), adjust the $gui(Double-click)
+  slider to a value you find comfortable.
+
+If your mouse double-clicks when you want it to single-click
+even though you have increased the double-click timeout,
+your mouse may be faulty. Try plugging a different mouse into your computer
+and see if that works properly. Alternatively, plug your mouse into a
+different computer and see if it still has the same problem.
+
+[note]
+This setting will affect both your mouse and touchpad,
+as well as any other pointing device.

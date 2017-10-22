@@ -1,0 +1,57 @@
+@include gnome-help.defs
+
+= Use an on-screen keyboard
+  [topic .task]
+@link[guide >keyboard group="a11y"]
+@link[guide >a11y#mobility group="keyboard"]
+
+@revision[pkgversion="3.8.0" version="0.3" date="2013-03-13" status="outdated"]
+@revision[pkgversion="3.10" date="2013-10-28" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+
+@credit[author]
+  @name Jeremy Bicha
+  @email jbicha@ubuntu.com
+@credit[author]
+  @name Julita Inca
+  @email yrazes@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@desc Use an on-screen keyboard to enter text by clicking buttons with the
+      mouse or a touchscreen.
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+If you do not have a keyboard attached to your computer or prefer not to
+use it, you can turn on the $em(on-screen keyboard) to enter text.
+
+[note]
+The on-screen keyboard is automatically enabled if you use a touchscreen.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Universal Access).
+
+* Click on $gui(Universal Access) to open the panel.
+
+* Switch on $gui(Screen Keyboard) in the $gui(Typing) section.
+
+When you next have the opportunity to type, the on-screen keyboard will
+open at the bottom of the screen.
+
+Press the $gui[.button](123) button to enter numbers and
+symbols. More symbols are available if you then press the
+$gui[.button]({#*) button. To return to the alphabet keyboard,
+press the $gui[.button](Abc) button.
+
+You can press the
+$gui[.button]($media[its:translate=no image src=figures/input-keyboard-symbolic.png
+width=16 height=16]($span[its:translate=yes](keyboard)))
+icon to hide the keyboard temporarily. The keyboard will show again
+automatically when you next press on something where you can use it. To make
+the keyboard show again, open the $link[>shell-notifications](message tray)
+(by moving your mouse to the bottom of the screen), and press the keyboard icon.

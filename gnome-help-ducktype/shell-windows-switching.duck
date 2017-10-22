@@ -1,0 +1,66 @@
+@include gnome-help.defs
+
+= Switch between windows
+  [topic .task version="1.0 if/1.0"]
+@link[guide >shell-windows#working-with-windows]
+@link[guide >shell-overview#apps]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+@revision[pkgversion="3.12" date="2014-03-07" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Shobha Tyagi
+  @email tyagishobha@gmail.com
+
+
+@xi:include[>>legal.xml]
+
+@desc Press $keyseq($key(Super)$key(Tab)).
+
+[comment]
+  [cite date="2012-02-19"]
+    shaunm
+  More prose. Maybe a screenshot. 3.0.1
+
+You can see all the running applications that have a graphical user
+interface in the $em(window switcher). This makes switching between
+tasks a single-step process and provides a full picture of which
+applications are running.
+
+From a workspace:
+
+[steps]
+* Press $keyseq($Super;$key(Tab)) to bring up the $gui(window switcher).
+
+* Release $Super; to select the next (highlighted) window in the switcher.
+
+* Otherwise, still holding down the $Super; key, press $key(Tab) to cycle
+  through the list of open windows, or $keyseq($key(Shift)$key(Tab)) to
+  cycle backwards.
+
+[p if:test="platform:gnome-classic"]
+You can also use the window list on the bottom bar to access all your open
+windows and switch between them.
+
+[note .tip if:test="!platform:gnome-classic"]
+  Windows in the window switcher are grouped by application. Previews of
+  applications with multiple windows pop down as you click through. Hold down
+  $Super; and press $key(`) (or the key above $key(Tab)) to step through the list.
+
+You can also move between the application icons in the window
+switcher with the $key($2192;) or $key($2190;) keys, or
+select one by clicking it with the mouse.
+
+Previews of applications with a single window can be displayed with
+the $key($2193;) key.
+
+From the $gui(Activities) overview, click on a
+$link[>shell-windows](window) to switch to it and leave the
+overview. If you have multiple
+$link[>shell-windows#working-with-workspaces](workspaces) open,
+you can click on each workspace to view the open windows on each
+workspace.

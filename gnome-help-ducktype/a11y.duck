@@ -1,0 +1,61 @@
+@include gnome-help.defs
+
+= Universal access
+  [guide .a11y task]
+@link[guide >index group="a11y"]
+
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@xi:include[>>legal.xml]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@desc $link[>a11y#vision](Seeing),
+      $link[>a11y#sound](hearing),
+      $link[>a11y#mobility](mobility),
+      $link[>a11y-braille](braille),
+      $link[>a11y-mag](screen magnifier)…
+
+The GNOME desktop includes assistive technologies to support users with
+various impairments and special needs, and to interact with common assistive
+devices. An accessibility menu can be added to the top bar, giving easier
+access to many of the accessibility features.
+
+
+== Visual impairments
+   [#vision]
+
+[links topic groups="blind" .linklist]
+  . Blindness
+[links topic groups="lowvision" .linklist]
+  . Low vision
+[links topic groups="colorblind" .linklist]
+  . Color-blindness
+[links topic .linklist]
+  . Other topics
+
+
+== Hearing impairments
+   [#sound]
+[links topic .linklist]
+
+
+== Mobility impairments
+   [#mobility]
+
+[links topic groups="pointing" .linklist]
+  . Mouse movement
+[links topic groups="clicking" .linklist]
+  . Clicking and dragging
+[links topic groups="keyboard" .linklist]
+  . Keyboard use
+[links topic .linklist]
+  . Other topics

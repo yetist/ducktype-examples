@@ -1,0 +1,42 @@
+@include gnome-help.defs
+
+= Print two-sided and multi-page layouts
+  [guide .task]
+
+@link[guide >printing#paper]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Print on both sides of the paper, or multiple pages per sheet.
+
+
+To print on both sides of each sheet of paper:
+
+[steps]
+* Open the print dialog by pressing $keyseq($key(Ctrl)$key(P)).
+
+* Go to the $gui(Page Setup) tab of the Print window and choose an
+  option from the $gui(Two-sided) drop-down list. If the option is
+  disabled, two-sided printing is not available for your printer.
+
+  Printers handle two-sided printing in different ways. It is a good
+  idea to experiment with your printer to see how it works.
+
+* You can print more than one page of the document per $em(side) of
+  paper too. Use the $gui(Pages per side) option to do this.
+
+[note]
+  The availability of these options may depend on the type of printer you
+  have, as well as the application you are using. This option may not always
+  be available.

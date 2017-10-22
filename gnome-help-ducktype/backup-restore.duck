@@ -1,0 +1,27 @@
+= Restore a backup
+  [topic .task]
+@link[guide >files#backup]
+@desc Retrieve your files from a backup.
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany.antopolski@gmail.com
+@credit
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+If you lost or deleted some of your files, but you have a backup of them,
+you can restore them from the backup:
+
+* If you want to restore your backup from a device such as external
+  hard drive, USB drive or another computer on the network, you can
+  $link[>files-copy](copy them) back to your computer.
+
+* If you created your backup using a backup application such as
+  $app(Déjà Dup), it is recommended that you use the same application
+  to restore your backup. Review the application help for your backup
+  program: it will provide specific instructions on how to restore your
+  files.

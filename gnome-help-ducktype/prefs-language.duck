@@ -1,0 +1,19 @@
+@include gnome-help.defs
+
+= Region & Language
+  [guide .task]
+@link[guide >prefs]
+@revision[pkgversion="3.8.0" date="2013-03-10" status="candidate"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@desc $link[>session-language](Language),
+      $link[>session-formats](region and formats),
+      $link[>keyboard-layouts](keyboard layouts)…
+
+@xi:include[>>legal.xml]

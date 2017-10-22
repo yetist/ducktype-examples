@@ -1,0 +1,33 @@
+@include gnome-help.defs
+
+= Keyboard
+  [guide .task]
+@link[guide >prefs]
+@link[guide >hardware]
+
+@revision[pkgversion="3.8.0" date="2013-03-10" status="candidate"]
+
+@desc $link[>keyboard-layouts](Keyboard layouts),
+      $link[>keyboard-cursor-blink](cursor blinking),
+      $link[>a11y#mobility](keyboard accessibility)…
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[author]
+  @name Julita Inca
+  @email yrazes@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@xi:include[>>legal.xml]
+
+
+[links topic groups="i18n" style="linklist"]
+. Region & Language
+
+[links topic groups="a11y" style="linklist"]
+. Universal access
+
+[links topic groups="#first #default #last" style="linklist"]
+. Other topics

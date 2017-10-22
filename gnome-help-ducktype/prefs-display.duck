@@ -1,0 +1,19 @@
+@include gnome-help.defs
+
+= Display & screen
+  [guide .task]
+@link[guide >prefs]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@desc $link[>look-background](Background),
+      $link[>look-resolution](size and rotation),
+      [--
+      display-dimscreen is a stub. Please add the link back when it's unstubbed.-Aruna
+      <link xref="display-dimscreen">
+      --]
+      brightness…
+
+@xi:include[>>legal.xml]

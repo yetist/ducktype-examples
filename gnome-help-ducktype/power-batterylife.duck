@@ -1,0 +1,87 @@
+@include gnome-help.defs
+
+= Use less power and improve battery life
+  [topic .tip]
+@link[guide >power]
+@link[seealso >power-suspend]
+@link[seealso >shell-exit#suspend]
+@link[seealso >shell-exit#shutdown]
+@link[seealso >display-brightness]
+@link[seealso >power-whydim]
+
+@revision[pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"]
+@revision[pkgversion="3.10" date="2013-11-07" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+@revision[pkgversion="3.20" date="2016-06-15" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Tips to reduce the power consumption of your computer.
+
+Computers can use a lot of power. By using some simple energy-saving
+strategies, you can reduce your energy bill and help the environment.
+
+
+== General tips
+   [#general]
+ 
+* $link[>shell-exit#suspend](Suspend your computer) when you are not
+  using it. This significantly reduces the amount of power it uses,
+  and it can be woken up very quickly.
+
+* $link[>shell-exit#shutdown](Turn off) the computer when you will not
+  be using it for longer periods. Some people worry that turning off a
+  computer regularly may cause it to wear out faster, but this is not the
+  case.
+
+* Use the $gui(Power) panel in $app(Settings) to change your power settings.
+  There are a number of options that will help to save power: you can
+  $link[>display-blank](automatically blank the screen) after a certain
+  time, reduce the $link[>display-brightness](screen brightness), and have
+  the computer $link[>power-autosuspend](automatically suspend) if you have
+  not used it for a certain period of time.
+
+* Turn off any external devices (like printers and scanners) when you are
+  not using them.
+
+
+== Laptops, netbooks, and other devices with batteries
+   [#laptop]
+
+* Reduce the $link[>display-brightness](screen brightness). Powering the
+  screen accounts for a significant fraction of a laptop power consumption.
+
+  Most laptops have buttons on the keyboard (or a keyboard shortcut) that
+  you can use to reduce the brightness.
+
+* If you do not need an Internet connection for a little while, turn off
+  the wireless or Bluetooth cards. These devices work by broadcasting radio
+  waves, which takes quite a bit of power.
+
+  Some computers have a physical switch that can be used to turn it off,
+  whereas others have a keyboard shortcut that you can use instead. You can
+  turn it on again when you need it.
+
+
+== More advanced tips
+   [#advanced]
+
+* Reduce the number of tasks that are running in the background.
+  Computers use more power when they have more work to do.
+
+  Most of your running applications do very little when you are not actively
+  using them. However, applications that frequently grab data from the
+  internet or play music or movies can impact your power consumption.

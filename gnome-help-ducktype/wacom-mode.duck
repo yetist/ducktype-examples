@@ -1,0 +1,44 @@
+@include gnome-help.defs
+
+= Set the Wacom tablet’s tracking mode
+  [topic .task]
+@revision[pkgversion="3.10" date="2013-11-02" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.14" date="2014-10-12" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@link[guide >wacom]
+
+@credit[author copyright]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2012
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Switch the tablet between tablet mode and mouse mode.
+
+$gui(Tracking Mode) determines how the pointer is mapped to the screen.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Wacom Tablet).
+
+* Click on $gui(Wacom Tablet) to open the panel.
+  [-] TODO: document how to connet the tablet using Bluetooth/add link
+
+  [note .tip]
+    If no tablet is detected, you’ll be asked to $gui(Please plug in or
+    turn on your Wacom tablet). Click the $gui(Bluetooth Settings) link
+    to connect a wireless tablet.
+
+* Next to $gui(Tracking Mode), select $gui(Tablet (absolute)) or
+  $gui(Touchpad (relative)).
+
+[note .info]
+  In $em(absolute) mode, each point on the tablet maps to a point on the
+  screen. The top left corner of the screen, for instance, always corresponds
+  to the same point on the tablet.
+
+  In $em(relative) mode, if you lift the pointer off the tablet and put it
+  down in a different position, the cursor on the screen doesn’t move. This
+  is the way a mouse operates.

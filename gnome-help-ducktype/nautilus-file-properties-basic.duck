@@ -1,0 +1,92 @@
+= File properties
+  [topic .ui]
+@link[guide >files#more-file-tasks]
+
+@revision[pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany@antopolski.com
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc View basic file information, set permissions, and choose
+      default applications.
+
+To view information about a file or folder, right-click it and select
+$gui(Properties). You can also select the file and press
+$keyseq($key(Alt)$key(Enter)).
+
+The file properties window shows you information like the type of file,
+the size of the file, and when you last modified it. If you need this
+information often, you can have it displayed in
+$link[>nautilus-list](list view columns) or
+$link[>nautilus-display#icon-captions](icon captions).
+
+The information given on the $gui(Basic) tab is explained below. There
+are also $gui[>nautilus-file-properties-permissions](Permissions) and
+$gui[>files-open#default](Open With) tabs. For certain types of files,
+such as images and videos, there will be an extra tab that provides
+information like the dimensions, duration, and codec.
+
+
+== Basic properties
+   [#basic]
+[terms]
+- $gui(Name)
+* You can rename the file by changing this field. You can also rename
+  a file outside the properties window. See $link[>files-rename].
+
+- $gui(Type)
+* This helps you identify the type of the file, such as PDF document,
+  OpenDocument Text, or JPEG image. The file type determines which
+  applications can open the file, among other things. For example, you
+  can’t open a picture with a music player. See $link[>files-open]
+  for more information on this.
+
+  The $em(MIME type) of the file is shown in parentheses; MIME type is
+  a standard way that computers use to refer to the file type.
+
+- Contents
+* This field is displayed if you are looking at the properties of a
+  folder rather than a file. It helps you see the number of items in
+  the folder.  If the folder includes other folders, each inner folder
+  is counted as one item, even if it contains further items. Each file
+  is also counted as one item. If the folder is empty, the contents
+  will display $gui(nothing).
+
+- Size
+* This field is displayed if you are looking at a file (not a folder).
+  The size of a file tells you how much disk space it takes up. This
+  is also an indicator of how long it will take to download a file
+  or send it in an email (big files take longer to send/receive).
+
+  Sizes may be given in bytes, KB, MB, or GB; in the case of the last
+  three, the size in bytes will also be given in parentheses. Technically,
+  1 KB is 1024 bytes, 1 MB is 1024 KB and so on.
+
+- Parent Folder
+* The location of each file on your computer is given by its $em(absolute
+  path). This is a unique “address” of the file on your computer, made up
+  of a list of the folders that you would need to go into to find the file.
+  For example, if Jim had a file called $file(Resume.pdf) in his Home
+  folder, its parent folder would be $file(/home/jim) and its location
+  would be $file(/home/jim/Resume.pdf).
+
+- Free Space
+* This is only displayed for folders. It gives the amount of disk space
+  which is available on the disk that the folder is on. This is useful for
+  checking if the hard disk is full.
+
+- Accessed
+* The date and time when the file was last opened.
+
+- Modified
+* The date and time when the file was last changed and saved.

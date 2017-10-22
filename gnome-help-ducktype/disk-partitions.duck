@@ -1,0 +1,66 @@
+@include gnome-help.defs
+
+= Manage volumes and partitions
+  [topic .tip]
+@link[guide >disk]
+
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+
+@desc Understand what volumes and partitions are and use the disk utility
+      to manage them.
+@xi:include[>>legal.xml]
+
+The word $em(volume) is used to describe a storage device, like a hard
+disk. It can also refer to a $em(part) of the storage on that device,
+because you can split the storage up into chunks. The computer makes this
+storage accessible via your file system in a process referred to as
+$em(mounting). Mounted volumes may be hard drives, USB drives, DVD-RWs, SD
+cards, and other media. If a volume is currently mounted, you can read (and
+possibly write) files on it.
+
+Often, a mounted volume is called a $em(partition), though they are not
+necessarily the same thing. A “partition” refers to a $em(physical) area of
+storage on a single disk drive. Once a partition has been mounted, it can be
+referred to as a volume because you can access the files on it. You can think
+of volumes as the labeled, accessible “storefronts” to the functional “back
+rooms” of partitions and drives.
+
+== View and manage volumes and partitions using the disk utility
+   [#manage]
+
+You can check and modify your computer’s storage volumes with the disk
+utility.
+
+[steps]
+* Open the $gui(Activities) overview and start $app(Disks).
+
+* In the list of storage devices on the left, you will find hard disks,
+  CD/DVD drives, and other physical devices. Click the device you want to
+  inspect.
+
+* The right pane provides a visual breakdown of the volumes and
+  partitions present on the selected device. It also contains a variety of
+  tools used to manage these volumes.
+
+  Be careful: it is possible to completely erase the data on your disk with
+  these utilities.
+
+Your computer most likely has at least one $em(primary) partition and a
+single $em(swap) partition. The swap partition is used by the operating
+system for memory management, and is rarely mounted.  The primary partition
+contains your operating system, applications, settings, and personal files.
+These files can also be distributed among multiple partitions for security or
+convenience.
+
+One primary partition must contain information that your computer uses to
+start up, or $em(boot). For this reason it is sometimes called a boot
+partition, or boot volume. To determine if a volume is bootable, select the
+partition and click the menu button in the toolbar underneath the partition
+list. Then, click $gui(Edit Partition…) and look at its
+$gui(Flags). External media such as USB drives and CDs may also contain
+a bootable volume.

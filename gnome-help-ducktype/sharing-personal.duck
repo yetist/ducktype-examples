@@ -1,0 +1,94 @@
+@include gnome-help.defs
+
+= Share your personal files
+  [topic .task version="1.0 if/1.0"]
+@link[guide >sharing]
+@link[guide >prefs-sharing]
+
+@revision[pkgversion="3.10" version="0.1" date="2013-09-23" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.14" date="2014-10-13" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="review"]
+
+@credit[author]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Let other people access files in your $file(Public) folder.
+
+[comment]
+  [cite date="2013-09-23" href="mailto:mdhillca@gmail.com"]
+    Michael Hill
+  Rewrite Step 1 everywhere. Add section for accessing the Public folder
+  from another computer. Add an info note about the two technologies
+  involved: WebDAV and mDNS (?).
+[comment]
+  [cite date="2014-09-22"]
+    David King
+  The controls for sharing with specific networks, under the Networks
+  section needs to be explained, perhaps as a separate page.
+[comment]
+  [cite date="2014-10-13"]
+    Michael Hill
+  Networks section added without explanatory details.
+
+You can allow access to the $file(Public) folder in your
+$file(Home) folder from another computer on the network. Configure
+$gui(Personal File Sharing) to allow others to access the contents of
+the folder.
+
+[note .info .package]
+  You must have the $app(gnome-user-share) package installed for
+  $gui(Personal File Sharing) to be visible.
+
+  [if:choose]
+    [if:when test="action:install"]
+      $link[action="install:gnome-user-share" .button](Install gnome-user-share)
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Sharing).
+
+* Click on $gui(Sharing) to open the panel.
+
+* If $gui(Sharing) is $gui(OFF), switch it to $gui(ON).
+
+[note .info]
+  If the text below $gui(Computer Name) allows
+  you to edit it, you can $link[>sharing-displayname](change)
+  the name your computer displays on the network.
+
+* Select $gui(Personal File Sharing).
+
+* Switch $gui(Personal File Sharing) to $gui(ON). This means
+  that other people on your current network will be able to attempt to
+  connect to your computer and access files in your $file(Public)
+  folder.
+
+  [note .info]
+  A $em(URI) is displayed by which your $file(Public) folder
+  can be accessed from other computers on the network.
+
+
+== Security
+   [#security]
+
+[terms]
+- Require Password
+* To require other people to use a password when accessing your
+  $file(Public) folder, switch $gui(Require Password) to
+  $gui(ON). If you do not use this option, anyone can attempt to view
+  your $file(Public) folder.
+
+  [note .tip]
+  This option is disabled by default, but you should enable it and set
+  a secure password.
+
+
+== Networks
+   [#networks]
+
+The $gui(Networks) section lists the networks to which you are
+currently connected. Use the $gui(ON | OFF) switch next to each to
+choose where your personal files can be shared.

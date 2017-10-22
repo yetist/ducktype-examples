@@ -1,0 +1,68 @@
+@include gnome-help.defs
+
+= Change the name or location of a printer
+  [topic .task]
+@link[guide >printing#setup]
+@link[seealso >user-admin-explain]
+
+@revision[pkgversion="3.10.2" date="2013-11-03" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author copyright]
+  @name Jana Svarova
+  @email jana.svarova@gmail.com
+  @years 2013
+@credit[editor]
+  @name Jim Campbell
+  @email jcampbell@gnome.org
+  @years 2013
+
+@xi:include[>>legal.xml]
+
+@desc Change the name or location of a printer in the printer
+      settings.
+  
+You can change the name or location of a printer in the printer
+settings.
+
+[note]
+  You need $link[>user-admin-explain](administrative privileges)
+  on the system to change the name or location of a printer.
+
+
+== Change printer name
+   [#printer-name-change]
+
+If you want to change the name of a printer, take the following steps:
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Printers).
+
+* Click $gui(Printers) to open the panel.
+
+* Click the $gui(Unlock) button in the top-right corner and enter
+  your password.
+
+* Click the name of your printer, and start typing a new name for
+  the printer.
+
+* Press $key(Enter) to save your changes.
+
+
+== Change printer location
+   [#printer-location-change]
+
+To change the location of your printer:
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Printers).
+
+* Click $gui(Printers) to open the panel.
+
+* Click the $gui(Unlock) button in the top-right corner and enter
+  your password.
+
+* Click the location, and start editing the location.
+
+* Press $key(Enter) to save the changes.

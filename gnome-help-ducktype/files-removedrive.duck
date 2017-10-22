@@ -1,0 +1,66 @@
+@include gnome-help.defs
+
+= Safely remove an external drive
+  [topic .task]
+@link[guide >files#removable]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2012
+
+@revision[pkgversion="3.6.0" version="0.2" date="2012-10-08" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@xi:include[>>legal.xml]
+
+@desc Eject or unmount a USB flash drive, CD, DVD, or other device.
+
+When you use external storage devices like USB flash drives, you
+should safely remove them before unplugging them. If you just unplug
+a device, you run the risk of unplugging while an application is still
+using it. This could result in some of your files being lost or damaged.
+When you use an optical disc like a CD or DVD, you can use the same steps
+to eject the disc from your computer.
+
+[steps]
+. To eject a removable device:
+
+* From the $Activities; overview, open $app(Files).
+
+* Locate the device in the sidebar. It should have a small eject icon
+  next to the name. Click the eject icon to safely remove or eject the
+  device.
+
+  Alternately, you can right-click the name of the device in the sidebar
+  and select $gui(Eject).
+
+
+== Safely remove a device that is in use
+   [#remove-busy-device]
+
+If any of the files on the device are open and in use by an application,
+you will not be able to safely remove the device. You will be prompted with a
+window telling you $gui(Volume is busy). To safely remove the device:
+
+[steps]
+* Click $gui(Cancel).
+
+* Close all the files on the device.
+
+* Click the eject icon to safely remove or eject the device.
+
+* Alternately, you can right-click the name of the device in the
+  sidebar and select $gui(Eject).
+
+[note .warning]
+You can also choose $gui(Eject Anyway) to
+remove the device without closing the files. This may cause errors in
+applications that have those files open.

@@ -1,0 +1,107 @@
+@include gnome-help.defs
+
+= Files list columns preferences
+  [topic .ui]
+@its:rules[version="1.0" xlink:type="simple" xlink:href="gnome-help.its"]
+
+@link[guide >nautilus-prefs group="nautilus-list"]
+
+@revision[pkgversion="3.5.92" date="2012-09-19" status="review"]
+@revision[pkgversion="3.14.0" date="2014-09-23" status="review"]
+@revision[pkgversion="3.18" date="2014-09-30" status="candidate"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2014
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+  @years 2015
+
+@xi:include[>>legal.xml]
+
+@desc Control what information is displayed in columns in list view.
+
+There are eleven columns of information that you can display in the
+$gui(Files) list view. Click $gui(Files) in the top bar, pick
+$gui(Preferences) and choose the $gui(List Columns) tab to select
+which columns will be visible.
+
+[note .tip]
+  Use the $gui(Move Up) and $gui(Move Down) buttons to choose the
+  order in which the selected columns will appear. Click $gui(Reset
+  to Default) to undo any changes and return to the default columns.
+
+[terms]
+
+- $gui(Name)
+* The name of folders and files.
+
+  [note .tip]
+    The $gui(Name) column cannot be hidden.
+
+- $gui(Size)
+* The size of a folder is given as the number of items contained in
+  the folder. The size of a file is given as bytes, KB, or MB.
+
+- $gui(Type)
+* Displayed as folder, or file type such as PDF document, JPEG image,
+  MP3 audio, and more.
+
+- $gui(Modified)
+* Gives the date of the last time the file was modified.
+
+- $gui(Owner)
+* The name of the user the folder or file is owned by.
+
+- $gui(Group)
+* The group the file is owned by. Each user is normally in their own
+  group, but it is possible to have many users in one group. For example,
+  a department may have their own group in a work environment.
+
+- $gui(Permissions)
+* Displays the file access permissions. For example, $gui(drwxrw-r--)
+
+  * The first character is the file type. $gui(-) means regular
+    file and $gui(d) means directory (folder). In rare cases, other
+    characters can also be shown.
+
+  * The next three characters $gui(rwx) specify permissions for
+    the user who owns the file.
+
+  * The next three $gui(rw-) specify permissions for all members
+    of the group that owns the file.
+
+  * The last three characters in the column $gui(r--) specify
+    permissions for all other users on the system.
+
+  Each permission has the following meanings:
+
+  * $gui(r): readable, meaning that you can open the file or folder
+
+  * $gui(w): writable, meaning that you can save changes to it
+
+  * $gui(x): executable, meaning that you can run it if it is a
+    program or script file, or you can access subfolders and files
+    if it is a folder
+
+  * $gui(-): permission not set
+
+- $gui(MIME Type)
+* Displays the MIME type of the item.
+
+- $gui(Location)
+* The path to the location of the file.
+
+- $gui(Modified — Time)
+* Gives the date and time of the last time the file was modified.
+
+- $gui(Accessed)
+* Gives the date or time of the last time the file was modified.

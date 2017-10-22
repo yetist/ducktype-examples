@@ -1,0 +1,12 @@
+= Tips & tricks
+  [guide .tip]
+@link[guide >index group=tips]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@desc $link[>tips-specialchars](Special characters),
+      $link[>mouse-middleclick](middle click shortcuts)…
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]

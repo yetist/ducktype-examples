@@ -1,0 +1,64 @@
+@include gnome-help.defs
+
+= Adjust the size of a filesystem
+  [topic .task]
+@link[guide >disk]
+
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@revision[pkgversion="3.25.90" date="2017-08-17" status="review"]
+
+@desc Shrink or grow a filesystem and its partition.
+@xi:include[>>legal.xml]
+
+A filesystem can be grown to make use of the free space after its
+partition. Often this is even possible while the filesystem is
+mounted.
+
+To make space for another partition after the filesystem, it can be
+shrunk according to the free space within it.
+
+Not all filesystems have resize support.
+
+The partition size will be changed together with the filesystem size.
+It is also possible to resize a partition without a filesystem in the
+same way.
+
+[steps]
+. Resize a filesystem/partition
+
+* Open $app(Disks) from the $gui(Activities) overview.
+
+* Select the disk containing the filesystem in question from the list
+  of storage devices on the left. If there is more than one volume on
+  the disk, select the volume which contains the filesystem.
+
+* In the toolbar underneath the $gui(Volumes) section, click the
+  menu button. Then click $gui(Resize Filesystem…) or
+  $gui(Resize…) if there is no filesystem.
+
+* A dialog will open where the new size can be chosen. The filesystem will
+  be mounted to calculate the minimum size by the amount of current
+  content. If shrinking is not supported the minimum size is the current
+  size. Leave enough space within the filesystem when shrinking to ensure
+  that it can work fast and reliably.
+
+  Depending on how much data has to be moved from the shrunk part, the
+  filesystem resize may take longer time.
+
+  [note .warning]
+    The filesystem resize automatically involves
+    $link[>disk-repair](repairing) of the filesystem. Therefore
+    it is advised to back up important data before starting. The action
+    must not be stopped or it will result in a damaged filesystem.
+
+* Confirm to start the action by clicking $gui[.button](Resize).
+
+  The action will unmount the filesystem if resizing a mounted filesystem
+  is not supported. Be patient while the filesystem is resized.
+
+* After completion of the needed resize and repair actions the filesystem
+  is ready to be used again.

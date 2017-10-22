@@ -1,0 +1,54 @@
+@include gnome-help.defs
+
+= Templates for commonly-used document types
+  [topic .task]
+@link[guide >files#faq]
+
+@revision[pkgversion="3.6.0" version="0.2" date="2012-09-28" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name Anita Reitere
+  @email nitalynx@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@xi:include[>>legal.xml]
+
+@desc Quickly create new documents from custom file templates.
+
+If you often create documents based on the same content, you might
+benefit from using file templates. A file template can be a document
+of any type with the formatting or content you would like to reuse.
+For example, you could create a template document with your letterhead.
+
+[steps]
+. Make a new template
+
+* Create a document that you are going to use as a template. For
+  example, you could make your letterhead in a word processing
+  application.
+
+* Save the file with the template content in the $file(Templates)
+  folder in your $file(Home) folder. If the $file(Templates)
+  folder does not exist, you will need to create it first.
+
+[steps]
+. Use a template to create a document
+
+* Open the folder where you want to place the new document.
+
+* Right-click anywhere in the empty space in the folder, then choose
+  $gui[.menuitem](New Document). The names of available
+  templates will be listed in the submenu.
+
+* Choose your desired template from the list.
+
+* Double-click the file to open it and start editing. You may wish to
+  $link[>files-rename](rename the file) when you are
+  finished.

@@ -1,0 +1,69 @@
+@include gnome-help.defs
+
+= Write files to a CD or DVD
+  [topic .task]
+@link[guide >files#more-file-tasks]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="outdated"]
+
+@credit[author]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Put files and documents onto a blank CD or DVD using a CD/DVD
+      burner.
+
+You can put files onto a blank disc by using $gui(CD/DVD Creator).
+The option to create a CD or DVD will appear in the file manager as soon as
+you place the CD into your CD/DVD writer. The file manager lets you transfer
+files to other computers or perform $link[>backup-why](backups) by
+putting files onto a blank disc. To write files to a CD or DVD:
+
+[steps]
+* Place an empty disc into your CD/DVD writable drive.
+
+* In the $gui(Blank CD/DVD-R Disc) notification that pops up at the
+  bottom of the screen, select $gui(Open with CD/DVD Creator). The
+  $gui(CD/DVD Creator) folder window will open.
+
+  (You can also click on $gui(Blank CD/DVD-R Disc) under
+  $gui(Devices) in the file manager sidebar.)
+
+* In the $gui(Disc Name) field, type a name for the disc.
+
+* Drag or copy the desired files into the window.
+
+* Click $gui(Write to Disc).
+
+* Under $gui(Select a disc to write to), choose the blank disc.
+
+  (You could choose $gui(Image file) instead. This will put the
+  files in a $em(disc image), which will be saved on your computer. You
+  can then burn that disc image onto a blank disc at a later date.)
+
+* Click $gui(Properties) if you want to adjust burning speed, the
+  location of temporary files, and other options. The default options
+  should be fine.
+
+* Click the $gui(Burn) button to begin recording.
+
+  If $gui(Burn Several Copies) is selected, you will be prompted
+  for additional discs.
+
+* When the disc burning is complete, it will eject automatically. Choose
+  $gui(Make More Copies) or $gui(Close) to exit.
+
+
+== If the disc wasn’t burned properly
+   [#problem]
+
+Sometimes the computer doesn’t record the data correctly, and you won’t be
+able to see the files you put onto the disc when you insert it into a
+computer.
+
+In this case, try burning the disc again but use a lower burning speed,
+for example, 12x rather than 48x. Burning at slower speeds is more reliable.
+You can choose the speed by clicking the $gui(Properties) button in the
+$gui(CD/DVD Creator) window.

@@ -1,0 +1,91 @@
+@include gnome-help.defs
+
+= Sort files and folders
+  [topic .task]
+@link[guide >files#common-file-tasks]
+
+@revision[pkgversion="3.6.0" version="0.2" date="2012-09-25" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Arrange files by name, size, type, or when they were changed.
+
+[comment]
+  May benefit from figures illustrating the different views.
+
+You can sort files in different ways in a folder, for example by sorting them
+in order of date or file size. See $link[>#ways] below for a list of
+common ways to sort files. See $link[>nautilus-views] for information on
+how to change the default sort order.
+
+The way that you can sort files depends on the $em(folder view) that you
+are using. You can change the current view using the list or icon buttons in the
+toolbar.
+
+
+== Icon view
+   [#icon-view]
+
+To sort files in a different order, click the view options button in the
+[-] FIXME: Get a tooltip added for "View options"
+toolbar and choose $gui(By Name), $gui(By Size), $gui(By
+Type), $gui(By Modification Date), or $gui(By Access
+Date).
+
+As an example, if you select $gui(By Name), the files will be sorted
+by their names, in alphabetical order. See $link[>#ways] for other
+options.
+
+You can sort in the reverse order by selecting $gui(Reversed Order)
+from the menu.
+
+
+== List view
+   [#list-view]
+
+To sort files in a different order, click one of the column headings in
+the file manager. For example, click $gui(Type) to sort by file type.
+Click the column heading again to sort in the reverse order.
+
+In list view, you can show columns with more attributes and sort on those
+columns. Click the view options button in the toolbar, pick $gui(Visible
+[-] FIXME: Get a tooltip added for "View options"
+Columns…) and select the columns that you want to be visible. You will
+then be able to sort by those columns. See $link[>nautilus-list] for
+descriptions of available columns.
+
+
+== Ways of sorting files
+   [#ways]
+
+[terms]
+- Name
+* Sorts alphabetically by the name of the file.
+
+- Size
+* Sorts by the size of the file (how much disk space it takes up). Sorts
+  from smallest to largest by default.
+
+- Type
+* Sorts alphabetically by the file type. Files of the same type are
+  grouped together, then sorted by name.
+
+- Last Modified
+* Sorts by the date and time that a file was last changed. Sorts from
+  oldest to newest by default.
+
+[comment]
+Mention that it is possible to reverse the sort order with the $gui(Reverse
+Order) option.

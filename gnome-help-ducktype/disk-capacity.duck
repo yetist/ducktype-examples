@@ -1,0 +1,70 @@
+@include gnome-help.defs
+
+= Check how much disk space is left
+  [topic .task]
+@link[guide >disk]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Natalia Ruz Leiva
+  @email nruz@alumnos.inf.utfsm.cl
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@revision[pkgversion="3.4.3" date="2012-06-15" status="review"]
+@revision[pkgversion="3.13.91" date="2014-09-05" status="review"]
+
+@desc Use $gui(Disk Usage Analyzer) or $gui(System Monitor) to
+      check space and capacity.
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+You can check how much disk space is left with $app(Disk Usage Analyzer)
+or $app(System Monitor).
+
+
+== Check with Disk Usage Analyzer
+   [#disk-usage-analyzer]
+
+To check the free disk space and disk capacity using $app(Disk Usage
+Analyzer):
+
+* Open $app(Disk Usage Analyzer) from the $Activities; overview. The
+  window will display a list of file locations together with the
+  usage and capacity of each.
+
+* Click one of the items in the list to view a detailed summary of the
+  usage for that item. Click the menu button, and then $gui(Scan
+  Folder…) or $gui(Scan Remote Folder…) to scan a different location.
+
+The information is displayed according to $gui(Folder), $gui(Size),
+$gui(Contents) and when the data was last $gui(Modified). See more
+details in $link[>>help:baobab]($app(Disk Usage Analyzer)).
+
+
+== Check with System Monitor
+   [#system-monitor]
+
+To check the free disk space and disk capacity with
+$app(System Monitor):
+
+[steps]
+* Open the $app(System Monitor) application from the $Activities; overview.
+
+* Select the $gui(File Systems) tab to view the system’s partitions and
+  disk space usage.  The information is displayed according to $gui(Total),
+  $gui(Free), $gui(Available) and $gui(Used).
+
+
+== What if the disk is too full?
+   [#disk-full]
+
+If the disk is too full you should:
+
+* Delete files that aren’t important or that you won’t use anymore.
+
+* Make $link[>backup-why](backups) of the important files that
+  you won’t need for a while and delete them from the hard drive.

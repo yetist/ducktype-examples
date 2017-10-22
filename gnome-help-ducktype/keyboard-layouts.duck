@@ -1,0 +1,100 @@
+@include gnome-help.defs
+
+= Use alternative keyboard layouts
+  [topic .task]
+@link[guide >prefs-language]
+@link[guide >keyboard group="i18n"]
+@link[guide >keyboard-shortcuts-set]
+
+@revision[pkgversion="3.8" version="0.3" date="2013-04-30" status="review"]
+@revision[pkgversion="3.10" date="2013-10-28" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+
+@credit[author copyright]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+  @years 2012
+@credit[author]
+  @name Julita Inca
+  @email yrazes@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Juanjo Marín
+  @email juanj.marin@juntadeandalucia.es
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2013
+
+@xi:include[>>legal.xml]
+
+@desc Add keyboard layouts and switch between them.
+
+Keyboards come in hundreds of different layouts for different languages.
+Even for a single language, there are often multiple keyboard layouts, such
+as the Dvorak layout for English. You can make your keyboard behave like a
+keyboard with a different layout, regardless of the letters and symbols
+printed on the keys. This is useful if you often switch between multiple
+languages.
+
+* Open the $Activities overview and start typing $gui(Region & Language).
+
+* Click on $gui(Region & Language) to open the panel.
+
+* Click the $gui(+) button in the $gui(Input Sources) section, select the
+  language which is associated with the layout, then select a layout and
+  press $gui(Add).
+
+[note .sidebar]
+  You can preview an image of any layout by selecting it in the list of
+  $gui(Input Sources) and clicking
+  $gui($media[its:translate=no image src=figures/input-keyboard-symbolic.png
+  width=16 height=16]($span[its:translate=yes](preview))).
+
+Certain languages offer some extra configuration options. You can identify
+those languages because they have a
+$gui($media[its:translate=no image src=figures/system-run-symbolic.svg
+width=16 height=16]($span[its:translate=yes](preview))) icon next to them.
+If you want to access these extra parameters, select the language from
+the $gui(Input Source) list and a new $gui[.button]($media[its:translate=no
+image src=figures/emblem-system-symbolic.svg width=16 height=16]($span[
+its:translate=yes](preferences))) button will give you access to the
+extra settings.
+
+When you use multiple layouts, you can choose to have all windows use the
+same layout or to set a different layout for each window. Using a different
+layout for each window is useful, for example, if you’re writing an article
+in another language in a word processor window. Your keyboard selection will
+be remembered for each window as you switch between windows. Press the
+$gui[.button](Options) button to select how you want to manage multiple
+layouts.
+
+The top bar will display a short identifier for the current layout, such as
+$gui(en) for the standard English layout. Click the layout indicator and
+select the layout you want to use from the menu. If the selected language has
+any extra settings, they will be shown below the list of available layouts.
+This gives you a quick overview of your settings. You can also open an image
+with the current keyboard layout for reference.
+
+The fastest way to change to another layout is by using the $gui(Input Source)
+$gui(Keyboard Shortcuts). These shortcuts open the $gui(Input Source) chooser
+where you can move forward and backward. By default, you can switch to the
+next input source with $keyseq($key(Super)$key(Space)) and to the previous
+one with $keyseq($key(Shift)$key(Super)$key(Space)). You can change these
+shortcuts in the $gui(Keyboard) settings.
+
+$media[image src="figures/input-methods-switcher.png"]
+
+[comment]
+  [cite date="2012-02-19"]
+    shaunm
+  We're totally copping out on the custom options. That dialog is a
+  monster, and needs a reference. Note that the options in there are
+  dynamic from the X server. We might not get a definitive reference
+  of everything ever, but let's do our best. Make a separate page.
+  Don't clutter this page with that crap.
+
+  Also, we should identify common uses of those options and create
+  task pages for them.

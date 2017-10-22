@@ -1,0 +1,31 @@
+@include gnome-help.defs
+
+= Set the display name for your computer
+  [topic .task]
+@link[guide >prefs-sharing group="#first"]
+
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="final"]
+
+@credit[author]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2014
+
+@xi:include[>>legal.xml]
+
+@desc Control how your computer will appear to other computers or
+      devices.
+
+You can change the name your computer uses to display itself to other
+computers or devices, on the network or over Bluetooth.
+
+[steps]
+. Change the display name of your computer:
+
+* Open the $Activities; overview and start typing $gui(Sharing).
+
+* Click on $gui(Sharing) to open the panel.
+
+* Edit the text below $gui(Computer Name) to change the name your
+  computer displays on the network.

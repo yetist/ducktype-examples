@@ -1,0 +1,66 @@
+@include gnome-help.defs
+
+= Add an account
+  [topic .task]
+@link[guide >accounts group="add"]
+
+@revision[pkgversion="3.5.5" date="2012-08-14" status="draft"]
+@revision[pkgversion="3.9.92" date="2012-09-18" status="candidate"]
+@revision[pkgversion="3.13.92" date="2013-09-20" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2014
+@credit[editor]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+  @years 2015
+
+@xi:include[>>legal.xml]
+
+@desc Allow applications to access your accounts online for photos,
+      contacts, calendars, and more.
+
+Adding an account will help link your online accounts with your GNOME
+desktop. Thus, your email program, chat program and other related
+applications will be set up for you.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Online Accounts).
+
+* Click on $gui(Online Accounts) to open the panel.
+
+* Click the $gui(+) button in the lower-left corner of the window.
+
+* Select the type of account which you want to add.
+
+* A small website window or dialog will open where you can enter your
+  online account credentials. For example, if you are setting up a Google
+  account, enter your Google username and password. Some providers allow
+  you to create a new account from the login dialog.
+
+* If you have entered your credentials correctly, you will be prompted
+  to allow GNOME access to your online account. Authorize access to
+  continue.
+
+* All services that are offered by an account provider will be enabled
+  by default. $link[>accounts-disable-service](Switch)
+  individual services to $gui(OFF) to disable them.
+
+After you have added accounts, applications can use those accounts for
+the services you have chosen to allow. See $link[>accounts-disable-service]
+for information on controlling which services to allow.
+
+[note .tip]
+Many online services provide an authorization token which GNOME stores
+instead of your password. If you remove an account, you should also revoke
+that certificate in the online service. See $link[>accounts-remove]
+for more information.

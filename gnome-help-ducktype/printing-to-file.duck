@@ -1,0 +1,44 @@
+@include gnome-help.defs
+
+= Print to file
+  [.task]
+@link[guide >printing group="#last"]
+
+@revision[pkgversion="3.8" date="2013-03-29" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author copyright]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2013
+
+@xi:include[>>legal.xml]
+
+@desc Save a document as a PDF, PostScript or SVG file instead of sending
+      it to a printer.
+
+You can choose to print a document to a file instead of sending it to
+print from a printer. Printing to file will create a $sys(PDF), a
+$sys(PostScript) or a $sys(SVG) file that contains the document.
+This can be useful if you want to transfer the document to another machine
+or to share it with someone.
+
+[steps]
+. To print to file:
+* Open the print dialog by pressing $keyseq($key(Ctrl)$key(P)).
+
+* Select $gui(Print to File) under $gui(Printer) in the
+  $gui[.tab](General) tab.
+
+* To change the default filename and where the file is saved to, click
+  the filename below the printer selection. Click
+  $gui[.button](Select) once you have finished choosing.
+
+* $sys(PDF) is the default file type for the document. If you want
+  to use a different $gui(Output format), select either
+  $sys(PostScript) or $sys(SVG).
+
+* Choose your other page preferences.
+
+* Press $gui[.button](Print) to save the file.

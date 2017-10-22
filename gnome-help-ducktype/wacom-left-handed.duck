@@ -1,0 +1,36 @@
+@include gnome-help.defs
+
+= Use the tablet left-handed
+  [topic .task]
+@revision[pkgversion="3.10" date="2013-11-02" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.14" date="2014-10-12" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@link[guide >wacom]
+
+@credit[author copyright]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2012
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Switch the Wacom tablet to $gui(Left-Handed Orientation).
+
+Some tablets have hardware buttons on one side. The tablet can be rotated
+180 degrees to position these buttons for left-handed people. To switch the
+orientation to left-handed:
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Wacom Tablet).
+
+* Click on $gui(Wacom Tablet) to open the panel.
+  [-] TODO: document how to connet the tablet using Bluetooth/add link
+
+  [note .tip]
+    If no tablet is detected, you’ll be asked to $gui(Please plug in or
+    turn on your Wacom tablet). Click the $gui(Bluetooth Settings) link
+    to connect a wireless tablet.
+
+* Switch $gui(Left-Handed Orientation) to $gui(ON).

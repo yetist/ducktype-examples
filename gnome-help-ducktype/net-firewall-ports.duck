@@ -1,0 +1,66 @@
+@include gnome-help.defs
+
+= Commonly-used network ports
+  [topic .reference]
+@link[guide >net-security]
+@link[seealso >net-firewall-on-off]
+
+@revision[pkgversion="3.4.0" date="2012-02-20" status="final"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Paul W. Frields
+  @email stickster@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc You need to specify the right network port to enable/disable
+      network access for a program with your firewall.
+
+This is a list of network ports commonly used by applications that provide
+network services, like file sharing or remote desktop viewing. You can change
+your system’s firewall to $link[>net-firewall-on-off](block or allow access)
+to these applications. There are thousands of ports in use, so this table
+isn’t complete.
+
+[table shade="rows" frame="top"]
+[thead]
+[tr]
+* Port
+* Name
+* Description
+
+[tbody]
+[tr]
+* 5353/udp
+* mDNS, Avahi
+* Allows systems to find each other, and describe which services
+  they offer, without you having to specify the details manually.
+
+[tr]
+* 631/udp
+* Printing
+* Allows you to send print jobs to a printer over the network.
+
+[tr]
+* 631/tcp
+* Printing
+* Allows you to share your printer with other people over the
+  network.
+
+[tr]
+* 5298/tcp
+* Presence
+* Allows you to advertise your instant messaging status to other
+  people on the network, such as “online” or “busy”.
+
+[tr]
+* 5900/tcp
+* Remote desktop
+* Allows you to share your desktop so other people can view it or
+  provide remote assistance.
+
+[tr]
+* 3689/tcp
+* Music sharing (DAAP)
+* Allows you to share your music library with others on your network.

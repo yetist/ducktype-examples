@@ -1,0 +1,67 @@
+@include gnome-help.defs
+
+= Simulate clicking by hovering
+  [topic .task a11y]
+@link[guide >mouse]
+@link[guide >a11y#mobility group="clicking"]
+
+@revision[pkgversion="3.8.0" date="2013-03-13" status="candidate"]
+@revision[pkgversion="3.9.92" date="2013-09-18" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-20" status="final"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@xi:include[>>legal.xml]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@desc The $gui(Hover Click) (Dwell Click) feature allows you to click
+      by holding the mouse still.
+
+You can click or drag simply by hovering your mouse pointer over a control
+or object on the screen. This is useful if you find it difficult to move the
+mouse and click at the same time. This feature is called $gui(Hover
+Click) or Dwell Click.
+
+When $gui(Hover Click) is enabled, you can move your mouse pointer
+over a control, let go of the mouse, and then wait for a while before the
+button will be clicked for you.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Universal Access).
+
+* Click on $gui(Universal Access) to open the panel.
+
+* Press $gui(Click Assist) in the $gui(Pointing & Clicking) section.
+
+* Switch $gui(Hover Click) to $gui(ON).
+
+The $gui(Hover Click) window will open, and will stay above all of
+your other windows. You can use this to choose what sort of click should
+happen when you hover. For example, if you select $gui(Secondary Click),
+you will right-click when you hover. After you double-click, right-click, or
+drag, you will be automatically returned to clicking.
+
+When you hover your mouse pointer over a button and do not move it, it will
+gradually change color. When it has fully changed color, the button will be
+clicked.
+
+Adjust the $gui(Delay) setting to change how long you have to hold
+the mouse pointer still before clicking.
+
+You do not need to hold the mouse perfectly still when hovering to click.
+The pointer is allowed to move a little bit and will still click after a
+while. If it moves too much, however, the click will not happen.
+
+Adjust the $gui(Motion threshold) setting to change how much the
+pointer can move and still be considered to be hovering.

@@ -1,0 +1,40 @@
+@include gnome-help.defs
+
+= Printing
+  [guide .task]
+@link[guide >hardware]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc $link[>printing-setup](Local setup),
+      [-] $link[>printing-setup-networked](networked setup),
+      $link[>printing-order](order and collate),
+      $link[>printing-2sided](two-sided and multi-page)…
+    </desc>
+
+[comment]
+  [cite]
+    Jim C
+  Needs info about network printing - 2011-06-08
+
+= Set up a printer
+  [#setup .2column]
+@title[link role="trail"] Setup
+
+
+= Different paper sizes and layouts
+  [#paper .2column]
+@title[link role="trail"] Sizes and layouts
+
+
+= Printer problems
+  [#problems .2column]
+@link[guide >hardware#problems]
+@desc Undetected printers, paper jams, print-outs that look wrong…

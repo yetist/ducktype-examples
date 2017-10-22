@@ -1,0 +1,21 @@
+@include gnome-help.defs
+
+= Missing information for whole-screen color correction?
+  [topic .question]
+@link[guide >color#problems]
+@link[seealso >color-gettingprofiles]
+@desc Whole-screen color correction modifies all the screen colors on all windows.
+
+@credit[author]
+  @name Richard Hughes
+  @email richard@hughsie.com
+@xi:include[>>legal.xml]
+
+Unfortunately, many vendor-supplied ICC profiles do not include the
+information required for whole-screen color correction.
+These profiles can still be useful for applications that can do color
+compensation, but you will not see all the colors of your screen change.
+
+In order to create a display profile, which includes both calibration and
+characterization data, you will need to use a special color measuring
+instruments called a colorimeter or a spectrometer.

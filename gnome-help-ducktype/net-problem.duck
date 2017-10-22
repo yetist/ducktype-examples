@@ -1,0 +1,13 @@
+= Network problems
+  [guide .task .2column]
+@link[guide >net]
+@revision[pkgversion="3.4.0" date="2012-02-21" status="final"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name The Ubuntu Documentation Team
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc $link[>net-wireless-troubleshooting](Troubleshooting wireless connections),
+      $link[>net-wireless-find](finding your wifi network)…

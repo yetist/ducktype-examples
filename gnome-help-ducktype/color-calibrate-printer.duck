@@ -1,0 +1,32 @@
+@include gnome-help.defs
+
+= How do I calibrate my printer?
+  [topic .task]
+@link[guide >color#calibration]
+@link[seealso >color-calibrate-scanner]
+@link[seealso >color-calibrate-screen]
+@link[seealso >color-calibrate-camera]
+@desc Calibrating your printer is important to print accurate colors.
+
+@credit[author]
+  @name Richard Hughes
+  @email richard@hughsie.com
+@xi:include[>>legal.xml]
+
+There are two ways to profile a printer device:
+
+* Using a photospectrometer device like the Pantone ColorMunki
+* Downloading a printing a reference file from a color company
+
+Using a color company to generate a printer profile is usually the
+cheapest option if you only have one or two different paper types.
+By downloading the reference chart from the companies website you
+can then send them back the print in a padded envelope where they
+will scan the paper, generate the profile and email you back an
+accurate ICC profile.
+
+Using an expensive device such as a ColorMunki works out cheaper only
+if you are profiling a large number of ink sets or paper types.
+
+[note .tip]
+  If you change your ink supplier, make sure you recalibrate the printer!

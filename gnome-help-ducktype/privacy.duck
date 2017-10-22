@@ -1,0 +1,31 @@
+@include gnome-help.defs
+
+= Privacy Settings
+  [guide]
+[-] TODO: Problem Reporting
+@link[guide >prefs]
+
+@revision[pkgversion="3.10" date="2013-09-28" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-30" status="final"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+  @years 2013
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc $link[>privacy-screen-lock](Screen lock),
+      $link[>privacy-history-recent-off](Usage history),
+      $link[>privacy-purge](Purge trash & temporary files)…
+  
+The $em(Privacy Settings) in GNOME help you control whether or not
+certain parts of your desktop are visible to others. You can also
+use these settings to clear your computer usage history and clean out
+unnecessary files.
+

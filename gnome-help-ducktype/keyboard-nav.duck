@@ -1,0 +1,227 @@
+= Keyboard navigation
+  [topic .tip]
+@link[guide >keyboard group="a11y"]
+@link[guide >a11y#mobility group="keyboard"]
+@link[seealso >shell-keyboard-shortcuts]
+
+@revision[pkgversion="3.7.5" version="0.2" date="2013-02-23" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.20" date="2016-08-13" status="candidate"]
+
+@credit[author]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Julita Inca
+  @email yrazes@gmail.com
+@credit[author copyright]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+  @years 2012
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Use applications and the desktop without a mouse.
+
+[comment]
+  [cite date="2012-03-14" href="mailto:shaunm@gnome.org"]
+    Shaun McCance
+  Do $em(NOT) use $code(ui:expanded) on this page. I know it's
+  tempting, but the target audience for this page is people who cannot use
+  a mouse, and having to expand sections when you're just figuring out how
+  to drive things with the keyboard is a burden.
+
+This page details keyboard navigation for people who cannot use a mouse or
+other pointing device, or who want to use a keyboard as much as possible. For
+keyboard shortcuts that are useful to all users, see
+$link[>shell-keyboard-shortcuts] instead.
+
+[note .tip]
+If you cannot use a pointing device like a mouse, you can control the
+mouse pointer using the numeric keypad on your keyboard. See
+$link[>mouse-mousekeys] for details.
+
+[table frame="top bottom" rules="rows"]
+. Navigate user interfaces
+[tr]
+* $key(Tab) and $keyseq($key(Ctrl)$key(Tab))
+* Move keyboard focus between different controls. $keyseq($key(Ctrl)$key(Tab))
+  moves between groups of controls, such as from a sidebar to the main content.
+  $keyseq($key(Ctrl)$key(Tab)) can also break out of a control that uses
+  $key(Tab) itself, such as a text area.
+
+  Hold down $key(Shift) to move focus in reverse order.
+
+[tr]
+* Arrow keys
+* Move selection between items in a single control, or among a set of
+  related controls. Use the arrow keys to focus buttons in a toolbar, select
+  items in a list or icon view, or select a radio button from a group.
+
+[tr]
+* $keyseq($key(Ctrl)Arrow keys)
+* In a list or icon view, move the keyboard focus to another item
+  without changing which item is selected.
+
+[tr]
+* $keyseq($key(Shift)Arrow keys)
+* In a list or icon view, select all items from the currently selected
+  item to the newly focused item.
+* In a tree view, items that have children can be expanded or collapsed,
+  to show or hide their children: expand by pressing
+  $keyseq($key(Shift)$key(→)), and collapse by
+  pressing $keyseq($key(Shift)$key(←)).
+
+[tr]
+* $key(Space)
+* Activate a focused item such as a button, check box, or list item.
+
+[tr]
+* $keyseq($key(Ctrl)$key(Space))
+* In a list or icon view, select or deselect the focused item without
+  deselecting other items.
+
+[tr]
+* $key(Alt)
+* Hold down the $key(Alt) key to reveal $em(accelerators):
+  underlined letters on menu items, buttons, and other controls. Press
+  $key(Alt) plus the underlined letter to activate a control, just
+  as if you had clicked on it.
+
+[tr]
+* $key(Esc)
+* Exit a menu, popup, switcher, or dialog window.
+
+[tr]
+* $key(F10)
+* Open the first menu on the menubar of a window. Use the arrow keys
+  to navigate the menus.
+
+[tr]
+* $keyseq($key(Super)$key(F10))
+* Open the application menu on the top bar.
+
+[tr]
+* $keyseq($key(Shift)$key(F10)) or $key(Menu)
+* Pop up the context menu for the current selection, as if you had
+  right-clicked.
+
+[tr]
+* $keyseq($key(Ctrl)$key(F10))
+* In the file manager, pop up the context menu for the current folder,
+  as if you had right-clicked on the background and not on any item.
+
+[tr]
+* $keyseq($key(Ctrl)$key(PageUp)) and $keyseq($key(Ctrl)$key(PageDown))
+* In a tabbed interface, switch to the tab to the left or right.
+
+[table frame="top bottom" rules="rows"]
+  . Navigate the desktop
+
+  [include xmlns="http://www.w3.org/2001/XInclude"
+           href="shell-keyboard-shortcuts.page"
+           xpointer="alt-f1"]
+
+  [include xmlns="http://www.w3.org/2001/XInclude"
+           href="shell-keyboard-shortcuts.page"
+           xpointer="super-tab"]
+
+  [include xmlns="http://www.w3.org/2001/XInclude"
+           href="shell-keyboard-shortcuts.page"
+           xpointer="super-tick"]
+
+  [include xmlns="http://www.w3.org/2001/XInclude"
+           href="shell-keyboard-shortcuts.page"
+           xpointer="ctrl-alt-tab"]
+
+  [include xmlns="http://www.w3.org/2001/XInclude"
+           href="shell-keyboard-shortcuts.page"
+           xpointer="super-updown"]
+
+  [tr]
+  * $keyseq($key(Alt)$key(F6))
+  * Cycle through windows in the same application. Hold down the
+    $key(Alt) key and press $key(F6) until the window you want is
+    highlighted, then release $key(Alt). This is similar to the
+    $keyseq($key(Alt)$key(`)) feature.
+
+  [tr]
+  * $keyseq($key(Alt)$key(Esc))
+  * Cycle through all open windows on a workspace.
+
+  [tr]
+  * $keyseq($key(Super)$key(M))
+  * $link[>shell-notifications#messagetray](Open the message
+    tray.) Press $key(Esc) to close.
+
+[table frame="top bottom" rules="rows"]
+  . Navigate windows
+
+  [tr]
+  * $keyseq($key(Alt)$key(F4))
+  * Close the current window.
+
+  [tr]
+  * $keyseq($key(Alt)$key(F5)) or $keyseq($key(Super)$key($2193;))
+  * Restore a maximized window to its original size. Use
+    $keyseq($key(Alt)$key(F10)) to maximize.
+    $keyseq($key(Alt)$key(F10)) both maximizes and
+    restores.
+
+  [tr]
+  * $keyseq($key(Alt)$key(F7))
+  * Move the current window. Press
+    $keyseq($key(Alt)$key(F7)), then use the arrow keys to
+    move the window. Press $key(Enter) to finish moving the window, or
+    $key(Esc) to return it to its original place.
+
+  [tr]
+  * $keyseq($key(Alt)$key(F8))
+  * Resize the current window. Press
+    $keyseq($key(Alt)$key(F8)), then use the arrow keys to
+    resize the window. Press $key(Enter) to finish resizing the window, or
+    $key(Esc) to return it to its original size.
+
+  [include xmlns="http://www.w3.org/2001/XInclude"
+           href="shell-keyboard-shortcuts.page"
+           xpointer="super-shift-updown"]
+
+  [include xmlns="http://www.w3.org/2001/XInclude"
+           href="shell-keyboard-shortcuts.page"
+           xpointer="super-shift-left"]
+
+  [include xmlns="http://www.w3.org/2001/XInclude"
+           href="shell-keyboard-shortcuts.page"
+           xpointer="super-shift-right"]
+
+  [tr]
+  * $keyseq($key(Alt)$key(F10)) or $keyseq($key(Super)$key($2191;))
+  * $link [>shell-windows-maximize](Maximize) a window. Press
+    $keyseq($key(Alt)$key(F10)) or $keyseq($key(Super)$key($2193;))
+    to restore a maximized window to its original size.
+
+  [tr]
+  * $keyseq($key(Super)$key(H))
+  * Minimize a window.
+
+  [tr]
+  * $keyseq($key(Super)$key($2190;))
+  * Maximize a window vertically along the left side of the screen.
+    Press again to restore the window to its previous size. Press
+    $keyseq($key(Super)$key($2192;)) to switch
+    sides.
+
+  [tr]
+  * $keyseq($key(Super)$key($2192;))
+  * Maximize a window vertically along the right side of the screen.
+    Press again to restore the window to its previous size. Press
+    $keyseq($key(Super)$key($2190;)) to
+    switch sides.
+
+  [tr]
+  * $keyseq($key(Alt)$key(Space))
+  * Pop up the window menu, as if you had right-clicked on the
+    titlebar.

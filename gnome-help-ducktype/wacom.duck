@@ -1,0 +1,17 @@
+= Wacom Graphics Tablet
+  [guide .task]
+@desc $link[>wacom-multi-monitor](Map a monitor),
+      $link[>wacom-stylus](configure the stylus),
+      $link[>wacom-left-handed](use the tablet left handed)…
+@link[guide >prefs]
+
+@revision[pkgversion="3.10" date="2013-11-02" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.14" date="2014-10-12" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]

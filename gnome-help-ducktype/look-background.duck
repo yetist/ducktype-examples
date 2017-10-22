@@ -1,0 +1,71 @@
+= Change the desktop and lock screen backgrounds
+  [topic .task]
+@link[guide >prefs-display]
+
+@revision[pkgversion="3.8.0" version="0.3" date="2013-03-09" status="candidate"]
+@revision[pkgversion="3.10" date="2013-11-07" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name April Gonzales
+  @email loonycookie@gmail.com
+@credit[author]
+  @name Natalia Ruz Leiva
+  @email nruz@alumnos.inf.utfsm.cl 
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[author]
+  @name Andre Klapper
+  @email ak-47@gmx.net
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Shobha Tyagi
+  @email tyagishobha@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Set an image, color, or gradient as your desktop background
+      or lock screen background.
+
+You can change the image used for your backgrounds or set it to a be a
+solid color.
+
+[steps]
+* Open the $gui[>shell-introduction#activities](Activities) overview and
+  start typing $gui(Background).
+
+* Click on $gui(Background) to open the panel.
+
+* Select the $gui(Background) or $gui(Lock Screen).
+
+* There are three choices displayed on top:
+
+  * Select $gui(Wallpapers) to use one of the many professional
+    background images that ship with GNOME. Some wallpapers change
+    throughout the day. These wallpapers have a small clock icon in
+    the bottom-right corner.
+
+  * Select $gui(Pictures) to use one of your own photos from your
+    $file(Pictures) folder. Most photo management applications store
+    photos there. If you would like to use an image that is not in
+    your Pictures folder, either use $app(Files) by right-clicking
+    on the image file and selecting $gui(Set as Wallpaper), or
+    $app(Image Viewer) by opening the image file, clicking the
+    menu button in the titlebar and selecting $gui(Set as
+    Wallpaper).
+
+  * Select $gui(Colors) to just use a flat color.
+
+* The settings are applied immediately.
+
+* $link[>shell-workspaces-switch](Switch to an empty workspace)
+  to view your entire desktop.

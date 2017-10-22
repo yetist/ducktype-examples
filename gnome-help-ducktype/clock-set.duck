@@ -1,0 +1,40 @@
+@include gnome-help.defs
+
+= Change the date and time
+  [topic .task]
+@link[guide >clock group="#first"]
+
+@revision[pkgversion="3.8.0" date="2013-03-09" status="candidate"]
+@revision[pkgversion="3.10" date="2013-11-01" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Use the $gui(Date & Time Settings) to alter the date or time.
+
+If the date and time displayed on the top bar are incorrect or in the
+wrong format, you can change them:
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Date & Time).
+
+* Click on $gui(Date & Time) to open the panel.
+
+* If you have $gui(Automatic Date & Time) set to $gui(ON),
+  your date and time should update automatically if you have an internet
+  connection. To update your date and time manually, set this to
+  $gui(OFF).
+
+* Click $gui(Date & Time), then adjust the time and date.
+
+* You can change how the hour is displayed by selecting
+  $gui(24-hour) or $gui(AM/PM) for $gui(Time Format).
+
+You may also wish to $link[>clock-timezone](set the timezone manually).

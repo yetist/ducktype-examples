@@ -1,0 +1,46 @@
+@include gnome-help.defs
+
+= What is the $key(Super) key?
+  [topic .question]
+@link[guide >keyboard group="a11y"]
+
+@revision[pkgversion="3.7.91" version="0.2" date="2013-03-16" status="outdated"]
+@revision[pkgversion="3.9.92" date="2013-09-23" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc The $key(Super) key opens the $gui(Activities) overview.
+      You can usually find it next to the $key(Alt) key on your
+      keyboard.
+
+When you press the $key(Super) key, the $gui(Activities)
+overview is displayed. This key can usually be found on the bottom-left of
+your keyboard, next to the $key(Alt) key, and usually has a Windows logo
+on it. It is sometimes called the $em(Windows key) or system key.
+
+[note]
+If you have an Apple keyboard, you will have a $key(⌘) (Command)
+key instead of the Windows key, while Chromebooks have a magnifying glass
+instead.
+
+To change which key is used to display the $gui(Activities) overview:
+
+[steps]
+* Open the $Activities; overview, then open the $app(Settings).
+
+* Click $gui(Keyboard).
+
+* Click the $gui[.tab](Shortcuts) tab.
+
+* Select $gui(System) on the left side of the window, and
+  $gui(Show the activities overview) on the right.
+
+* Hold down the desired key combination.

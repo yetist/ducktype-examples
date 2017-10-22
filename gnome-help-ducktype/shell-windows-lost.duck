@@ -1,0 +1,52 @@
+@include gnome-help.defs
+
+= Find a lost window
+  [topic .task version="1.0 if/1.0"]
+@link[guide >shell-windows#working-with-windows]
+
+@revision[pkgversion="3.8.0" date="2013-04-23" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Check the $gui(Activities) overview or other workspaces.
+
+A window on a different workspace, or hidden behind another window, is
+easily found using the $Activities; overview:
+
+* Open the $gui(Activities) overview. If the missing window is on the
+  current $link[>shell-windows#working-with-workspaces](workspace), it
+  will be shown here in thumbnail. Simply click the thumbnail to redisplay
+  the window, or
+
+* Click different workspaces in the $link[>shell-workspaces](workspace
+  selector) at the right-hand side of the screen to try to find your
+  window, or
+
+* Right-click the application in the dash and its open windows will be
+  listed. Click the window in the list to switch to it.
+
+[comment]
+  [cite date="2014-09-22"]
+    David King
+  Mention search providers, especially with reference to gnome-terminal,
+  and how they can be used to find open terminals.
+
+Using the window switcher:
+
+* Press $keyseq($key[>keyboard-key-super](Super)$key(Tab))
+  to display the $link[>shell-windows-switching](window switcher).
+  Continue to hold down the $key(Super) key and press $key(Tab)
+  to cycle through the open windows, or
+  $keyseq($key(Shift)$key(Tab) ) to cycle backwards.
+[item if:test="!platform:gnome-classic"]
+  If an application has multiple open windows, hold down
+  $key(Super) and press $key(`) (or the key above $key(Tab))
+  to step through them.

@@ -1,0 +1,50 @@
+@include gnome-help.defs
+
+= Adjust speed of the mouse and touchpad
+  [topic .task]
+@link[guide >mouse]
+@link[guide >a11y#mobility group="pointing"]
+
+@revision[pkgversion="3.8" date="2013-03-13" status="candidate"]
+@revision[pkgversion="3.10" date="2013-10-29" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit
+  @name Tiffany Antopolski
+  @email tiffany.antopolski@gmail.com
+@credit
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Change how quickly the pointer moves when you use your mouse or
+      touchpad.
+
+If your pointer moves too fast or slow when you move your mouse or use
+your touchpad, you can adjust the pointer speed for these devices.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Mouse & Touchpad).
+
+* Click on $gui(Mouse & Touchpad) to open the panel.
+
+* Adjust the $gui(Pointer Speed) slider until the pointer motion is
+  comfortable for you. You will see one slider per each pointing device,
+  such as mouse or touchpad.
+
+You can set different pointer speed for each type of device. For example,
+you can have one scroll speed for a laptop touchpad and another for a mouse.
+Sometimes the most comfortable settings for one type of device are not the
+best for another.
+
+[note]
+The $gui(Touchpad) section only appears if your system has a
+touchpad, while the $gui(Mouse) section is only visible when a mouse
+is plugged in.

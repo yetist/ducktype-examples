@@ -1,0 +1,26 @@
+= My new iPod won’t work
+  [topic .problem]
+@link[guide >media#music]
+
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@desc Brand-new iPods need to be set-up using the iTunes
+      software before you can use them.
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+If you have a new iPod that has never been connected to a computer before,
+it won’t be recognized properly when you connect it to a Linux computer.
+This is because iPods need to be set up and updated using the $app(iTunes)
+software, which only runs on Windows and Mac OS.
+
+To set up your iPod, install iTunes on a Windows or Mac computer and plug
+it in. You will be led through a few steps to set it up. If asked for the
+$gui(Volume Format), choose $gui(MS-DOS (FAT)), $gui(Windows) or similar.
+The other format (HFS/Mac) does not work as well with Linux.
+
+Once you have finished setup, the iPod should work normally when you plug
+it into a Linux computer.

@@ -1,0 +1,42 @@
+@include gnome-help.defs
+
+= Check the battery status
+  [topic .task]
+@link[guide >power group="#first"]
+@link[seealso >power-batterylife]
+
+@revision[pkgversion="3.20" date="2016-06-15" status="candidate"]
+
+@credit[author copyright]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2016
+
+@xi:include[>>legal.xml]
+
+@desc Display the status of the battery and connected devices.
+
+[steps]
+. Display the status of the battery and connected devices
+
+* Open the $Activities; overview and start typing $gui(Power).
+
+* Click $gui(Power) to open the panel. The status of known devices
+  is displayed.
+
+If an internal battery is detected, the $gui(Battery) section
+displays the status of one or more laptop batteries. The indicator bar
+shows the percent charged, as well as time until fully charged if plugged
+in, and time remaining when running on battery power.
+
+[comment]
+  [cite date="2016-06-19" href="mailto:mdhillca@gmail.com"]
+    mdhill
+  Tested on a desktop machine connected to UPS, and it doesn't do this
+  yet.
+
+  [note .tip]
+    On a desktop computer connected to an $em(Uninterruptible Power
+    Supply) (UPS), the UPS charge level is shown.
+
+The $gui(Devices) section displays the status of connected devices.

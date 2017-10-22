@@ -1,0 +1,77 @@
+@include gnome-help.defs
+
+= Share your music, photos and videos
+  [topic .task version="1.0 if/1.0"]
+@link[guide >sharing]
+@link[guide >prefs-sharing]
+
+@revision[pkgversion="3.10" version="0.2" date="2013-11-02" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.14" date="2014-10-13" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="review"]
+
+@credit[author]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Share media on your local network using UPnP.
+
+[comment]
+  [cite date="2014-09-22"]
+    David King
+  The controls for sharing with specific networks, under the Networks
+  section needs to be explained, perhaps as a separate page.
+[comment]
+  [cite date="2014-10-13"]
+    Michael Hill
+  Networks section added without explanatory details.
+
+You can browse, search and play the media on your computer using a
+$sys(UPnP) or $sys(DLNA) enabled device such as a phone, TV or game
+console. Configure $gui(Media Sharing) to allow these devices to access
+the folders containing your music, photos and videos.
+
+[note .info .package]
+  You must have the $app(Rygel) package installed for $gui(Media
+  Sharing) to be visible.
+
+  [if:choose]
+    [if:when test="action:install"]
+      $link[action="install:rygel" .button](Install Rygel)
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Sharing).
+
+* Click on $gui(Sharing) to open the panel.
+
+* If $gui(Sharing) is $gui(OFF), switch it to $gui(ON).
+
+  [note .info]
+    If the text below $gui(Computer Name) allows
+    you to edit it, you can $link[>sharing-displayname](change)
+    the name your computer displays on the network.
+
+* Select $gui(Media Sharing).
+
+* Switch $gui(Media Sharing) to $gui(ON).
+
+* By default, $file(Music), $file(Pictures) and $file(Videos) are
+  shared. To remove one of these, click the $gui(×) next to the
+  folder name.
+
+* To add another folder, click $gui[.button](+) to open the
+  $gui(Choose a folder) window. Navigate $em(into) the desired
+  folder and click $gui[.button](Open).
+
+* Click $gui[.button](×). You will now be able to browse
+  or play media in the folders you selected using the external device.
+
+
+== Networks
+   [#networks]
+
+The $gui(Networks) section lists the networks to which you are
+currently connected. Use the $gui(ON | OFF) switch next to each to
+choose where your media can be shared.

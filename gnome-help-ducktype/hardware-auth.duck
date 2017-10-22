@@ -1,0 +1,20 @@
+@include gnome-help.defs
+
+= Fingerprints & smart cards
+  [guide]
+@link[guide >hardware]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@desc $link[>session-fingerprint](Fingerprint readers),
+      [-] $link[>session-smartcard](smart cards)…
+      smart cards…
+
+@xi:include[>>legal.xml]
+
+[comment]
+  [cite]
+    shaunm
+  Change the desc when we have a smart card page

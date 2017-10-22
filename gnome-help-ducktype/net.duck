@@ -1,0 +1,23 @@
+= Networking, web & email
+  [guide .task .2column]
+@link[guide >index group="net"]
+
+@revision[pkgversion="3.18" date="2015-09-29" status="candidate"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2015
+
+@desc $link[>net-wireless](Wireless),
+      $link[>net-wired](wired),
+      $link[>net-problem](connection problems),
+      $link[>net-browser](web browsing),
+      $link[>net-email](email accounts)…
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+[links topic .toronto]

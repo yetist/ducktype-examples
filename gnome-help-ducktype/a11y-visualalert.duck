@@ -1,0 +1,52 @@
+@include gnome-help.defs
+
+= Flash the screen for alert sounds
+  [topic .a11y task]
+@link[guide >a11y#sound]
+@link[seealso >sound-alert]
+
+@revision[pkgversion="3.7.1" date="2012-11-10" status="outdated"]
+@revision[pkgversion="3.9.92" date="2013-09-18" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-20" status="final"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@xi:include[>>legal.xml]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@desc Enable visual alerts to flash the screen or window when an
+      alert sound is played.
+
+Your computer will play a simple alert sound for certain types of
+messages and events. If you have a hard time hearing these sounds, you
+can have either the entire screen or your current window visually flash
+whenever the alert sound is played.
+
+This can also be useful if you’re in an environment where you need your
+computer to be silent, such as in a library. See $link[>sound-alert]
+to learn how to mute the alert sound, then enable visual alerts.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Universal Access).
+
+* Click on $gui(Universal Access) to open the panel.
+
+* Press $gui(Visual Alerts) in the $gui(Hearing) section.
+
+* Switch $gui(Visual Alerts) to $gui(ON).
+
+*  Select whether you want the entire screen or just your current window
+   title to flash.
+
+[note .tip]
+  You can quickly turn visual alerts on and off by clicking the
+  $link[>a11y-icon](accessibility icon) on the top bar and
+  selecting $gui(Visual Alerts).

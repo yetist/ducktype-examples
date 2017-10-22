@@ -1,0 +1,33 @@
+= Preview files and folders
+  [topic .task]
+@link[guide >files#common-file-tasks]
+@link[seealso >nautilus-preview]
+
+@revision[pkgversion="3.6.0" version="0.2" date="2012-10-06" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-20" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[author]
+  @name David King
+  @email amigadave@amigadave.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Quickly show and hide previews for documents, images, videos,
+      and more.
+
+You can quickly preview files without opening them in a full-blown
+application.  Select any file and press the space bar. The file will
+open in a simple preview window. Press the space bar again to dismiss
+the preview.
+
+The built-in preview supports most file formats for documents, images,
+video, and audio. In the preview, you can scroll through your documents
+or seek through your video and audio.
+
+To view a preview full-screen, press $key(F) or $key(F11). Press $key(F)
+or $key(F11) again to leave full-screen, or press the space bar to exit
+the preview completely.

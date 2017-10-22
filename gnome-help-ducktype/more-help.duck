@@ -1,0 +1,19 @@
+= Get more help
+  [guide .tip .2column]
+@link[guide >index group="more-help"]
+
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany.antopolski@gmail.com
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+
+@desc $link[>about-this-guide](Tips on using this guide),
+      $link[>get-involved](help improve this guide),
+      $link[>help-mailing-list](mailing list),
+      $link[>help-irc](IRC)
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]

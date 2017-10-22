@@ -1,0 +1,23 @@
+= Color management
+  [guide]
+@link[guide >prefs]
+@link[guide >hardware]
+
+@credit[author]
+  @name Richard Hughes
+  @email richard@hughsie.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc $link[>color-whyimportant](Why is this important),
+      $link[>color#profiles](Color profiles),
+      $link[>color#calibration](How to calibrate a device)…
+
+== Color profiles
+   [#profiles .2column]
+
+== Calibration
+   [#calibration .2column]
+
+== Problems
+   [#problems .2column]

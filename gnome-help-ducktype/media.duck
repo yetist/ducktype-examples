@@ -1,0 +1,42 @@
+@include gnome-help.defs
+
+= Sound, video & pictures
+  [guide .task]
+@link[guide >index group="media"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@desc $link[>media#photos](Digital cameras),
+      $link[>media#music](iPods),
+      $link[>media#photos](editing photos),
+      $link[>media#videos](playing videos)…
+
+@xi:include[>>legal.xml]
+
+
+== Basic sound
+   [#sound .2column]
+@title[sort] Sound
+@title[link role="trail"] Sound
+@title[link role="topic"] Sound
+@desc $link[>sound-volume](Volume),
+      $link[>sound-usespeakers](speakers and headphones),
+      $link[>sound-usemic](microphones)…
+@link[guide >prefs]
+
+
+== Music and portable audio players
+   [#music .2column]
+@title[link] Music and players
+
+
+== Photos and digital cameras
+   [#photos .2column]
+@title[link] Photos
+
+
+== Videos and video cameras
+   [#videos .2column]
+@title[link] Videos

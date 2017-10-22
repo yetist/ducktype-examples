@@ -1,0 +1,33 @@
+@include gnome-help.defs
+
+= Your desktop
+  [guide .ui]
+@link[guide >index group="shell-overview" ]
+
+@title[link role="trail"] Desktop
+
+@revision[pkgversion="3.4" date="2012-02-19" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="candidate"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2015
+
+@xi:include[>>legal.xml]
+
+@desc $link[>clock-calendar](Calendar),
+      $link[>shell-notifications](notifications),
+      $link[>shell-keyboard-shortcuts](keyboard shortcuts),
+      $link[>shell-windows](windows and workspaces)…
+
+[links topic .2column]
+
+== Customize your desktop
+   [#desktop" .2column]
+
+== Applications and windows
+   [#apps" .2column]

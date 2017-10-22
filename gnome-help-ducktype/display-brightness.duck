@@ -1,0 +1,69 @@
+@include gnome-help.defs
+
+= Set screen brightness
+  [topic .task]
+@link[guide >prefs-display]
+@link[guide >hardware-problems-graphics]
+@link[seealso >power-whydim]
+@link[seealso >a11y-contrast]
+
+@revision[pkgversion="3.8" version="0.4" date="2013-03-28" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-30" status="candidate"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Natalia Ruz Leiva
+  @email nruz@alumnos.inf.utfsm.cl 
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[author editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Change the screen brightness to make it more readable in bright
+      light.
+
+Depending on your hardware, you can change the brightness of your screen to
+save power or to make the screen more readable in bright light.
+
+To change the brightness of your screen, click the
+$gui[>shell-introduction#yourname](system menu) on the right side
+of the top bar and adjust the screen brightness slider to the value you want
+to use. The change should take effect immediately.
+
+[note .tip]
+  Many laptop keyboards have special keys to adjust the brightness. These
+  often have a picture that looks like the sun. Hold down the $key(Fn)
+  key to use these keys.
+
+You can also adjust the screen brightness by using the $gui(Power) panel.
+
+[steps]
+. To set the screen brightness using the Power panel:
+
+* Open the $Activities; overview and start typing $gui(Power).
+
+* Click $gui(Power) to open the panel.
+
+* Adjust the $gui(Screen brightness) slider to the value you want to
+  use. The change should take effect immediately.
+
+[note .tip]
+  If your computer features an integrated light sensor, the screen
+  brightness will automatically be adjusted for you. You can disable automatic
+  screen brightness in the $gui(Power) panel.
+
+If it is possible to set the brightness of your screen, you can also have
+the screen dim automatically to save power. For more information, see
+$link[>power-whydim].

@@ -1,0 +1,20 @@
+@include gnome-help.defs
+
+= Date & time
+  [guide .task]
+@link[guide >prefs]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="outdated"]
+@revision[pkgversion="3.10" date="2013-11-04" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@xi:include[>>legal.xml]
+
+@desc $link[>clock-set](Set date and time),
+      $link[>clock-world](world clocks),
+      $link[>clock-timezone](timezone),
+      $link[>clock-calendar](calendar and appointments)…

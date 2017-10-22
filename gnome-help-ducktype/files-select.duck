@@ -1,0 +1,50 @@
+@include gnome-help.defs
+
+= Select files by pattern
+  [topic .task]
+@link[guide >files#faq]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@revision[pkgversion="3.6.0" version="0.2" date="2012-09-28" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@xi:include[>>legal.xml]
+
+@desc Press $keyseq($key(Ctrl)$key(S)) to select multiple
+      files which have similar names.
+
+You can select files in a folder using a pattern on the file name.
+Press $keyseq($key(Ctrl)$key(S)) to bring up the
+$gui(Select Items Matching) window. Type in a pattern using
+common parts of the file names plus wild card characters. There are
+two wild card characters available:
+
+[list .compact]
+  * $file(*) matches any number of any characters, even no characters at all.
+  * $file(?) matches exactly one of any character.
+
+For example:
+
+* If you have an OpenDocument Text file, a PDF file, and an
+  image that all have the same base name $file(Invoice), select
+  all three with the pattern
+
+  [example]
+    $file(Invoice.*)
+
+* If you have some photos that are named like
+  $file(Vacation-001.jpg), $file(Vacation-002.jpg),
+  $file(Vacation-003.jpg); select them all with the pattern
+
+  [example]
+    $file(Vacation-???.jpg)
+
+* If you have photos as before, but you have edited some of them and
+  added $file(-edited) to the end of the file name of the photos you
+  have edited, select the edited photos with
+
+  [example]
+    $file(Vacation-???-edited.jpg)

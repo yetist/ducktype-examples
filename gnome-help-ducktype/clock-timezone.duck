@@ -1,0 +1,46 @@
+@include gnome-help.defs
+
+= Change your timezone
+  [topic .task]
+@link[guide >clock]
+
+@revision[pkgversion="3.8.0" date="2013-03-09" status="candidate"]
+@revision[pkgversion="3.10" date="2013-11-01" status="review"]
+@revision[pkgversion="3.16" date="2015-01-26" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+@credit[editor]
+  @name Jim Campbell
+  @email jcampbell@gnome.org
+
+
+@xi:include[>>legal.xml]
+
+@desc Update your time zone to your current location so that your time is correct.
+
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Date & Time).
+
+* Click on $gui(Date & Time) to open the panel.
+
+* If you have $gui(Automatic Time Zone) set to $gui(ON), your
+  time zone should update automatically if you have an internet
+  connection. To update your time zone manually, set this to
+  $gui(OFF).
+
+* Click $gui(Time Zone), then select your location on the map or
+  search for your current city.
+
+The time will be updated automatically when you select a different
+location. You may also wish to $link[>clock-set](set the clock
+manually).

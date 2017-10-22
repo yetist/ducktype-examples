@@ -1,0 +1,32 @@
+@include gnome-help.defs
+
+= Can I share my color profile?
+  [topic .task]
+@link[guide >color#calibration]
+@link[seealso >color-whatisprofile]
+@desc Sharing color profiles is never a good idea as hardware changes over time.
+
+@credit[author]
+  @name Richard Hughes
+  @email richard@hughsie.com
+@xi:include[>>legal.xml]
+
+Color profiles that you have created yourself are specific to the
+hardware and lighting conditions that you calibrated for.
+A display that has been powered for a few hundred hours
+is going to have a very different color profile to a similar display
+with the next serial number that has been lit for a thousand hours.
+  
+This means if you share your color profile with somebody, you might
+be getting them $em(closer) to calibration, but it’s misleading
+at best to say that their display is calibrated.
+  
+Similarly, unless everyone has recommended controlled lighting
+(no sunlight from windows, black walls, daylight bulbs etc.) in a
+room where viewing and editing images takes place, sharing a profile
+that you created in your own specific lighting conditions doesn’t make
+a lot of sense.
+  
+[note .warning]
+  You should carefully check the redistribution conditions for profiles
+  downloaded from vendor websites or that were created on your behalf.

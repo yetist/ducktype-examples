@@ -1,0 +1,34 @@
+@include gnome-help.defs
+
+= Set up automatic suspend
+  [topic .task]
+@link[guide >power#saving]
+@link[seealso >power-suspend]
+@link[seealso >shell-exit#suspend]
+
+@revision[pkgversion="3.20" date="2016-06-15" status="candidate"]
+
+@credit[author copyright]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2016
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Configure your computer to suspend automatically.
+
+You can configure your computer to automatically suspend when idle.
+Different intervals can be specified for running on battery or plugged in.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Power).
+
+* Click $gui(Power) to open the panel.
+
+* In the $gui(Suspend & Power Button) section, click $gui(Automatic suspend).
+
+* Choose $gui(On Battery Power) or $gui(Plugged In), set the switch to
+  $gui(ON), and select a $gui(Delay). Both options can be configured.
+
+  [note .tip]
+    On a desktop computer, there is one option labeled $gui(When Idle).

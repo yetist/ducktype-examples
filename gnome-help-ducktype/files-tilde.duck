@@ -1,0 +1,37 @@
+= What is a file with a $file(~) at the end of its name?
+  [topic .question]
+@link[guide >files#faq]
+@link[seealso >files-hidden]
+
+@revision[pkgversion="3.6.0" version="0.2" date="2012-09-28" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc These are backup files. They are hidden by default.
+
+Files with a $file(~) at the end of their names (for example,
+$file(example.txt~)) are automatically created backup copies of
+documents edited in the $app(gedit) text editor or other applications.
+It is safe to delete them, but there is no harm to leave them on your
+computer.
+
+These files are hidden by default. If you are seeing them, that is because
+you either selected $gui(Show Hidden Files) (in the view options menu
+[-] FIXME: Get a tooltip added for "View options"
+of the $app(Files) toolbar) or pressed $keyseq($key(Ctrl)$key(H)).
+You can hide them again by repeating either of these steps.
+
+These files are treated in the same way as normal hidden files. See
+$link[>files-hidden] for advice on dealing with hidden files.

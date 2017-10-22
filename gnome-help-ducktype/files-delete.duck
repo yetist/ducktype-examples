@@ -1,0 +1,78 @@
+@include gnome-help.defs
+
+= Delete files and folders
+  [topic .task]
+@link[guide >files#common-file-tasks]
+@link[seealso >files-recover]
+
+@revision[pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"]
+@revision[pkgversion="3.13.92" date="2013-09-20" status="candidate"]
+@revision[pkgversion="3.16" date="2015-02-22" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="review"]
+
+@credit[author]
+  @name Cristopher Thomas
+  @email crisnoh@gmail.com
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[author]
+  @name Jim Campbell
+  @email jcampbell@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@xi:include[>>legal.xml]
+
+@desc Remove files or folders you no longer need.
+
+If you do not want a file or folder any more, you can delete it. When you
+delete an item it is moved to the $gui(Trash) folder, where it is stored
+until you empty the trash. You can $link[>files-recover](restore
+items) in the $gui(Trash) folder to their original location if you
+decide you need them, or if they were accidentally deleted.
+
+[steps]
+. To send a file to the trash:
+
+* Select the item you want to place in the trash by clicking it once.
+
+* Press $key(Delete) on your keyboard. Alternatively, drag the
+  item to the $gui(Trash) in the sidebar.
+
+The file will be moved to the trash, and you’ll be presented with an
+option to $gui(Undo) the deletion. The $gui(Undo) button will appear
+for a few seconds. If you select $gui(Undo), the file will be restored
+to its original location.
+
+To delete files permanently, and free up disk space on your computer, you
+need to empty the trash. To empty the trash, right-click $gui(Trash) in
+the sidebar and select $gui(Empty Trash).
+
+
+== Permanently delete a file
+   [#permanent]
+
+You can immediately delete a file permanently, without having to send it
+to the trash first.
+
+[steps]
+. To permanently delete a file:
+
+* Select the item you want to delete.
+
+* Press and hold the $key(Shift) key, then press the
+  $key(Delete) key on your keyboard.
+
+* Because you cannot undo this, you will be asked to confirm that
+  you want to delete the file or folder.
+
+[note]
+  Deleted files on a $link[>files#removable](removable device)
+  may not be visible on other operating systems, such Windows or Mac
+  OS. The files are still there, and will be available when you plug the device
+  back into your computer.

@@ -1,0 +1,138 @@
+@include gnome-help.defs
+
+= Share your desktop
+  [topic .task version="1.0 if/1.0"]
+@link[guide >sharing]
+@link[guide >prefs-sharing]
+
+@revision[pkgversion="3.14" date="2015-01-25" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="review"]
+
+@credit[author]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[author]
+  @name Jim Campbell
+  @email jcampbell@gnome.org
+@xi:include[>>legal.xml]
+
+@desc Let other people view and interact with your desktop using VNC.
+
+[comment]
+  [cite date="2014-09-22"]
+    David King
+  The controls for sharing with specific networks, under the Networks
+  section needs to be explained, perhaps as a separate page.
+[comment]
+  [cite date="2014-10-13"]
+    Michael Hill
+  Networks section added without explanatory details.
+
+You can let other people view and control your desktop from another
+computer with a desktop viewing application. Configure $gui(Screen
+Sharing) to allow others to access your desktop and set the security
+preferences.
+
+[note .info .package]
+  You must have the $app(Vino) package installed for
+  $gui(Screen Sharing) to be visible.
+
+  [if:choose]
+    [if:when test="action:install"]
+      $link[action="install:vino" .button](Install Vino)
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Sharing).
+
+* Click on $gui(Sharing) to open the panel.
+
+* If $gui(Sharing) is $gui(OFF), switch it to $gui(ON).
+
+  [note .info]
+  If the text below $gui(Computer Name) allows
+  you to edit it, you can $link[>sharing-displayname](change)
+  the name your computer displays on the network.
+
+* Select $gui(Screen Sharing).
+
+* To let others view your desktop, switch $gui(Screen Sharing) to
+  $gui(ON). This means that other people will be able to attempt to
+  connect to your computer and view what’s on your screen.
+
+* To let others interact with your desktop, switch
+  $gui(Allow Remote Control) to $gui(ON). This may allow the
+  other person to move your mouse, run applications, and browse files on
+  your computer, depending on the security settings which you are currently
+  using.
+
+  [note .tip]
+    This option is enabled by default when $gui(Screen Sharing) is
+    $gui(ON).
+
+
+== Security
+   [#security]
+
+It is important that you consider the full extent of what each security
+option means before changing it.
+
+[terms]
+- New connections must ask for access
+* If you want to be able to choose whether to allow someone to access
+  your desktop, enable $gui(New connections must ask for access).  If
+  you disable this option, you will not be asked whether you want to allow
+  someone to connect to your computer.
+
+  [note .tip]
+  This option is enabled by default.
+
+- Require a Password
+* To require other people to use a password when connecting to your
+  desktop, enable $gui(Require a Password). If you do not use this
+  option, anyone can attempt to view your desktop.
+
+  [note .tip]
+  This option is disabled by default, but you should enable it and set
+  a secure password.
+
+[--
+TODO: check whether this option exists.
+- Allow access to your desktop over the Internet
+* If your router supports UPnP Internet Gateway Device Protocol and it
+  is enabled, you can allow other people who are not on your local network
+  to view your desktop. To allow this, select $gui(Automatically configure
+  UPnP router to open and forward ports). Alternatively, you can
+  configure your router manually.
+
+  [note .tip]
+  This option is disabled by default.
+--]
+
+
+== Networks
+   [#networks]
+
+The $gui(Networks) section lists the networks to which you are
+currently connected. Use the $gui(ON | OFF) switch next to each to
+choose where your desktop can be shared.
+
+
+== Stop sharing your desktop
+   [#notification-icon]
+
+You can disconnect someone who is viewing your desktop using the
+$gui(notification icon) in the message Tray. To do so:
+
+[steps]
+* Open the message tray by pressing $keyseq($key(Super)$key(M)),
+  or by moving your mouse pointer to the very bottom of your screen.
+
+* Click on the $gui(Desktop) icon in the
+  $gui(Message Tray). This will open the $app(Sharing) panel.
+
+* Select $gui(Screen Sharing).
+
+* Toggle the $gui(Screen Sharing) slider to $gui(Off).

@@ -1,0 +1,67 @@
+@include gnome-help.defs
+
+= Change which language you use
+  [topic .task]
+@link[guide >prefs-language]
+
+@revision[pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[author]
+  @name Andre Klapper
+  @email ak-47@gmx.net
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Switch to a different language for user interface and help
+      text.
+
+[comment]
+  [cite date="2012-02-19"]
+    shaunm
+  Explain how to install support for other languages. Requires us
+  to document software installation.
+
+You can use your desktop and applications in any of dozens of languages,
+provided you have the proper language packs installed on your computer.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Region & Language).
+
+* Click on $gui(Region & Language) to open the panel.
+
+* Click $gui(Language).
+
+* Select your desired region and language. If your region and language
+  are not listed, click
+  $gui($media[its:translate=no image mime=image/svg
+  src=figures/view-more-symbolic.svg]($span[its:translate=yes](…)))
+  at the bottom of the list to select from all available regions and
+  languages.
+
+* Click $gui[.button](Done) to save.
+
+* Respond to the prompt, $gui(Your session needs to be restarted for
+  changes to take effect) by clicking $gui[.button](Restart Now), or
+  click $gui[.button](×) to restart later.
+
+Some translations may be incomplete, and certain applications may not
+support your language at all. Any untranslated text will appear in the
+language in which the software was originally developed, usually American
+English.
+
+There are some special folders in your home folder where applications
+can store things like music, pictures, and documents. These folders use
+standard names according to your language. When you log back in, you will
+be asked if you want to rename these folders to the standard names for
+your selected language. If you plan to use the new language all the time,
+you should update the folder names.

@@ -1,0 +1,61 @@
+@include gnome-help.defs
+
+= Link and unlink contacts
+  [topic .task]
+@link[guide >contacts]
+@revision[pkgversion="3.5.5" date="2012-02-19" status="review"]
+@revision[pkgversion="3.8" date="2013-04-27" status="review"]
+@revision[pkgversion="3.12" date="2014-02-27" status="final"]
+@revision[pkgversion="3.15" date="2015-01-28" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="review"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany.antopolski@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[author editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Combine information for a contact from multiple sources.
+
+
+== Link contacts
+   [#link-contacts]
+
+You can combine duplicate contacts from your local address book and online
+accounts into one $app(Contacts) entry. This feature helps you keep your
+address book organized, with all details about one contact in one place.
+
+[steps]
+* Enable $em(selection mode) by pressing the tick button above the
+  contact list.
+
+* A checkbox will appear next to each contact. Tick the checkboxes next
+  to the contacts that you want to merge.
+
+* Press $gui[.button](Link) to link the selected contacts.
+
+
+== Unlink contacts
+   [#unlink-contacts]
+
+You may want to unlink contacts if you accidentally linked contacts which
+should not be linked.
+
+[steps]
+* Select the contact you wish to unlink from your list of contact.
+
+* Press $gui[.button](Edit) in the top-right corner of $app(Contacts).
+
+* Press $gui[.button](Linked Accounts).
+
+* Press $gui[.button](Unlink) to unlink the entry from the contact.
+
+* Close the window once you have finished unlinking the entries.
+
+* Press $gui[.button](Done) to finish editing the contact.

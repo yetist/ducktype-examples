@@ -1,0 +1,44 @@
+@include gnome-help.defs
+
+= What happens when I suspend my computer?
+  [topic .question]
+@link[guide >power]
+@link[seealso >power-suspendfail]
+
+@desc Suspend sends your computer to sleep so it uses less power.
+@revision[pkgversion="3.4.0" date="2012-02-20" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]
+
+
+[comment]
+  [cite date="2012-02-20" href="mailto:kittykat3756@gmail.com"]
+    Ekaterina Gerasimova
+  Should be merged into shell-exit.page
+
+When you $em(suspend) the computer, you send it to sleep. All of your
+applications and documents remain open, but the screen and other parts of the
+computer switch off to save power. The computer is still switched on though,
+and it will still be using a small amount of power. You can wake it up by
+pressing a key or clicking the mouse. If that does not work, try pressing the
+power button.
+
+Some computers have problems with hardware support which mean that they
+$link[>power-suspendfail](may not be able to suspend properly). It is
+a good idea to test suspend on your computer to see if it does work before
+relying on it.
+
+[note .important]
+  . Always save your work before suspending
+
+  You should save all of your work before suspending the computer, just in
+  case something goes wrong and your open applications and documents cannot be
+  recovered when you resume the computer again.

@@ -1,0 +1,32 @@
+@include gnome-help.defs
+
+= Which target types are supported?
+  [topic .question]
+
+@link[guide >color#calibration]
+
+@desc Calibration targets are needed to do scanner and camera profiling.
+
+@credit[author]
+  @name Richard Hughes
+  @email richard@hughsie.com
+@xi:include[>>legal.xml]
+
+The following types of targets are supported:
+
+* CMP DigitalTarget
+* ColorChecker 24
+* ColorChecker DC
+* ColorChecker SG
+* i1 RGB Scan 14
+* LaserSoft DC Pro
+* QPcard 201
+* IT8.7/2
+
+[note .tip]
+  You can purchase targets from well-known vendors like KODAK, X-Rite
+  and LaserSoft in various online shops.
+
+  Alternatively you can buy
+  targets from $link[>>http://www.targets.coloraid.de/](Wolf Faust)
+  at a very fair price.

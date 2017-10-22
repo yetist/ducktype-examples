@@ -1,0 +1,35 @@
+@include gnome-help.defs
+
+= Why did my computer turn off when the battery got to 10%?
+  [topic .question]
+@link[guide >power#faq]
+@revision[pkgversion="3.4.0" date="2012-02-20" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+@revision[pkgversion="3.20" date="2016-06-15" status="final"]
+
+@desc Allowing the battery to completely discharge is bad for it.
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+@credit[author editor]
+  @name Petr Kovar
+  @email pknbe@volny.cz
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+When the charge level of the battery gets too low, your computer will
+automatically turn off. It does this to make sure that the battery does not
+completely discharge, since this is bad for
+the battery. If the battery just ran out, the computer would not have time to
+shut down properly either.
+
+Bear in mind that when your computer automatically turns off, your
+applications and documents $em(are not) saved. To avoid losing your
+work, save it before the battery gets too low.

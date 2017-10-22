@@ -1,0 +1,51 @@
+@include gnome-help.defs
+
+= Find a lost file
+  [topic .task]
+@link[guide >files#more-file-tasks]
+
+@revision[pkgversion="3.6.0" version="0.2" date="2012-09-28" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-20" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="candidate"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@xi:include[>>legal.xml]
+
+@desc Follow these tips if you can’t find a file you created or
+      downloaded.
+
+If you created or downloaded a file, but now you cannot find it, follow
+these tips.
+
+* If you do not remember where you saved the file, but you have some
+  idea of how you named it, you can $link[>files-search](search for the
+  file by name).
+
+* If you just downloaded the file, your web browser might
+  have automatically saved it to a common folder. Check the
+  $file(Desktop) and $file(Downloads) folders in your home
+  folder.
+
+* You might have accidentally deleted the file. When you delete
+  a file, it gets moved to the trash, where it stays until you manually
+  empty the trash. See $link[>files-recover] to learn how to
+  recover a deleted file.
+
+* You might have renamed the file in a way that made the file hidden.
+  Files that start with a $file(.) or end with a $file(~) are
+  hidden in the file manager. Click the
+  [-] FIXME: Get a tooltip added for "View options"
+  view options button in the $app(Files) toolbar and enable $gui(Show
+  Hidden Files) to display them. See $link[>files-hidden] to learn more.

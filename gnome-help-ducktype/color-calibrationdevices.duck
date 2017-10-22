@@ -1,0 +1,44 @@
+@include gnome-help.defs
+
+= What color measuring instruments are supported?
+  [topic .task]
+@link[guide >color#calibration]
+
+@desc We support a large number of calibration devices.
+
+@credit[author]
+  @name Richard Hughes
+  @email richard@hughsie.com
+
+@xi:include[>>legal.xml]
+
+
+GNOME relies on the Argyll color management system to support
+color instruments. Thus the following display measuring instruments
+are supported:
+  
+
+* Gretag-Macbeth i1 Pro (spectrometer)
+* Gretag-Macbeth i1 Monitor (spectrometer)
+* Gretag-Macbeth i1 Display 1, 2 or LT (colorimeter)
+* X-Rite i1 Display Pro (colorimeter)
+* X-Rite ColorMunki Design or Photo (spectrometer)
+* X-Rite ColorMunki Create (colorimeter)
+* X-Rite ColorMunki Display (colorimeter)
+* Pantone Huey (colorimeter)
+* MonacoOPTIX (colorimeter)
+* ColorVision Spyder 2 and 3 (colorimeter)
+* Colorimètre HCFR (colorimeter)
+
+[note .tip]
+The Pantone Huey is currently the cheapest and best supported hardware in Linux.
+
+Thanks to Argyll there’s also a number of spot and strip reading
+reflective spectrometers supported to help you calibrating and
+characterizing your printers:
+  
+* X-Rite DTP20 “Pulse” (“swipe” type reflective spectrometer)
+* X-Rite DTP22 Digital Swatchbook (spot type reflective spectrometer)
+* X-Rite DTP41 (spot and strip reading reflective spectrometer)
+* X-Rite DTP41T (spot and strip reading reflective spectrometer)
+* X-Rite DTP51 (spot reading reflective spectrometer)

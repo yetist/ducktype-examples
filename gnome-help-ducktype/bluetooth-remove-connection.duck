@@ -1,0 +1,67 @@
+@include gnome-help.defs
+
+= Disconnect a Bluetooth device
+  [guide .task version="1.0 if/1.0"]
+
+@link[guide >bluetooth]
+
+@revision[pkgversion="3.4" date="2012-02-19" status="outdated"]
+@revision[pkgversion="3.10" date="2013-11-07" status="review"]
+@revision[pkgversion="3.12" date="2014-03-04" status="candidate"]
+@revision[pkgversion="3.13" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+@credit[author]
+  @name Paul W. Frields
+  @email stickster@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2014
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2014
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+  @years 2015
+
+@xi:include[>>legal.xml]
+
+@desc Remove a device from the list of Bluetooth devices.
+
+If you do not want to be connected to a Bluetooth device anymore, you can
+remove the connection. This is useful if you no longer want to use a device
+like a mouse or headset, or if you no longer wish to transfer files to or
+from a device.
+
+[comment]
+  [cite date="2013-11-08" href="mailto:mdhillca@gmail.com"]
+    mdhill
+  The second step needs to be fixed for Unity instructions.
+
+[steps]
+* [if:choose]
+    [if:when test="platform:unity"]
+      Click the Bluetooth icon in the $gui(menu bar) and select $gui(Bluetooth
+      Settings).
+
+    Open the $Activities; overview and start typing $gui(Bluetooth).
+
+* [if:choose]
+    [if:when test="platform:unity"]
+      Select $gui(Bluetooth Settings) to open the panel.
+
+    Click on $gui(Bluetooth) to open the panel.
+
+* Select the device which you want to disconnect from the list.
+
+* In the device dialog box, switch $gui(Connection) to $gui(OFF), or to
+  remove the device from the $gui(Devices) list, click $gui(Remove Device).
+
+You can $link[>bluetooth-connect-device](reconnect a Bluetooth
+device) later if desired.

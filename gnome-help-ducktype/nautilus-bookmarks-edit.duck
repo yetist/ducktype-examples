@@ -1,0 +1,50 @@
+@include gnome-help.defs
+
+= Edit folder bookmarks
+  [topic .task]
+@link[guide >files#faq]
+
+@revision[pkgversion="3.6.0" version="0.2" date="2012-09-30" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="review"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany.antopolski@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@xi:include[>>legal.xml]
+
+@desc Add, delete, and rename bookmarks in the file manager.
+
+Your bookmarks are listed in the sidebar of the file manager.
+
+[steps]
+. Add a bookmark:
+
+* Open the folder (or location) that you want to bookmark.
+
+* Click the window menu in the toolbar and pick $gui(Bookmark this Location).
+
+[steps]
+. Delete a bookmark:
+
+* Right-click on the bookmark in the sidebar and select
+  $gui(Remove) from the menu.
+
+[steps]
+. Rename a bookmark:
+* Right-click on the bookmark in the sidebar and select $gui(Rename…).
+
+* In the $gui(Name) text box, type the new name for the bookmark.
+
+  [note]
+  Renaming a bookmark does not rename the folder. If you have bookmarks to
+  two different folders in two different locations, but which each have the
+  same name, the bookmarks will have the same name, and you won’t be able
+  to tell them apart. In these cases, it is useful to give a bookmark a
+  name other than the name of the folder it points to.

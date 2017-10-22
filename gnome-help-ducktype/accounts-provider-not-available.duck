@@ -1,0 +1,28 @@
+@include gnome-help.defs
+
+= Why is my account type not on the list?
+  [topic .question]
+@link[guide >accounts]
+
+@revision[pkgversion="3.5.5" date="2012-08-14" status="review"]
+@revision[pkgversion="3.9.92" date="2013-09-18" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Baptiste Mille-Mathias
+  @email baptistem@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc What if an online service provider is not listed?
+
+Support for your favorite online service provider needs someone to develop
+it. Only the account types that are listed are currently supported.
+
+[note .advanced]
+If you are interested in adding support for other services, contact the
+developers on the
+$link[>>https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-online-accounts](bug tracker).

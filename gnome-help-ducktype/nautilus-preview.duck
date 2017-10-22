@@ -1,0 +1,45 @@
+= File manager preview preferences
+  [topic .ui]
+@link[guide >nautilus-prefs group="nautilus-preview"]
+
+@revision[pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"]
+@revision[pkgversion="3.18" date="2015-09-30" status="candidate"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Control when thumbnails are used for files.
+
+The file manager creates thumbnails to preview image, video, and text
+files. Thumbnail previews can be slow for large files or over networks, so
+you can control when previews are made. Click $gui(Files) in the top bar,
+pick $gui(Preferences) and select the $gui(Preview) tab.
+
+[terms]
+- $gui(Files)
+* By default, all previews are done for $gui(Local Files Only), those on your
+  computer or connected external drives. You can set this feature to $gui(Always)
+  or $gui(Never). The file manager can $link[>nautilus-connect](browse files on
+  other computers) over a local area network or the internet. If you often browse
+  files over a local area network, and the network has high bandwidth, you may
+  want to set the preview option to $gui(Always).
+
+  In addition, you can use the $gui(Only for files smaller than) setting to
+  limit the size of files previewed.
+
+- $gui(Folders)
+* If you show file sizes in $link[>nautilus-list](list view columns) or
+  $link[>nautilus-display#icon-captions](icon captions), folders will be shown
+  with a count of how many files and folders they contain. Counting items in a
+  folder can be slow, especially for very large folders, or over a network.
+  You can turn this feature on or off, or turn it on only for files on your
+  computer and local external drives.

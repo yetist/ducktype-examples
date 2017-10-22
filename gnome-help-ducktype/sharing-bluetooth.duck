@@ -1,0 +1,45 @@
+@include gnome-help.defs
+
+= Control sharing over Bluetooth
+  [topic .task]
+@link[guide >bluetooth]
+@link[guide >sharing]
+@link[guide >prefs-sharing]
+
+@revision[pkgversion="3.8.2" date="2013-05-13" status="draft"]
+@revision[pkgversion="3.10" date="2013-11-09" status="review"]
+@revision[pkgversion="3.12" date="2014-03-08" status="candidate"]
+@revision[pkgversion="3.14" date="2014-10-13" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2014
+@credit[author]
+  @name David King
+  @email davidk@gnome.org
+  @years 2014-2015
+
+@xi:include[>>legal.xml]
+
+@desc Allow files to be uploaded to your computer over Bluetooth.
+
+You can enable $gui(Bluetooth) sharing to receive files over
+Bluetooth in the $file(Downloads) folder
+
+[steps]
+. Allow files to be shared into your $file(Downloads) folder
+* Open the $Activities; overview and start typing $gui(Bluetooth).
+
+* Click on $gui(Bluetooth) to open the panel.
+
+* Make sure that $link[>bluetooth-turn-on-off]($gui(Bluetooth)
+  is switched on).
+
+* Bluetooth-enabled devices can send files to your $file(Downloads)
+  folder only when the $gui(Bluetooth) panel is open.
+
+[note .tip]
+You can $link[>sharing-displayname](change) the name your
+computer displays to other devices.

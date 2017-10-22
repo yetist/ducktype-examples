@@ -1,0 +1,49 @@
+@include gnome-help.defs
+
+= Pin your favorite apps to the dash
+  [topic .task version="1.0 if/1.0"]
+@link[seealso >shell-apps-open]
+@link[guide >shell-overview#desktop]
+
+@revision[pkgversion="3.6.0" date="2012-10-14" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Jana Svarova
+  @email jana.svarova@gmail.com
+  @years 2013
+
+@xi:include[>>legal.xml]
+
+@desc Add (or remove) frequently-used program icons on the dash.
+
+To add an application to the $link[>shell-introduction#activities](dash)
+for easy access:
+
+[steps]
+* [p if:test="!platform:gnome-classic"]
+    Open the $Activities; overview by clicking $gui(Activities) at the
+    top left of the screen.
+  [p if:test="platform:gnome-classic"]
+    Click the $gui[>shell-introduction#activities](Applications) menu
+    at the top left of the screen and choose the $gui(Activities Overview)
+    item from the menu.
+
+* Click the grid button in the dash and find the application you want to add.
+
+* Right-click the application icon and select $gui(Add to Favorites).
+
+  Alternatively, you can click-and-drag the icon into the dash.
+
+To remove an application icon from the dash, right-click the application
+icon and select $gui(Remove from Favorites).
+
+[note .tip if:test="platform:gnome-classic"]
+  Favorite applications also appear in the $gui(Favorites) section of the
+  $gui[>shell-introduction#activities](Applications) menu.

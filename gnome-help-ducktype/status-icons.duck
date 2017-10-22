@@ -1,0 +1,275 @@
+@include gnome-help.defs
+
+= What do the icons in the top bar mean?
+  [topic .ui version="1.0 if/1.0"]
+@link[guide >shell-overview#apps]
+
+@revision[version="0.1" date="2013-02-23" status="review"]
+
+@credit[author copyright]
+  @name Monica Kochofar
+  @email monicakochofar@gmail.com
+  @years 2012
+
+@xi:include[>>legal.xml]
+
+@desc Explains the meanings of the icons located on the right of the top bar.
+
+This section explains the meaning of icons located on the top right
+corner of the screen. More specifically, the different variations of
+the icons provided by the GNOME interface are described.
+
+[if:choose]
+  [if:when test="!platform:gnome-classic"]
+    [media image src=figures/top-bar-icons.png .floatend]
+      GNOME Shell top bar
+  [if:when test="platform:gnome-classic"]
+    [media image src=figures/top-bar-icons-classic.png width=395 height=70 .floatend]
+      GNOME Shell top bar
+
+[links section]
+
+
+== Universal Access Menu Icons
+   [#universalicons]
+
+[table shade="rows"]
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/preferences-desktop-accessibility-symbolic.svg]
+* Leads to a menu that turns on accessibility settings.
+
+
+== Volume Control Icons
+   [#audioicons]
+
+[table shade="rows"]
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/audio-volume-high-symbolic.svg]
+* The volume is set to high.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/audio-volume-medium-symbolic.svg]
+* The volume is set to medium.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/audio-volume-low-symbolic.svg]
+* The volume is set to low.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/audio-volume-muted-symbolic.svg]
+* The volume is muted.
+
+
+== Bluetooth Manager Icons
+   [#bluetoothicons]
+
+[table shade="rows"]
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/bluetooth-active-symbolic.svg]
+* Bluetooth has been activated.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/bluetooth-disabled-symbolic.svg]
+* Bluetooth has been disabled.
+
+
+== Network Manager Icons
+   [#networkicons]
+
+$app(Cellular Connection)
+
+[table shade="rows"]
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-3g-symbolic.svg]
+* Connected to a 3G network.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-4g-symbolic.svg]
+* Connected to a 4G network.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-edge-symbolic.svg]
+* Connected to an EDGE network.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-gprs-symbolic.svg]
+* Connected to a GPRS network.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-umts-symbolic.svg]
+* Connected to a UMTS network.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-connected-symbolic.svg]
+* Connected to a cellular network.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-acquiring-symbolic.svg]
+* Acquiring a cellular network connection.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-signal-excellent-symbolic.svg]
+* Very high signal strength.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-signal-good-symbolic.svg]
+* High signal strength.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-signal-ok-symbolic.svg]
+* Medium signal strength.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-signal-weak-symbolic.svg]
+* Low signal strength.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-cellular-signal-none-symbolic.svg]
+* Extremely low signal strength.
+
+
+$app(Local Area Network (LAN) Connection)
+
+[table shade="rows"]
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-error-symbolic.svg]
+* There has been an error in finding the network.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-idle-symbolic.svg]
+* The network is inactive.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-no-route-symbolic.svg]
+* There is no route found for the network.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-offline-symbolic.svg]
+* The network is offline.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-receive-symbolic.svg]
+* The network is receiving data.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-transmit-receive-symbolic.svg]
+* The network is transmitting and receiving data.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-transmit-symbolic.svg]
+* The network is transmitting data.
+
+
+$app(Virtual Private Network (VPN) Connection)
+
+[table shade="rows"]
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-vpn-acquiring-symbolic.svg]
+* Acquiring a network connection.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-vpn-symbolic.svg]
+* Connected to a VPN network.
+
+
+$app(Wired Connection)
+[table shade="rows"]
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wired-acquiring-symbolic.svg]
+* Acquiring a network connection.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wired-disconnected-symbolic.svg]
+* Disconnected from the network.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wired-symbolic.svg]
+* Connected to a wired network.
+
+
+$app(Wireless Connection)
+[table shade="rows"]
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wireless-acquiring-symbolic.svg]
+* Acquiring a wireless connection.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wireless-encrypted-symbolic.svg]
+* The wireless network is encrypted.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wireless-connected-symbolic.svg]
+* Connected to a wireless network.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wireless-signal-excellent-symbolic.svg]
+* Very high signal strength.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wireless-signal-good-symbolic.svg]
+* High signal strength.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wireless-signal-ok-symbolic.svg]
+* Medium signal strength.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wireless-signal-weak-symbolic.svg]
+* Low signal strength.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/network-wireless-signal-none-symbolic.svg]
+* Very low signal strength.
+
+
+== Power Manager Icons
+   [#batteryicons]
+
+[table shade="rows"]
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-full-symbolic.svg]
+* The battery is full.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-good-symbolic.svg]
+* The battery is partially drained.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-low-symbolic.svg]
+* The battery is low.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-caution-symbolic.svg]
+* Caution: The battery is very low.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-empty-symbolic.svg]
+* The battery is extremely low.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-missing-symbolic.svg]
+* The battery has been unplugged.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-full-charged-symbolic.svg]
+* The battery is fully charged.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-full-charging-symbolic.svg]
+* The battery is full and charging.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-good-charging-symbolic.svg]
+* The battery is partially full and charging.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-low-charging-symbolic.svg]
+* The battery is low and charging.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-caution-charging-symbolic.svg]
+* The battery is very low and charging.
+
+[tr]
+* $media[its:translate=no image mime=image/svg src=figures/battery-empty-charging-symbolic.svg]
+* The battery is empty and charging.

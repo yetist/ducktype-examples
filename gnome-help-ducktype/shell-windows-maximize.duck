@@ -1,0 +1,40 @@
+@include gnome-help.defs
+
+= Maximize and unmaximize a window
+  [topic .task version="1.0 if/1.0"]
+@link[guide >shell-windows#working-with-windows]
+@link[seealso >shell-windows-tiled]
+
+@revision[pkgversion="3.4.0" date="2012-03-14" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@xi:include[>>legal.xml]
+
+@desc Double-click or drag a titlebar to maximize or restore a
+      window.
+
+You can maximize a window to take up all of the space on your desktop
+and unmaximize a window to restore it to its normal size. You can also
+maximize windows vertically along the left and right sides of the screen,
+so you can easily look at two windows at once. See
+$link[>shell-windows-tiled] for details.
+
+To maximize a window, grab the titlebar and drag it to the top of the
+screen, or just double-click the titlebar. To maximize a window using the
+keyboard, hold down the $key[>keyboard-key-super](Super) key and
+press $key($2191;), or press $keyseq($key(Alt)$key(F10)).
+
+[p if:test="platform:gnome-classic"]
+You can also maximize a window by clicking the maximize button in the titlebar.
+
+To restore a window to its unmaximized size, drag it away from the edges
+of the screen. If the window is fully maximized, you can double-click the
+titlebar to restore it. You can also use the same keyboard shortcuts you
+used to maximize the window.
+
+[note .tip]
+  Hold down the $key(Super) key and drag anywhere in a window to move it.

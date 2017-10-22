@@ -1,0 +1,50 @@
+@include gnome-help.defs
+
+= Change date and measurement formats
+  [topic .task]
+@link[guide >prefs-language]
+@link[seealso >session-language]
+
+@revision[pkgversion="3.10" version="0.4" date="2013-11-03" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Choose a region used for date and time, numbers, currency,
+      and measurement.
+
+You can control the formats that are used for dates, times, numbers,
+currency, and measurement to match the local customs of your region.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Region & Language).
+
+* Click on $gui(Region & Language) to open the panel.
+
+* Click $gui(Formats).
+
+* Select the region and language that most closely matches the formats
+  you would like to use. If your region and language are not listed, click
+  $gui($media[its:translate=no image mime=image/svg
+  src=figures/view-more-symbolic.svg]($span[its:translate=yes](…)))
+  at the bottom of the list to select from all available regions and
+  languages.
+
+* Click $gui[.button](Done) to save.
+
+* Respond to the prompt, $gui(Your session needs to be restarted for
+  changes to take effect) by clicking
+  $gui[.button](Restart Now), or click
+  $gui[.button](×) to restart later.
+
+After you have selected a region, the area to the right of the list shows
+various examples of how dates and other values are shown. Although not shown
+in the examples, your region also controls the starting day of the week in
+calendars.

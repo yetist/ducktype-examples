@@ -1,0 +1,89 @@
+@include gnome-help.defs
+
+= Print a booklet on a single-sided printer
+  [topic .task]
+@link[guide >printing-booklet]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="candidate"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany@antopolski.com
+@credit[author editor]
+  @name Petr Kovar
+  @email pknbe@volny.cz
+
+@xi:include[>>legal.xml]
+
+@desc Print a booklet from a PDF using a single-sided printer.
+
+[note]
+  These instructions are for printing a booklet from a PDF document.
+
+  If you want to print a booklet from a $app(LibreOffice) document,
+  first export it to a PDF by choosing $guiseq($gui(File)$gui(Export
+  as PDF…)). Your document needs to have a multiple of 4
+  number of pages (4, 8, 12, 16,…). You may need to add up to 3 blank
+  pages.
+
+To print:
+
+[steps]
+* Open the print dialog. This can normally be done through
+  $gui[.menuitem](Print) in the menu or using the
+  $keyseq($key(Ctrl)$key(P)) keyboard shortcut.
+
+* Click the $gui(Properties…) button
+
+  In the $gui(Orientation) drop-down list, make sure that
+  $gui(Landscape) is selected.
+
+  Click $gui(OK) to go back to the print dialog.
+
+* Under $gui(Range and Copies), choose $gui(Pages).
+
+  Type the numbers of the pages in this order (n is the total number of
+  pages, and a multiple of 4):
+
+  n, 1, 2, n-1, n-2, 3, 4, n-3, n-4, 5, 6, n-5, n-6, 7, 8, n-7, n-8, 9,
+  10, n-9, n-10, 11, 12, n-11…
+
+  …until you have typed all of the pages.
+
+  [note]
+    Examples:
+
+    4 page booklet: Type $input(4,1,2,3)
+
+    8 page booklet: Type $input(8,1,2,7,6,3,4,5)
+
+    12 page booklet: Type $input(12,1,2,11,10,3,4,9,8,5,6,7)
+
+    16 page booklet: Type $input(16,1,2,15,14,3,4,13,12,5,6,11,10,7,8,9)
+
+    20 page booklet: Type $input(20,1,2,19,18,3,4,17,16,5,6,15,14,7,8,13,12,9,10,11)
+
+* Choose the $gui(Page Layout) tab.
+
+  Under $gui(Layout), select $gui(Brochure).
+
+  Under $gui(Page Sides), in the $gui(Include) drop-down list,
+  select $gui(Front sides / right pages).
+
+* Click $gui(Print).
+
+* When all the pages have printed, flip the pages over and place them
+  back in the printer.
+
+* Open the print dialog. This can normally be done through
+  $gui[.menuitem](Print) in the menu or using the
+  $keyseq($key(Ctrl)$key(P)) keyboard shortcut.
+
+* Choose the $gui(Page Layout) tab.
+
+  Under $gui(Page Sides), in the $gui(Include) drop-down list,
+  select $gui(Back sides / left pages).
+
+* Click $gui(Print).

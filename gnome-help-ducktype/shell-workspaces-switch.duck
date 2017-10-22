@@ -1,0 +1,49 @@
+@include gnome-help.defs
+
+= Switch between workspaces
+  [topic .task version="1.0 if/1.0"]
+@link[guide >shell-windows#working-with-workspaces]
+@link[seealso >shell-workspaces]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@xi:include[>>legal.xml]
+
+@desc Use the workspace selector.
+
+[steps]
+. Using the mouse:
+
+* [p if:test="!platform:gnome-classic"]
+  Open the $Activities; overview.
+
+  [p if:test="platform:gnome-classic"]
+  At the top left of the screen, click the
+  $gui[>shell-introduction#activities](Applications) menu and choose 
+  $gui(Activities Overview).
+
+* Click on a workspace in the $link[>shell-workspaces](workspace
+  selector) on the right side of the screen to view the open windows on
+  that workspace.
+
+* Click on any window thumbnail to activate the workspace.
+ 
+[p if:test="platform:gnome-classic"]
+Alternatively, you can switch between workspaces by clicking the workspace
+identifier at the right-hand side of the window list on the bottom bar and
+selecting the workspace you want to use from the menu.
+
+[list]
+. Using the keyboard:  
+* Press $keyseq($Super;$key(Page Up)) or $keyseq($key(Ctrl)$key(Alt)$key(Up))
+  to move to the workspace shown above the current workspace in the workspace
+  selector.
+
+* Press $keyseq($key(Super)$key(Page Down)) or
+  $keyseq($key(Ctrl)$key(Alt)$key(Down)) to move to the workspace shown below
+  the current workspace in the workspace selector.

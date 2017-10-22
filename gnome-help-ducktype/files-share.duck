@@ -1,0 +1,60 @@
+@include gnome-help.defs
+
+= Share files by email
+  [topic .task]
+@link[guide >files#more-file-tasks]
+@link[guide >sharing]
+@link[seealso >nautilus-connect]
+
+@revision[pkgversion="3.8.2" version="0.3" date="2013-05-11" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Easily transfer files to your email contacts from the file
+      manager.
+
+[comment]
+  [cite date="2012-02-20"]
+    jim
+  If we get gnome-user-share integrated eventually, we should discuss
+  or link that here.
+[comment]
+  [cite date="2013-05-11" href="mailto:mdhillca@gmail.com"]
+    mdhill
+  All functionality except email removed for 3.8 per Bug 680983.
+
+You can easily share files with your contacts by email directly from the
+file manager.
+
+[note .important]
+  Before you begin, make sure $app(Evolution) or $app(Geary) is
+  installed on your computer, and your email account is configured.
+
+[steps]
+. To share a file by email:
+
+* Open the $app(Files) application from the $Activities; overview.
+
+* Locate the file you want to transfer.
+
+* Right-click the file and select $gui(Send to…). An email compose
+  window will appear with the file attached.
+
+* Click $gui(To) to choose a contact, or enter an email address
+  where you want to send the file. Fill in the $gui(Subject) and the body
+  of the message as required and click $gui(Send).
+
+[note .tip]
+  You can send multiple files at once. Select multiple files by holding
+  down $key(Ctrl) while clicking the files, then right-click any selected
+  file.

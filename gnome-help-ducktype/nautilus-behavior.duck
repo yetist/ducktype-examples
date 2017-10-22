@@ -1,0 +1,100 @@
+= File manager behavior preferences
+  [topic .ui]
+@link[guide >nautilus-prefs group="nautilus-behavior"]
+
+@desc Single-click to open files, run or view executable
+      text files, and specify trash behavior.
+
+@revision[pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="candidate"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany@antopolski.com
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Sindhu S
+  @email sindhus@live.in
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+You can control whether you single-click or double-click files, how
+executable text files are handled, and the trash behavior. Click
+$gui(Files) in the top bar, pick $gui(Preferences) and select the
+$gui(Behavior) tab.
+
+
+== Behavior
+   [#behavior]
+
+[terms]
+- $gui(Single click to open items)
+- $gui(Double click to open items)
+* By default, clicking selects files and double-clicking opens them.
+  You can instead choose to have files and folders open when you click on
+  them once. When you use single-click mode, you can hold down the
+  $key(Ctrl) key while clicking to select one or more files.
+
+
+== Executable text files
+   [#executable]
+
+An executable text file is a file that contains a program that you can run
+(execute). The $link[>nautilus-file-properties-permissions](file permissions)
+must also allow for the file to run as a program. The most common are $sys(Shell),
+$sys(Python) and $sys(Perl) scripts. These have extensions $file(.sh),
+$file(.py) and $file(.pl), respectively.
+ 
+When you open an executable text file, you can select from:
+
+* $gui(Run executable text files when they are opened)
+
+* $gui(View executable text files when they are opened)
+
+* $gui(Ask each time)
+
+If $gui(Ask each time) is selected, a dialog will pop up asking if you
+wish to run or view the selected text file.
+
+[comment]
+  [cite date="2015-09-29"]
+    amigadave
+  This "section" should be split out to a separate page. It is not related
+  to the preferences nor behaviour settings of Nautilus, although it could be a
+  a seealso link from this page.
+
+Executable text files are also called $em(scripts). All scripts in the
+$file(~/.local/share/nautilus/scripts) folder will appear in the context
+menu for a file under the $gui[.menuitem](Scripts) submenu. When a script
+is executed from a local folder, all selected files will be pasted to
+the script as parameters. To execute a script on a file:
+
+[steps]
+* Navigate to the desired folder.
+* Select the desired file.
+* Right click on the file to open the context menu and select the desired
+  script to execute from the $gui[.menuitem](Scripts) menu.
+
+[note .important]
+A script will not be passed any parameters when executed from a remote
+folder such as a folder showing web or $sys(ftp) content.
+
+
+== Trash
+   [#trash]
+@link[seealso >files-delete]
+@title[link] File manager trash preferences
+
+[terms]
+- $gui(Ask before emptying the Trash)
+* This option is selected by default. When emptying the trash, a message
+  will be displayed confirming that you would like to empty the trash or
+  delete files.

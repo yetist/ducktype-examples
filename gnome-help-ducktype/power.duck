@@ -1,0 +1,43 @@
+@include gnome-help.defs
+
+= Power & battery
+  [guide .2column .task]
+@link[guide >prefs]
+@link[guide >hardware]
+
+@revision[pkgversion="3.8" date="2013-02-26" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+@revision[pkgversion="3.20" date="2016-06-15" status="final"]
+
+@credit[author]
+  @name Natalia Ruz
+  @email nruz@alumnos.inf.utfsm.cl
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc $link[>power-status](Battery status),
+      $link[>power-suspend](suspend),
+      $link[>power-whydim](screen dimming)…
+
+[comment]
+  [cite date="2012-02-19"]
+    shaunm
+  Could use some organization work
+
+
+== Power saving settings
+   [#saving .2column]
+
+
+== Questions
+   [#faq .2column]
+
+
+== Problems
+   [#problems .2column]
+@title[link] Power problems
+@link[guide >hardware#problems]
+@desc Troubleshoot problems with power and batteries.

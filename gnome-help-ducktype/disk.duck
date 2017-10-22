@@ -1,0 +1,19 @@
+@include gnome-help.defs
+
+= Disks & storage
+  [guide .task]
+@link[guide >hardware]
+
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+
+@desc $link[>disk-capacity](Disk space),
+      $link[>disk-benchmark](performance),
+      $link[>disk-check](problems),
+      $link[>disk-partitions](volumes and partitions)…
+
+@xi:include[>>legal.xml]

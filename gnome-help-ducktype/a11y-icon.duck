@@ -1,0 +1,46 @@
+@include gnome-help.defs
+
+= Find the universal access menu
+  [topic .task a11y]
+@link[guide >a11y]
+
+@revision[pkgversion="3.9.92" date="2013-09-18" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-20" status="final"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@xi:include[>>legal.xml]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+
+@desc The universal access menu is the icon on the top bar that looks like
+      a person.
+
+The $em(universal access menu) is where you can turn on some of the
+accessibility settings. You can find this menu by clicking the icon which
+looks like a person surrounded by a circle on the top bar.
+
+[figure]
+  [desc]
+    The universal access menu can be found on the top bar.
+  [media its:translate=no image mime=image/png src=figures/universal-access-menu.png]
+
+If you do not see the universal access menu, you can enable it from the
+$gui(Universal Access) settings panel:
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Universal Access).
+
+* Click on $gui(Universal Access) to open the panel.
+
+* Switch $gui(Always Show Universal Access Menu) to $gui(ON).
+
+To access this menu using the keyboard rather than the mouse, press
+$keyseq($key(Ctrl)$key(Alt)$key(Tab)) to move the
+keyboard focus to the top bar. A white line will appear underneath the
+$gui(Activities) button — this tells you which item on the top bar is
+selected. Use the arrow keys on the keyboard to move the white line under the
+universal access menu icon and then press $key(Enter) to open it. You
+can use the up and down arrow keys to select items in the menu. Press
+$key(Enter) to toggle the selected item.

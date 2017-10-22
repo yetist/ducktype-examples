@@ -1,0 +1,54 @@
+@include gnome-help.defs
+
+= Files, folders & search
+  [guide .task version="1.0 if/1.0"]
+@link[guide >index group="files"]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="outdated"]
+@revision[pkgversion="3.10" date="2013-11-07" status="review"]
+@revision[pkgversion="3.12" date="2014-03-02" status="review"]
+@revision[pkgversion="3.16" date="2015-01-27" status="review"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Jim Campbell
+  @email jcampbell@gnome.org
+
+@title[link role=trail] Files
+
+@desc $link[>files-search](Searching),
+      $link[>files-delete](delete files),
+      $link[>files#backup](backups),
+      $link[>files#removable](removable drives)…
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+
+== Common tasks
+   [#common-file-tasks]
+[links topic .2column]
+
+
+== More file-related tasks
+   [#more-file-tasks]
+[links topic .2column]
+
+
+== Removable drives and external disks
+   [#removable]
+[links topic .2column]
+
+
+== Backing up
+   [#backup]
+[links topic .2column]
+
+
+== Tips and questions
+   [#faq]
+[links topic .2column]

@@ -1,0 +1,75 @@
+= Add a new user account
+  [topic .task]
+@link[guide >user-accounts#manage group=#first]
+
+@revision[pkgversion="3.8" date="2013-03-09" status="candidate"]
+@revision[pkgversion="3.10" date="2013-11-01" status="review"]
+@revision[pkgversion="3.13.92" date="2013-11-01" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Add new users so that other people can log in to the computer.
+
+
+You can add multiple user accounts to your computer. Give one account to
+each person in your household or company. Every user has their own home
+folder, documents, and settings.
+
+You need $link[>user-admin-explain](administrator privileges) to add
+user accounts.
+
+[steps]
+* Open the $gui[>shell-introduction#activities](Activities) overview and
+  start typing $gui(Users).
+
+* Click on $gui(Users) to open the panel.
+
+* Press $gui[.button](Unlock) in the top right corner and type in your
+  password when prompted.
+
+* Press the $gui[.button](+) button, below the list of accounts on the
+  left, to add a new user account.
+
+* If you want the new user to have $link[>user-admin-explain](administrative
+  access) to the computer, select $gui(Administrator) for the account type.
+
+  Administrators can do things like add and delete users, install software
+  and drivers, and change the date and time.
+
+* Enter the new user’s full name. The username will be filled in automatically
+  based on the full name. If you do not like the proposed username, you can
+  change it.
+
+* You can choose to set a password for the new user, or let them set it
+  themselves on their first login.
+
+  If you choose to set the password now, you can press the
+  $gui[.button]($media[its:translate=no image src=figures/system-run-symbolic.svg
+  width=16 height=16]($span[its:translate=yes](generate password))) icon to
+  automatically generate a random password.
+
+* Click $gui(Add).
+
+If you want to change the password after creating the account, select the
+account, $gui[.button](Unlock) the panel and press the current password
+status.
+
+[note]
+In the $gui(Users) panel, you can click the image next to the
+user’s name to the right to set an image for the account. This image will
+be shown in the login window. GNOME provides some stock photos you can use,
+or you can select your own or take a picture with your webcam.

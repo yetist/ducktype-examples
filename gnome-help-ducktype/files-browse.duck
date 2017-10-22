@@ -1,0 +1,78 @@
+@include gnome-help.defs
+
+= Browse files and folders
+  [topic .task]
+@link[guide >files#common-file-tasks]
+@link[seealso >files-copy]
+
+@revision[pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-20" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="review"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany.antopolski@gmail.com
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Manage and organize files with the file manager.
+
+[comment]
+  This page is a feature overview. There should be a greater visual
+  separation between features. Small illustrative figures should be used
+  to display these features where appropriate, and video demonstrations of
+  some of the features might be useful too. Explain how you can add things to
+  the sidebar (link to a topic or explain it here).
+
+Use the $app(Files) file manager to browse and organize the files on your
+computer. You can also use it to manage files on storage devices (like
+external hard disks), on $link[>nautilus-connect](file servers), and
+on network shares.
+
+To start the file manager, open $app(Files) in the $Activities; overview.
+You can also search for files and folders through the overview in the same
+way you would $link[>shell-apps-open](search for applications).
+
+
+== Exploring the contents of folders
+   [#files-view-folder-contents]
+
+In the file manager, double-click any folder to view its contents, and
+double-click or $link[>mouse-middleclick](middle-click) any file to
+open it with the default application for that file. Middle-click a folder to
+open it in a new tab. You can also right-click a folder to open it in a new tab
+or new window.
+
+When looking through the files in a folder, you can quickly
+$link[>files-preview](preview each file) by pressing the space bar to be
+sure you have the right file before opening it, copying it, or deleting it.
+
+The $em(path bar) above the list of files and folders shows you which
+folder you’re viewing, including the parent folders of the current folder.
+Click a parent folder in the path bar to go to that folder. Right-click any
+folder in the path bar to open it in a new tab or window, or access its
+properties.
+
+If you want to quickly $link[>files-search](search for a file), in or below
+the folder you are viewing, start typing its name. A $em(search bar) will
+appear at the top of the window and only files which match your search will
+be shown. Press $key(Esc) to cancel the search.
+
+You can quickly access common places from the $em(sidebar). If you do not
+see the sidebar, click $gui(Files) in the top bar and then select $gui(Sidebar).
+You can add bookmarks to folders that you use often and they will appear in the
+sidebar. Drag a folder to the sidebar, and drop it over $gui(New bookmark),
+which appears dynamically, or click the window menu and then select
+$gui[.menuitem](Bookmark this Location).

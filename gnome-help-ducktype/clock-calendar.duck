@@ -1,0 +1,57 @@
+@include gnome-help.defs
+
+= Calendar appointments
+  [topic .task version="1.0 if/1.0"]
+@link[guide >clock]
+@link[guide >shell-overview#desktop]
+
+@revision[pkgversion="3.8.0" date="2013-03-09" status="outdated"]
+@revision[pkgversion="3.10" date="2013-11-04" status="review"]
+@revision[pkgversion="3.16" date="2015-03-02" status="outdated"]
+@revision[pkgversion="3.18" date="2015-09-28" status="review"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Display your appointments in the calendar area at the top of the
+      screen.
+
+[note]
+  This requires you to use your $app(Evolution) calendar or for you
+  to have an online account set up which $gui(Calendar) supports.
+
+  Most distributions come with $app(Evolution) installed by default.
+  If yours does not, you may need to install it using your distribution’s
+  package manager.
+
+To view your appointments:
+
+[steps]
+* Click on the clock on the top bar.
+
+* Click the date for which you want to see your appointments from the
+  calendar.
+
+  [note]
+    A dot is shown under each date that has an appointment.
+
+  Existing appointments will be displayed to the left of the calendar.
+  As appointments are added to your $app(Evolution) calendar, they
+  will appear in the clock’s appointment list.
+
+[if:choose]
+  [if:when test="!platform:gnome-classic"]
+    [media image src=figures/shell-appts.png width=500]
+      Clock, calendar, and appointments
+  [if:when test="platform:gnome-classic"]
+    [media image src=figures/shell-appts-classic.png width=373 height=250]
+      Clock, calendar, and appointments

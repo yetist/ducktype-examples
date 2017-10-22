@@ -1,0 +1,34 @@
+@include gnome-help.defs
+
+= Mouse reacts with delay before it starts working
+  [topic .problem]
+@link[guide >mouse#problems]
+
+@revision[pkgversion="3.8" date="2013-03-13" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany@antopolski.com
+  @years 2011
+@credit[editor]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+  @years 2011
+@credit[editor]
+  @name Michael Hill
+  @email mdhill@src.gnome.org
+  @years 2012
+@credit[author]
+  @name Jana Svarova
+  @email jsvarova@redhat.com
+  @years 2013
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc If you have to wiggle or click the mouse before it responds.
+
+Wireless and optical mice, as well as touchpads on laptops, may need to
+“wake up” before they start working. They automatically go to sleep when not in
+use to save battery power. To wake up your mouse or touchpad, you can click on
+a mouse button or wiggle the mouse.

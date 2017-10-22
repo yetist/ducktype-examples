@@ -1,0 +1,24 @@
+@include gnome-help.defs
+
+= Sharing Settings
+  [guide .task .2column]
+@link[guide >prefs]
+
+@revision[pkgversion="3.10" date="2013-09-28" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2013
+
+@xi:include[>>legal.xml]
+
+@desc $link[>sharing-bluetooth](Bluetooth sharing),
+      $link[>sharing-personal](Personal file sharing),
+      $link[>sharing-desktop](Screen sharing),
+      $link[>sharing-media](Media sharing)…
+
+The $em(Sharing Settings) in GNOME help you control what is shared
+over the local network, or through other technologies such as
+$em(Bluetooth).

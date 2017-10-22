@@ -1,0 +1,19 @@
+= Networking terms & tips
+  [guide .task .2column]
+@link[guide >net]
+
+@revision[pkgversion="3.4.0" date="2012-02-20" status="final"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name The Ubuntu Documentation Team
+@credit[author]
+  @name The GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc $link[>net-findip](Find your IP address),
+      $link[>net-wireless-wepwpa](WEP & WPA security),
+      $link[>net-macaddress](MAC addresses),
+      $link[>net-proxy](proxies)…

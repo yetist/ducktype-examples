@@ -1,0 +1,57 @@
+@include gnome-help.defs
+
+= Delete a user account
+  [topic .task]
+@link[guide >user-accounts#manage]
+@link[seealso >user-add]
+@link[seealso >user-admin-explain]
+
+@revision[pkgversion="3.8.0" date="2013-03-09" status="candidate"]
+@revision[pkgversion="3.10" date="2013-11-01" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany@antopolski.com
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Remove users that no longer use your computer.
+
+You can $link[>user-add](add multiple user accounts to your computer).
+If somebody is no longer using your computer, you can delete that
+user’s account.
+
+You need $link[>user-admin-explain](administrator privileges)
+to delete user accounts.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Users).
+
+* Click $gui(Users) to open the panel.
+
+* Press $gui[.button](Unlock) in the top right corner and type in
+  your password when prompted.
+
+* Select the user that you want to delete and press the $gui[.button](-)
+  button, below the list of accounts on the left, to delete that user account.
+
+* Each user has their own home folder for their files and settings. You
+  can choose to keep or delete the user’s home folder. Click $gui(Delete
+  Files) if you are sure they will not be used anymore and you need to
+  free up disk space. These files are permanently deleted. They cannot be
+  recovered. You may want to back up the files to an external storage device
+  before deleting them.

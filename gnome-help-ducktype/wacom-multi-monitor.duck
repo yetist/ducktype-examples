@@ -1,0 +1,59 @@
+@include gnome-help.defs
+
+= Choose a monitor
+  [topic .task]
+@revision[pkgversion="3.10" date="2013-11-02" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.14" date="2014-10-12" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@link[guide >wacom]
+
+@credit[author copyright]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2012
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2015
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Map the Wacom tablet to a specific monitor.
+
+[comment]
+  [cite date="2012-04-21" href="mailto:mdhillca@gmail.com"]
+    Michael Hill
+  In a multi-monitor setup, the user is able to select which monitor is
+  mapped by the graphics tablet.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Wacom Tablet).
+
+* Click on $gui(Wacom Tablet) to open the panel.
+  [-] TODO: document how to connet the tablet using Bluetooth/add link
+
+  [note .tip]
+    If no tablet is detected, you’ll be asked to $gui(Please plug in or
+    turn on your Wacom tablet). Click the $gui(Bluetooth Settings) link
+    to connect a wireless tablet.
+
+* Click $gui(Map to Monitor…)
+
+* Check $gui(Map to single monitor).
+
+* Next to $gui(Output), select the monitor you wish to receive
+  input from your graphics tablet.
+
+  [note .tip]
+    Only the monitors that are configured will be selectable.
+
+* Switch $gui(Keep aspect ratio (letterbox)) to $gui(ON) to match the
+  drawing area of the tablet to the proportions of the monitor. This
+  setting, also called $em(force proportions), $em(letterboxes) the
+  drawing area on a tablet to correspond more directly to a display.
+  For example, a 4∶3 tablet would be mapped so that the drawing area
+  would correspond to a widescreen display.
+
+* Click $gui(Close).

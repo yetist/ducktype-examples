@@ -1,0 +1,61 @@
+@include gnome-help.defs
+
+= Windows and workspaces
+  [guide .ui]
+@link[guide >shell-overview#apps]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@xi:include[>>legal.xml]
+
+@desc Move and organize your windows.
+
+Like other desktops, GNOME uses windows to display your running
+applications. Using both the $Activities; overview and the $em(dash),
+you can launch new applications and control active windows.
+
+You can also group your applications together within workspaces. Visit the
+window and workspace help topics below to better learn how to use these
+features.
+
+[comment]
+  [cite date="2014-09-22"]
+    David King
+  Add a page on the dash and move the below content there.
+  shell-apps-favorites discusses favorites in the dash, and shell-apps-open
+  mentions showing the grid of installed applications, and shell-terminology
+  has a section on the dash, but none describe it in much detail.
+
+[-- 
+In the $gui(Activities) overview, the $gui(dash) displays your 
+favorite applications as well as your running applications. 
+The $gui(dash) will place a slight glow behind any running applications.
+
+Clicking the application icon will launch it if it is not running.  
+If it is already running, clicking the application will open the last used 
+window of that application.
+
+Right clicking the application icon for a running application will 
+bring all windows for that application forward. A menu with the titles of your
+windows will be displayed. You can select a window from this menu. It also 
+provides options to open a new window for that application and to remove or 
+add that application to favorites depending on its current status.
+
+Windows are shown on their corresponding 
+$link[>shell-windows-workspaces](workspaces).
+--]
+
+
+== Working with windows
+   [#working-with-windows .2column]
+@title[link role="trail"] Windows
+
+
+== Working with workspaces
+   [#working-with-workspaces .2column]
+@title[link role="trail"] Workspaces

@@ -1,0 +1,43 @@
+@include gnome-help.defs
+
+= Log in automatically
+  [topic .task]
+@link[guide >user-accounts#manage]
+@link[seealso >shell-exit]
+
+@revision[pkgversion="3.8" date="2013-04-04" status="review" ]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review" ]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author copyright]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2013
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Set up automatic login for when you switch on your computer.
+
+You can change your settings so that you are automatically logged in to
+your account when you start up your computer:
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Users).
+
+* Click $gui(Users) to open the panel.
+
+* Select the user account that you want to log in to automatically at startup.
+
+* Press $gui[.button](Unlock) and enter your password.
+
+* Toggle the $gui(Automatic Login) switch to $gui(ON).
+
+When you next start up your computer, you will be logged in automatically.
+If you have this option enabled, you will not need to type in your password
+to log in to your account which means that if someone else starts up your
+computer, they will be able to access your account and your personal data
+including your files and browser history.
+
+[note]
+If your account type is $em(Standard), you cannot change this setting.
+Contact your system administrator who can change this setting for you.

@@ -1,0 +1,113 @@
+@include gnome-help.defs
+
+= Screenshots and screencasts
+  [guide .task]
+@link[guide >tips]
+
+@revision[pkgversion="3.6.1" date="2012-11-10" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+@revision[pkgversion="3.14.0" date="2015-01-14" status="review"]
+
+@credit[author copyright]
+  @name Tiffany Antopolski
+  @email tiffany.antopolski@gmail.com
+  @years 2011
+@credit[author copyright]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+  @years 2012
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+  @years 2015
+
+@xi:include[>>legal.xml]
+
+@desc Take a picture or record a video of what is happening on your
+      screen.
+
+You can take a picture of your screen (a $em(screenshot)) or record a
+video of what is happening on the screen (a $em(screencast)). This is
+useful if you want to show someone how to do something on the computer, for
+example. Screenshots and screencasts are just normal picture and video files,
+so you can email them and share them on the web.
+
+
+== Take a screenshot
+   [#screenshot]
+
+[steps]
+* Open $app(Screenshot) from the $Activities; overview.
+
+* In the $app(Screenshot) window, select whether to grab the whole
+  screen, the current window, or an area of the screen. Set a delay if you
+  need to select a window or otherwise set up your desktop for the
+  screenshot. Then choose any effects you want.
+
+* Click $gui(Take Screenshot).
+
+  If you selected $gui(Select area to grab), the pointer changes
+  into a crosshair. Click and drag the area you want for the
+  screenshot.
+
+* In the $gui(Save Screenshot) window, enter a file name and choose
+  a folder, then click $gui(Save).
+
+  Alternatively, import the screenshot directly into an image-editing
+  application without saving it first. Click $gui(Copy to Clipboard)
+  then paste the image in the other application, or drag the screenshot
+  thumbnail to the application.
+
+
+=== Keyboard shortcuts
+   [#keyboard-shortcuts]
+
+Quickly take a screenshot of the desktop, a window, or an area at any
+time using these global keyboard shortcuts:
+
+[list .compact]
+* $key(Prt Scrn) to take a screenshot of the desktop.
+
+* $keyseq($key(Alt)$key(Prt Scrn)) to take a screenshot of a window.
+
+* $keyseq($key(Shift)$key(Prt Scrn)) to take a screenshot of an area you select.
+
+When you use a keyboard shortcut, the image is automatically saved in
+your $file(Pictures) folder in your home folder with a file name that
+begins with $file(Screenshot) and includes the date and time it was
+taken.
+
+[note .note]
+  If you do not have a $file(Pictures) folder, the images will be
+  saved in your home folder instead.
+
+You can also hold down $key(Ctrl) with any of the above shortcuts
+to copy the screenshot image to the clipboard instead of saving it.
+
+
+== Make a screencast
+   [#screencast]
+
+You can make a video recording of what is happening on your screen:
+
+[steps]
+* Press $keyseq($key(Ctrl)$key(Alt)$key(Shift)$key(R))
+  to start recording what is on your screen.
+
+  A red circle is displayed in the top right corner of the screen
+  when the recording is in progress.
+
+* Once you have finished, press
+  $keyseq($key(Ctrl)$key(Alt)$key(Shift)$key(R))
+  again to stop the recording.
+
+* The video is automatically saved in your $file(Videos) folder
+  in your home folder, with a file name that starts with
+  $file(Screencast) and includes the date and time it was taken.
+
+[note .note]
+  If you do not have a $file(Videos) folder, the videos will be
+  saved in your home folder instead.

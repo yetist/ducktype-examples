@@ -1,0 +1,30 @@
+@include gnome-help.defs
+
+= Switch off unused wireless technologies
+  [topic .task]
+@link[guide >power]
+@link[seealso >power-batterylife]
+
+@revision[pkgversion="3.20" date="2016-06-15" status="candidate"]
+
+@credit[author copyright]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2016
+
+@xi:include[>>legal.xml]
+
+@desc Bluetooth, wi-fi and mobile broadband can be switched off
+      to reduce battery use.
+
+You can reduce battery use by switching off bluetooth, wi-fi or mobile
+broadband when they are not in use.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Power).
+
+* Click $gui(Power) to open the panel.
+
+* The $gui(Power Saving) section contains switches for $gui(Wi-Fi),
+  $gui(Mobile broadband), and $gui(Bluetooth). Switch the unused
+  services to $gui(OFF). Re-enable when needed by switching to $gui(ON).

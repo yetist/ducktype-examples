@@ -1,0 +1,54 @@
+@include gnome-help.defs
+
+= Change who has administrative privileges
+  [topic .task]
+@link[guide >user-accounts#privileges]
+@link[seealso >user-admin-explain]
+
+@revision[pkgversion="3.8.0" date="2013-03-09" status="candidate"]
+@revision[pkgversion="3.10" date="2013-11-01" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc You can allow users to make changes to the system by giving them
+      administrative privileges.
+
+Administrative privileges are a way of deciding who can make changes to
+important parts of the system. You can change which users have administrative
+privileges and which ones do not. They are a good way of keeping your system
+secure and preventing potentially damaging unauthorized changes.
+
+You need $link[>user-admin-explain](administrator privileges)
+to change account types.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Users).
+
+* Click $gui(Users) to open the panel.
+
+* Press $gui[.button](Unlock) in the top right corner and
+  type in your password when prompted.
+
+* Select the user whose privileges you want to change.
+
+* Click the label $gui(Standard) next to $gui(Account Type)
+  and select $gui(Administrator).
+
+* The user’s privileges will be changed when they next log in.
+
+[note]
+  The first user account on the system is usually the one that has
+  administrator privileges. This is the user account that was created when
+  you first installed the system.
+
+  It is unwise to have too many users with $gui(Administrator)
+  privileges on one system.

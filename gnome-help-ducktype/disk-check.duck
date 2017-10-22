@@ -1,0 +1,67 @@
+@include gnome-help.defs
+
+= Check your hard disk for problems
+  [topic .task]
+@link[guide >disk]
+
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Natalia Ruz Leiva
+  @email nruz@alumnos.inf.utfsm.cl
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+@revision[pkgversion="3.13.91" date="2014-09-05" status="review"]
+
+@desc Test your hard disk for problems to make sure that it’s healthy.
+@xi:include[>>legal.xml]
+
+
+== Checking the hard disk
+   [#disk-status]
+
+Hard disks have a built-in health-check tool called $app(SMART)
+(Self-Monitoring, Analysis, and Reporting Technology), which continually
+checks the disk for potential problems. SMART also warns you if the disk
+is about to fail, helping you avoid loss of important data.
+
+Although SMART runs automatically, you can also check your disk’s
+health by running the $app(Disks) application:
+
+[steps]
+. Check your disk’s health using the Disks application
+
+* Open $app(Disks) from the $gui(Activities) overview.
+
+* Select the disk you want to check from the list of storage devices on
+  the left. Information and status of the disk will be shown.
+
+* Click the menu button and select $gui(SMART Data & Self-Tests…).
+  The $gui(Overall Assessment) should say “Disk is OK”.
+
+* See more information under $gui(SMART Attributes), or click the
+  $gui[.button](Start Self-test) button to run a self-test.
+
+
+== What if the disk isn’t healthy?
+   [#disk-not-healthy]
+
+Even if the $gui(Overall Assessment) indicates that the disk
+$em(isn’t) healthy, there may be no cause for alarm. However, it’s better
+to be prepared with a $link[>backup-why](backup) to prevent data
+loss.
+
+If the status says “Pre-fail”, the disk is still reasonably healthy but
+signs of wear have been detected which mean it might fail in the near future.
+If your hard disk (or computer) is a few years old, you are likely to see
+this message on at least some of the health checks. You should
+$link[>backup-how](backup your important files regularly) and check
+the disk status periodically to see if it gets worse.
+
+If it gets worse, you may wish to take the computer/hard disk to a
+professional for further diagnosis or repair.

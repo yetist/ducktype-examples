@@ -1,0 +1,33 @@
+@include gnome-help.defs
+
+= User & system settings
+  [guide .task]
+
+@link[guide >index group="prefs"]
+@title[link role="trail"] Settings
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@desc $link[>keyboard](Keyboard),
+      $link[>mouse](mouse),
+      $link[>prefs-display](display),
+      $link[>prefs-language](languages),
+      $link[>user-accounts](user accounts)…
+
+@xi:include[>>legal.xml]
+
+[links topic .toronto]
+
+[comment]
+  [cite date="2012-02-19"]
+    shaunm
+  Add an "Applications" guide, with links to net-default-browser, net-default-email,
+  files-autorun, and files-open#default. Add pages for "Calendar", "Music", "Video",
+  and "Photos". Explain how these are different than options in files-autorun. Link
+  between pages. Add notes to files-open-#default about how you can use these options
+  to quick set for a group of content types.
+
+  Note Removable Media was moved into System Info for 3.4. This might have involved
+  a reorg of the options. Double-check everything before writing for 3.4.

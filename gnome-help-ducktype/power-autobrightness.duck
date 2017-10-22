@@ -1,0 +1,32 @@
+@include gnome-help.defs
+
+= Enable automatic brightness
+  [.task]
+@link[guide >power#saving]
+@link[seealso >display-brightness]
+
+@revision[pkgversion="3.20" date="2016-06-15" status="candidate"]
+
+@credit[author copyright]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2016
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Automatically control screen brightness to reduce battery use.
+
+If your computer has an integrated light sensor, it can be used to
+automatically control screen brightness. This ensures that the screen is
+always easy to see in different ambient light conditions, and helps to reduce
+battery consumption.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Power).
+
+* Click $gui(Power) to open the panel.
+
+* In the $gui(Power Saving) section, ensure that $gui(Automatic
+  brightness) is set to $gui(ON).
+
+To disable automatic screen brightness, switch it to $gui(OFF).

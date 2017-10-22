@@ -1,0 +1,37 @@
+@include gnome-help.defs
+
+= Problems caused by administrative restrictions
+  [topic .problem]
+@link[guide >user-accounts#privileges]
+@link[seealso >user-admin-explain]
+@link[seealso >user-admin-change]
+
+@revision[pkgversion="3.8.0" date="2013-03-09" status="candidate"]
+@revision[pkgversion="3.10" date="2013-11-03" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+[-] TODO: review that this is actually correct
+@revision[pkgversion="3.18" date="2015-09-28" status="candidate"]
+
+@credit[authohar]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc You can do some things, like installing applications, only if you
+      have administrative privileges.
+
+You may experience a few problems if you do not have
+$link[>user-admin-explain](administrative privileges). Some tasks
+require administrative privileges in order to work, such as:
+
+* connecting to networks or wireless networks,
+* viewing the contents of a different disk partition (for example, a
+  Windows partition), or
+* installing new applications.
+
+You can $link[>user-admin-change](change who has administrative
+privileges).

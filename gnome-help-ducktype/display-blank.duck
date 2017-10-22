@@ -1,0 +1,43 @@
+@include gnome-help.defs
+
+= Set screen blanking time
+  [topic .task]
+@link[guide >prefs-display]
+@link[guide >hardware-problems-graphics]
+@link[guide >power#saving]
+@link[seealso >power-whydim]
+@link[seealso >session-screenlocks]
+
+@revision[pkgversion="3.18" date="2015-09-30" status="candidate"]
+@revision[pkgversion="3.20" date="2016-06-15" status="final"]
+
+@credit[author editor]
+  @name Petr Kovar
+  @email pknbe@volny.cz
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+
+@xi:include[>>legal.xml]
+
+@desc Change the screen blanking time to save power.
+
+To save power, you can adjust the time before the screen blanks when left
+idle. You can also disable the blanking completely.
+
+[steps]
+. To set the screen blanking time:
+
+* Open the $Activities; overview and start typing $gui(Power).
+
+* Click $gui(Power) to open the panel.
+
+* Use the $gui(Blank screen) drop-down list under $gui(Power
+  Saving) to set the time until the screen blanks, or disable the blanking
+  completely.
+  
+[note .tip]
+  When your computer is left idle, the screen will automatically lock
+  itself for security reasons. To change this behavior, see
+  $link[>session-screenlocks].

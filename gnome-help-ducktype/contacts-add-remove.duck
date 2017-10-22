@@ -1,0 +1,41 @@
+@include gnome-help.defs
+
+= Add or remove a contact
+@link[guide >contacts]
+@revision[pkgversion="3.5.5" date="2012-08-13" status="review"]
+@revision[pkgversion="3.8" date="2013-04-27" status="review"]
+@revision[pkgversion="3.12" date="2014-02-26" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="review"]
+
+@credit[author]
+  @name Lucie Hankey
+  @email ldhankey@gmail.com
+@credit[author]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[author]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Add or remove a contact in the local address book.
+
+To add a contact:
+
+[steps]
+* Press the $gui(+) button.
+
+* In the $gui(New contact) dialog, enter the contact name and their information.
+  Click on the drop down box next to each field to chose the type of detail.
+
+* Press $gui[.button](Add).
+
+To remove a contact:
+
+[steps]
+* Select the contact from your contact list.
+
+* Press $gui[.button](Edit) in the top-right corner of $app(Contacts).
+
+* Press $gui[.button](Remove Contact).

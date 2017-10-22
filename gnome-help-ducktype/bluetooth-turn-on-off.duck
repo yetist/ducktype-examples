@@ -1,0 +1,100 @@
+@include gnome-help.defs
+
+= Turn Bluetooth on or off
+  [guide .task version="1.0 if/1.0"]
+@link[guide >bluetooth group="#first"]
+
+@revision[pkgversion="3.4" date="2012-02-19" status="outdated"]
+@revision[pkgversion="3.10" date="2013-11-09" status="review"]
+@revision[pkgversion="3.12" date="2014-03-04" status="candidate"]
+@revision[pkgversion="3.13" date="2014-09-21" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2014
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2014
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+  @years 2015
+
+@xi:include[>>legal.xml]
+
+@desc Enable or disable the Bluetooth device on your computer.
+
+[comment]
+  [cite date="2013-11-09" href="mailto:mdhillca@gmail.com"]
+    mdhill
+  Add link to shell-terminology definition of system status *area* of top
+  bar when it has been written, explain that if your network connection is
+  through a Bluetooth device it will show up in the system status *menu*
+  and only then will its icon be visible as shown.
+
+[if:choose]
+  [if:when test="platform:unity"]
+    You can turn Bluetooth on to connect to other Bluetooth devices, or turn
+    it off to conserve power. To turn Bluetooth on, click the Bluetooth icon in
+    the menu bar and switch $gui(Bluetooth) to $gui(ON).
+
+  You can turn Bluetooth on to connect to other Bluetooth devices, or turn
+  it off to conserve power. To turn Bluetooth on:
+
+  [steps]
+  * Open the $Activities; overview and start typing $gui(Bluetooth).
+
+  * Click on $gui(Bluetooth) to open the panel.
+
+  * Set the switch at the top to $gui(ON).
+
+[if:choose]
+  [if:when test="platform:unity"]
+    Many laptop computers have a hardware switch or key combination to turn
+    Bluetooth on and off. If the Bluetooth hardware is turned off, you will not
+    see a Bluetooth icon in the menu bar. Look for a switch on your computer or
+    a key on your keyboard. The keyboard key is often accessed with the help of
+    the $key(Fn) key.
+
+  Many laptop computers have a hardware switch or key combination to turn
+  Bluetooth on and off. Look for a switch on your computer or a key on your
+  keyboard. The keyboard key is often accessed with the help of the
+  $key(Fn) key.
+
+[if:choose]
+  [if:when test="platform:unity"]
+    To turn Bluetooth off, click the Bluetooth icon and switch
+    $gui(Bluetooth) to $gui(OFF).
+
+  To turn Bluetooth off:
+
+  [steps]
+  * Open the $gui[>shell-introduction#yourname](system menu) from the
+    right side of the top bar.
+
+  * Select
+    $gui($media[its:translate=no image mime=image/svg
+    src=figures/bluetooth-active-symbolic.svg] Not In Use).
+    The Bluetooth section of the menu will expand.
+
+  * Select $gui(Turn Off).
+
+[if:choose]
+  [if:when test="platform:unity"]
+    [note]
+    Your computer is $link[>bluetooth-visibility](visible)
+    if $gui(Visible) is switched to $gui(ON) in the Bluetooth
+    menu.
+
+  [note]
+  Your computer is $link[>bluetooth-visibility](visible) as
+  long as the $gui(Bluetooth) panel is open.

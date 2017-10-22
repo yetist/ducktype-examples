@@ -1,0 +1,39 @@
+@include gnome-help.defs
+
+= What is an IP address?
+  [topic .question]
+@link[guide >net-general]
+
+@revision[pkgversion="3.4.0" date="2012-02-20" status="final"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc An IP Address is like a phone number for your computer.
+
+“IP address” stands for $em(Internet Protocol address), and each
+device that is connected to a network (like the internet) has one.
+
+An IP address is similar to your phone number. Your phone number is a
+unique set of numbers that identifies your phone so that other people can
+call you. Similarly, an IP address is a unique set of numbers that identifies
+your computer so that it can send and receive data with other computers.
+
+Currently, most IP addresses consist of four sets of numbers, each
+separated by a period. $code(192.168.1.42) is an example of an IP
+address.
+
+[note .tip]
+An IP address can either be $em(dynamic) or $em(static). Dynamic
+IP addresses are temporarily assigned each time your computer connects to a
+network. Static IP addresses are fixed, and do not change. Dynamic IP
+addresses are more common that static addresses — static addresses are
+typically only used when there is a special need for them, such as in the
+administration of a server.

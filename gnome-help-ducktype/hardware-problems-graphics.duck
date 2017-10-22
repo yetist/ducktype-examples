@@ -1,0 +1,17 @@
+@include gnome-help.defs
+
+= Screen problems
+  [guide .problem]
+@link[guide >hardware#problems]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+
+@desc Troubleshoot screen and graphics problems.
+
+@xi:include[>>legal.xml]
+
+Most problems with the display are caused by issues with graphics
+drivers or configuration. Which of the topics below best describes
+the problem you are experiencing?

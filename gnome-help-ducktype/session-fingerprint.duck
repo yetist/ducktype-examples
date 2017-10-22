@@ -1,0 +1,87 @@
+@include gnome-help.defs
+
+= Log in with a fingerprint
+  [topic .task]
+@link[guide >hardware-auth]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="outdated"]
+@revision[pkgversion="3.10" date="2013-11-03" status="review"]
+@revision[pkgversion="3.12" date="2014-06-16" status="final"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Paul W. Frields
+  @email stickster@gmail.com
+  @years 2011
+@credit[author editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2013
+@credit[editor]
+  @name Jim Campbell
+  @email jcampbell@gnome.org
+  @years 2014
+
+@xi:include[>>legal.xml]
+
+@desc You can log in to your system using a supported fingerprint scanner
+      instead of typing in your password.
+
+If your system has a supported fingerprint scanner, you can record your
+fingerprint and use it to log in.
+
+
+== Record a fingerprint
+   [#record]
+
+Before you can log in with your fingerprint, you need to record it so that
+the system can use it to identify you.
+
+[note .tip]
+  If your finger is too dry, you may have difficulty registering your
+  fingerprint. If this happens, moisten your finger slightly, dry it with a
+  clean, lint-free cloth, and retry.
+
+You need $link[>user-admin-explain](administrator privileges)
+to edit user accounts other than your own.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Users).
+
+* Click on $gui(Users) to open the panel.
+
+* Press on $gui(Disabled), next to $gui(Fingerprint Login) to
+  add a fingerprint for the selected account. If you are adding the
+  fingerprint for a different user, you will first need to
+  $gui(Unlock) the panel.
+
+* Select the finger that you want to use for the fingerprint, then
+  $gui[.button](Next).
+
+* Follow the instructions in the dialog and swipe your finger at a
+  $em(moderate speed) over your fingerprint reader. Once the computer
+  has a good record of your fingerprint, you will see a $gui(Done!)
+  message.
+
+* Select $gui(Next). You will see a confirmation message that
+  your fingerprint was saved successfully. Select $gui(Close) to
+  finish.
+
+
+== Check that your fingerprint works
+   [#verify]
+
+Now check that your new fingerprint login works. If you register a
+fingerprint, you still have the option to log in with your password.
+
+[steps]
+* Save any open work, and then $link[>shell-exit#logout](log out).
+
+* At the login screen, select your name from the list. The password
+  entry form will appear.
+
+* Instead of typing your password, you should be able to swipe your
+  finger on the fingerprint reader.

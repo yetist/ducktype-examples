@@ -1,0 +1,50 @@
+@include gnome-help.defs
+
+= Manage repeated key presses
+  [topic .task]
+@link[guide >a11y#mobility group="keyboard"]
+@link[guide >keyboard]
+
+@revision[pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"]
+@revision[pkgversion="3.9.92" date="2013-10-11" status="candidate"]
+@revision[pkgversion="3.13.92" date="2013-10-11" status="candidate"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[author]
+  @name Natalia Ruz Leiva
+  @email nruz@alumnos.inf.utfsm.cl
+@credit[author]
+  @name Julita Inca
+  @email yrazes@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Shobha Tyagi
+  @email tyagishobha@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Make the keyboard not repeat letters when you hold down a key,
+      or change the delay and speed of repeat keys.
+
+By default, when you hold down a key on your keyboard, the letter
+or symbol will be repeated until you release the key. If you have
+difficulty picking your finger back up quickly enough, you can
+disable this feature, or change how long it takes before key presses
+start repeating, or how quickly key presses repeat.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Universal Access).
+
+* Click on $gui(Universal Access) to open the panel.
+
+* Press $gui(Repeat Keys) in the $gui(Typing) section.
+
+* Switch $gui(Repeat Keys) to $gui(OFF).
+
+  Alternatively, adjust the $gui(Delay) slider to control how long
+  you have to hold a key down to begin repeating it, and adjust the
+  $gui(Speed) slider to control how quickly key presses repeat.

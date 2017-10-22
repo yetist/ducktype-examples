@@ -1,0 +1,61 @@
+@include gnome-help.defs
+
+= Move a window to a different workspace
+  [topic .task version="1.0 if/1.0"]
+@link[guide >shell-windows#working-with-workspaces]
+@link[seealso >shell-workspaces]
+
+@revision[pkgversion="3.8" version="0.3" date="2013-05-10" status="review"]
+@revision[pkgversion="3.10" date="2013-11-04" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Go to the $gui(Activities) overview and drag the window to a
+      different workspace.
+
+[steps]
+. Using the mouse:
+
+* [p if:test="!platform:gnome-classic"]
+  Open the $Activities; overview.
+
+  [p if:test="platform:gnome-classic"]
+  Open the
+  $gui[>shell-introduction#activities](Activities Overview) from the
+  $gui[>shell-introduction#activities](Applications) menu
+  at the top left of the screen.
+
+* Click and drag the window toward the right of the screen.
+
+* The $em(workspace selector) will appear.
+
+* [p if:test="!platform:gnome-classic"]
+  Drop the window onto an empty workspace. This workspace now contains
+  the window you have dropped, and a new empty workspace appears at
+  the bottom of the $em(workspace selector).
+
+  [p if:test="platform:gnome-classic"]
+  Drop the window onto an empty workspace. This workspace now contains
+  the window you have dropped.
+
+[steps]
+. Using the keyboard:
+
+* Select the window that you want to move (for example, using the
+  $keyseq($Super;$key(Tab)) $em(window switcher)).
+
+* Press $keyseq($key(Super)$key(Shift)$key(Page Up)) to move the
+  window to a workspace which is above the current workspace on
+  the $em(workspace selector).
+
+  Press $keyseq($key(Super)$key(Shift)$key(Page Down)) to move
+  the window to a workspace which is below the current workspace
+  on the $em(workspace selector).

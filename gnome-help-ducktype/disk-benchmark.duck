@@ -1,0 +1,66 @@
+@include gnome-help.defs
+
+= Test the performance of your hard disk
+  [topic .task]
+@link[guide >disk]
+
+@revision[pkgversion="3.6.2" version="0.2" date="2012-11-16" status="review"]
+@revision[pkgversion="3.10" date="2013-11-03" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-20" status="review"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Natalia Ruz Leiva
+  @email nruz@alumnos.inf.utfsm.cl
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Run benchmarks on your hard disk to check how fast it is.
+
+[comment]
+  [cite date="2013-11-03"]
+    Kat
+  This should say why a user might want to do this.
+
+  We shouldn't call the emblem-system-symbolic "gear icon", but there's
+  not a much better alternative.
+
+To test the speed of your hard disk:
+
+[steps]
+* Open $app(Disks) from the $Activities; overview.
+
+* Choose the disk from the list in the left pane.
+
+* Click the menu button and select $gui(Benchmark disk…) from the menu.
+
+* Click $gui(Start Benchmark…) and adjust the $gui(Transfer Rate) and
+  $gui(Access Time) parameters as desired.
+
+* Click $gui(Start Benchmarking) to test how fast data can be read from
+  the disk. $link[>user-admin-explain](Administrative privileges) may be
+  required. Enter your password, or the password for the requested
+  administrator account.
+
+  [note]
+    If $gui(Perform write-benchmark) is checked, the benchmark will test
+    how fast data can be read from and written to the disk. This will
+    take longer to complete.
+
+When the test is finished, the results will appear on the graph. The green
+points and connecting lines indicate the samples taken; these correspond to
+the right axis, showing access time, plotted against the bottom axis,
+representing percentage time elapsed during the benchmark. The blue line
+represents read rates, while the red line represents write rates; these are
+shown as access data rates on the left axis, plotted against percentage of
+the disk traveled, from the outside to the spindle, along the bottom
+axis.
+
+Below the graph, values are displayed for minimum, maximum and average
+read and write rates, average access time and time elapsed since the last
+benchmark test.

@@ -1,0 +1,98 @@
+@include gnome-help.defs
+
+= Repair a damaged filesystem
+  [topic .task]
+@link[guide >disk]
+
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@revision[pkgversion="3.25.90" date="2017-08-17" status="review"]
+
+@desc Check if a filesystem is damaged and bring it back into a usable
+      state.
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+Filesystems can be corrupted due to unexpected power loss, system crashes
+and unsafe removal of the drive. After such an incident it is recommended
+to $em(repair) or at least $em(check) the filesystem to prevent future data
+loss.
+
+Sometimes a repair is required in order to mount or modify a filesystem.
+Even if a $em(check) does not report any damage the filesystem might
+still be marked as ‘dirty’ internally and require a repair.
+
+[steps]
+. Check if a filesystem is damaged
+
+* Open $app(Disks) from the $gui(Activities) overview.
+
+* Select the disk containing the filesystem in question from the list of
+  storage devices on the left. If there is more than one volume on the
+  disk, select the volume which contains the filesystem.
+
+* In the toolbar underneath the $gui(Volumes) section, click the
+  menu button. Then click $gui(Check Filesystem…).
+
+* Depending on how much data is stored in the filesystem a check may take
+  longer time. Confirm to start the action in the dialog that pops up.
+
+  The action will not modify the filesystem but will unmount it if needed.
+  Be patient while the filesystem is checked.
+
+* After completion you will be notified whether the filesystem is damaged.
+  Note that in some cases even if the filesystem is undamaged it still
+  may need to be repaired to reset an internal ‘dirty’ marker.
+
+[note .warning]
+  . Possible data loss when repairing
+
+  If the filesystem structure is damaged it can affect the files stored
+  in it. In some cases these files can not be brought into a valid form
+  again and will be deleted or moved to a special directory. It is normally
+  the $em(lost+found) folder in the top level directory of the filesystem
+  where these recovered file parts can be found.
+
+  If the data is too valuable to be lost during this process, you are
+  advised to back it up by saving an image of the volume before
+  repairing.
+
+  This image can be then processed with forensic analysis tools like
+  $app(sleuthkit) to further recover missing files and data parts
+  which were not restored during the repair, and also previously removed
+  files.
+
+[steps]
+. Repair a filesystem
+
+* Open $app(Disks) from the $gui(Activities) overview.
+
+* Select the disk containing the filesystem in question from the list
+  of storage devices on the left. If there is more than one volume on
+  the disk, select the volume which contains the filesystem.
+
+* In the toolbar underneath the $gui(Volumes) section, click the
+  menu button. Then click $gui(Repair Filesystem…).
+
+* Depending on how much data is stored in the filesystem a repair may take
+  longer time. Confirm to start the action in the dialog that pops up.
+
+  The action will unmount the filesystem if needed. The repair action tries
+  to bring the filesystem into a consistent state and moves files which were
+  damaged in a special folder. Be patient while the filesystem is
+  repaired.
+
+* After completion you will be notified whether the filesystem could be
+  successfully repaired. In case of success it can be used again in the
+  normal way.
+
+  If the filesystem could not be repaired, back it up by saving an image
+  of the volume to be able to retrieve important files later. This can
+  be done by mounting the image read-only or using forensic analysis tools
+  like $app(sleuthkit).
+
+  To make use of the volume again it has to be $link[>disk-format](formatted)
+  with a new filesystem. All data will be discarded.

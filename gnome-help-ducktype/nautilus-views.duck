@@ -1,0 +1,61 @@
+@include gnome-help.defs
+
+= Views preferences in $app(Files)
+  [topic .ui]
+@link[guide >nautilus-prefs group="nautilus-views"]
+
+@revision[pkgversion="3.8" version="0.2" date="2013-04-03" status="review"]
+@revision[pkgversion="3.18" date="2015-09-30" status="candidate"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany.antopolski@gmail.com
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[author editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@its:rules[version="1.0" xlink:type="simple" xlink:href="gnome-help.its"]
+
+@desc Specify the default sort order and grouping for the file manager.
+
+You can change how files and folders are grouped and sorted by default.
+Select $guiseq($gui[.menu](Files) $gui[.menuitem](Preferences)) in the
+top bar while $app(Files) is open and select the $gui[.tab](Views) tab.
+
+
+== Default view
+   [#default-view]
+
+[terms]
+- $gui(Arrange items)
+
+* You can change the default sort order that is used in folders using the
+  $gui(Arrange items) drop-down list in the preferences to sort by name,
+  file size, file type, when they were last modified, when they were last
+  accessed or when they were trashed.
+
+  [p its:locNote="TRANSLATORS: use the translation of the tooltip for the
+                  view selector button that opens the view popover in the
+                  main window for 'View options'"]
+    You can change how $link[>files-sort](files are sorted) in an individual
+    folder by clicking the view options
+    [-] FIXME: Get a tooltip added for "View options"
+    button in the toolbar and choosing $gui(Name), $gui(Size), $gui(Type)
+    or $gui(Last Modified), or by clicking the list column headers in list
+    view.
+
+- $gui(Sort folders before files)
+
+* By default, the file manager no longer shows all folders before files.
+  To see all folders listed before files, enable this option.

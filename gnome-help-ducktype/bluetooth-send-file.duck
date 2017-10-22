@@ -1,0 +1,76 @@
+@include gnome-help.defs
+
+= Send files to a Bluetooth device
+  [guide .task version="1.0 if/1.0"]
+
+@link[guide >bluetooth]
+@link[guide >sharing]
+@link[seealso >files-share]
+
+@revision[pkgversion="3.8" date="2013-05-16" status="review"]
+@revision[pkgversion="3.10" date="2013-11-09" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.13" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+@credit[author]
+  @name Paul W. Frields
+  @email stickster@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2014
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+  @years 2015
+
+@xi:include[>>legal.xml]
+
+@desc Share files to Bluetooth devices such as your phone.
+
+[if:choose]
+  [if:when test="platform:unity"]
+    You can send files to connected Bluetooth devices, such as some mobile
+    phones or other computers. Some types of devices don’t allow the transfer
+    of files, or specific types of files. You can send files in one of three
+    ways: using the Bluetooth icon in the menu bar, from the Bluetooth settings
+    window, or directly from the file manager.
+
+  You can send files to connected Bluetooth devices, such as some mobile
+  phones or other computers. Some types of devices do not allow the transfer
+  of files, or specific types of files. You can send files using the Bluetooth
+  settings window.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Bluetooth).
+
+* Click on $gui(Bluetooth) to open the panel.
+
+* Make sure Bluetooth is enabled: the switch in the titlebar should be
+  set to $gui(ON).
+
+* In the $gui(Devices) list, select the device to which to send the
+  files. If the desired device is not shown as $gui(Connected) in the
+  list, you need to $link[>bluetooth-connect-device](connect)
+  to it.
+
+  A panel specific to the external device appears.
+
+* Click $gui(Send Files…) and the file chooser will appear.
+
+* Choose the file you want to send and click $gui(Select).
+
+  To send more than one file in a folder, hold down $key(Ctrl) as
+  you select each file.
+
+* The owner of the receiving device usually has to press a button to
+  accept the file. The $gui(Bluetooth File Transfer) dialog will show
+  the progress bar. Click $gui(Close) when the transfer is
+  complete.

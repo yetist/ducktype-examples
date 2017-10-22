@@ -1,0 +1,55 @@
+@include gnome-help.defs
+
+= Participate to improve this guide
+  [topic .tip]
+@link[guide >more-help]
+@desc How and where to report problems with these help topics.
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+
+@credit[author]
+  @name Tiffany Antopolski
+  @email tiffany@antopolski.com
+@xi:include[>>legal.xml]
+
+
+== Report a bug or an improvement
+   [#bug-report]
+
+This help documentation is created by a volunteer community. You are
+welcome to participate. If you notice a problem with these help pages
+(like typos, incorrect instructions or topics that should be covered
+but aren’t), you can file a $em(bug report). To file a bug, go to
+$link[>>https://bugzilla.gnome.org/](bugzilla.gnome.org).
+
+You need to register so you can file a bug and receive updates by
+e-mail about its status. If you don’t already have an account, click
+the $gui(New Account) link to create one.
+
+Once you have an account, log in, click on $guiseq($gui(File a Bug)$gui(Core)$gui(gnome-user-docs)).
+Before reporting a bug, please read the
+$link[>>https://bugzilla.gnome.org/page.cgi?id=bug-writing.html](bug
+writing guidelines), and please
+$link[>>https://bugzilla.gnome.org/browse.cgi?product=gnome-user-docs](browse)
+for the bug to see if something similar already exists.
+
+To file your bug, choose the component in the $gui(Component) menu.
+If you are filing a bug against this documentation you should choose
+the $gui(gnome-help) component.  If you are not sure which component
+your bug pertains to, choose $gui(general).
+
+If you are requesting help about a topic that you feel is not covered,
+choose $gui(enhancement) in the $gui(Severity) menu.  Fill in the
+Summary and Description sections and click $gui(Submit Bug).
+
+Your report will be given an ID number, and its status will be updated
+as it is being dealt with. Thanks for helping make the GNOME Help
+better!
+
+
+== Contact us
+   [#contact-us]
+
+You can send an $link[>>mailto:gnome-doc-list@gnome.org](email) to
+the GNOME docs mailing list to learn more about how to get involved
+with the documentation team.

@@ -1,0 +1,18 @@
+@include gnome-help.defs
+
+= Sharing
+  [guide .task]
+
+@link[guide >net group="#sharing"]
+
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@desc $link[>sharing-desktop](Desktop sharing),
+      $link[>files-share](Share files by email),
+      $link[>sharing-media](Media sharing)…
+
+@credit[author]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]

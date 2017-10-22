@@ -1,0 +1,498 @@
+@include gnome-help.defs
+
+= Set keyboard shortcuts
+  [topic .task version="1.0 ui/1.0"]
+@link[guide >keyboard]
+@link[seealso >shell-keyboard-shortcuts]
+
+@revision[pkgversion="3.8.0" version="0.3" date="2013-03-23" status="review"]
+@revision[pkgversion="3.9.92" date="2013-10-11" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.17.90" date="2015-08-30" status="candidate"]
+
+@credit[author]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[author]
+  @name Julita Inca
+  @email yrazes@gmail.com
+@credit[editor]
+  @name Juanjo Marín
+  @email juanj.marin@juntadeandalucia.es
+@credit[editor]
+  @name Shobha Tyagi
+  @email tyagishobha@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Define or change keyboard shortcuts in $gui(Keyboard) settings.
+
+[comment]
+  [cite date="2012-02-19" href="mailto:shaunm@gnome.org"]
+    Shaun McCance
+  Define shortcuts, using Shortcuts tab in Keyboard settings. Provide
+  reference for what everything is (can group for conciseness). Explain
+  custom shortcuts.
+
+  Important: the window says "To edit a shortcut, click the row and hold
+  down the new keys or press Backspace to clear." This is actually wrong.
+  You have to click the row, then click again on the shortcut within the
+  row. File bug against control-center about the faulty message (or better,
+  about the confusing interaction), but make sure to explain correctly in
+  the help regardless.
+
+To change the key or keys to be pressed for a keyboard shortcut:
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Keyboard).
+
+* Click on $gui(Keyboard) to open the panel.
+
+* Select the $gui(Shortcuts) tab.
+
+* Select a category in the left pane, and the row for the desired action
+  on the right. The current shortcut definition will change to
+  $gui(New accelerator…)
+
+* Hold down the desired key combination, or press $key(Backspace) to clear.
+
+
+= Pre-defined shortcuts
+  [#defined]
+There are a number of pre-configured shortcuts that can be changed,
+grouped into these categories:
+
+[table rules="rows" frame="top bottom" ui:expanded="false"]
+. Launchers
+
+[tr]
+* Launch help browser
+* Disabled
+
+[tr]
+* Launch calculator
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-calculator.svg]($key(Calculator) key symbol)
+  or $key(Calculator)
+
+[tr]
+* Launch email client
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-mail.svg]($key(Mail) key symbol)
+  or $key(Mail)
+
+[tr]
+* Launch web browser
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-world.svg]($key(WWW) key symbol) or
+  $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-home.svg]($key(WWW) key symbol)
+  or $key(WWW)
+
+[tr]
+* Home folder
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-folder.svg]($key(Explorer) key symbol) or
+  $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-computer.svg]($key(Explorer) key symbol)
+  or $key(Explorer)
+
+[tr]
+* Search
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-search.svg]($key(Search) key symbol)
+  or $key(Search)
+
+[table rules="rows" frame="top bottom" ui:expanded="false"]
+. Navigation
+
+[tr]
+* Move window to workspace 1
+* Disabled
+
+[tr]
+* Move window to workspace 2
+* Disabled
+
+[tr]
+* Move window to workspace 3
+* Disabled
+
+[tr]
+* Move window to workspace 4
+* Disabled
+
+[tr]
+* Move window one workspace to the left
+* $keyseq($key(Shift)$key(Ctrl)$key(Alt)$key($2190;))
+
+[tr]
+* Move window one workspace to the right
+* $keyseq($key(Shift)$key(Ctrl)$key(Alt)$key($2192;))
+
+[tr]
+* Move window one workspace up
+* $keyseq($key(Shift)$key[>keyboard-key-super](Super)$key(Page Up))
+
+[tr]
+* Move window one workspace down
+* $keyseq($key(Shift)$key(Super)$key(Page Down))
+  
+[tr]
+* Switch applications
+* $keyseq($key(Super)$key(Tab))
+
+[tr]
+* Switch windows
+* Disabled
+
+[tr]
+* Switch windows of an application
+* Disabled
+
+[tr]
+* Switch system controls
+* $keyseq($key(Ctrl)$key(Alt)$key(Tab))
+
+[tr]
+* Switch windows directly
+* $keyseq($key(Alt)$key(Esc))
+
+[tr]
+* Switch windows of an app directly
+* $keyseq($key(Alt)$key(F6))
+
+[tr]
+* Switch system controls directly
+* $keyseq($key(Ctrl)$key(Alt)$key(Esc))
+
+[tr]
+* Hide all normal windows
+* Disabled
+
+[tr]
+* Switch to workspace 1
+* Disabled
+
+[tr]
+* Switch to workspace 2
+* Disabled
+
+[tr]
+* Switch to workspace 3
+* Disabled
+
+[tr]
+* Switch to workspace 4
+* Disabled
+
+[tr]
+* Move to workspace left
+* $keyseq($key(Ctrl)$key(Alt)$key($2190;))
+
+[tr]
+* Move to workspace right
+* $keyseq($key(Ctrl)$key(Alt)$key($2192;))
+
+[tr]
+* Move to workspace above
+* $keyseq($key(Super)$key(Page Up))
+
+[tr]
+* Move to workspace below
+* $keyseq($key(Super)$key(Page Down))
+
+[table rules="rows" frame="top bottom" ui:expanded="false"]
+. Screenshots
+
+[tr]
+* Save a screenshot to file
+* $key(Print)
+
+[tr]
+* Save a screenshot of a window to file
+* $keyseq($key(Alt)$key(Print))
+
+[tr]
+* Save a screenshot of an area to file
+* $keyseq($key(Shift)$key(Print))
+
+[tr]
+* Copy a screenshot to clipboard
+* $keyseq($key(Ctrl)$key(Print))
+
+[tr]
+* Copy a screenshot of a window to clipboard
+* $keyseq($key(Ctrl)$key(Alt)$key(Print))
+
+[tr]
+* Copy a screenshot of an area to clipboard
+* $keyseq($key(Shift)$key(Ctrl)$key(Print))
+
+[tr]
+* Record a screencast
+* $keyseq($key(Shift)$key(Ctrl)$key(Alt)$key(R))
+
+[table rules="rows" frame="top bottom" ui:expanded="false"]
+. Sound and Media
+
+[tr]
+* Volume mute
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-mute.svg]($key(Mute) key symbol)
+  (Audio mute)
+
+[tr]
+* Volume down
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-voldown.svg]($key(Volume Down) key symbol)
+  (Audio lower volume)
+
+[tr]
+* Volume up
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-volup.svg]($key(Volume Up) key symbol)
+  (Audio raise volume)
+
+[tr]
+* Launch media player
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-media.svg]($key(Media) key symbol)
+  (Audio media)
+
+[tr]
+* Play (or play/pause)
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-play.svg]($key(Play) key symbol)
+  (Audio play)
+
+[tr]
+* Pause playback
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-pause.svg]($key(Pause) key symbol)
+  (Audio pause)
+
+[tr]
+* Stop playback
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-stop.svg]($key(Stop) key symbol)
+  (Audio stop)
+
+[tr]
+* Previous track
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-previous.svg]($key(Previous) key symbol)
+  (Audio previous)
+
+[tr]
+* Next track
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-next.svg]($key(Next) key symbol)
+  (Audio next)
+
+[tr]
+* Eject
+* $media[its:translate=no image mime=image/svg
+  src=figures/keyboard-key-eject.svg]($key(Eject) key symbol)
+  (Eject)
+
+[table rules="rows" frame="top bottom" ui:expanded="false"]
+. System
+
+[tr]
+* Show the run command prompt
+* $keyseq($key(Alt)$key(F2))
+
+[tr]
+* Show the activities overview
+* $keyseq($key(Alt)$key(F1))
+
+[tr]
+* Log out
+* $keyseq($key(Ctrl)$key(Alt)$key(Delete))
+
+[tr]
+* Lock screen
+* $keyseq($key(Super)$key(L))
+
+[tr]
+* Show the message tray
+* $keyseq($key(Super)$key(M))
+
+[tr]
+* Focus the active notification
+* $keyseq($key(Super)$key(N))
+
+[tr]
+* Show all applications
+* $keyseq($key(Super)$key(A))
+
+[tr]
+* Open the application menu
+* $keyseq($key(Super)$key(F10))
+
+[table rules="rows" frame="top bottom" ui:expanded="false"]
+. Typing
+
+[tr]
+* Switch to next input source
+* $keyseq($key(Super)$key(Space))
+
+[tr]
+* Switch to previous input source
+* Disabled
+
+[tr]
+* Modifiers-only switch to next source
+* Disabled
+
+[tr]
+* Compose Key
+* Disabled
+
+[tr]
+* Alternative Characters Key
+* Disabled
+
+[table rules="rows" frame="top bottom" ui:expanded="false"]
+. Universal Access
+
+[tr]
+* Turn zoom on or off
+* $keyseq($key(Alt)$key(Super)$key(8))
+
+[tr]
+* Zoom in
+* $keyseq($key(Alt)$key(Super)$key(=))
+
+[tr]
+* Zoom out
+* $keyseq($key(Alt)$key(Super)$key(-))
+
+[tr]
+* Turn screen reader on or off
+* Disabled
+
+[tr]
+* Turn on-screen keyboard on or off
+* Disabled
+
+[tr]
+* Increase text size
+* Disabled
+
+[tr]
+* Decrease text size
+* Disabled
+
+[tr]
+* High contrast on or off
+* Disabled
+
+[table rules="rows" frame="top bottom" ui:expanded="false"]
+. Windows
+
+[tr]
+* Activate the window menu
+* $keyseq($key(Alt)$key(Space))
+
+[tr]
+* Toggle fullscreen mode
+* Disabled
+
+[tr]
+* Toggle maximization state
+* $keyseq($key(Alt)$key(F10))
+
+[tr]
+* Maximize window
+* $keyseq($key(Super)$key($2191;))
+
+[tr]
+* Restore window
+* $keyseq($key(Super)$key($2193;))
+
+[tr]
+* Toggle shaded state
+* Disabled
+
+[tr]
+* Close window
+* $keyseq($key(Alt)$key(F4))
+
+[tr]
+* Hide window
+* $keyseq($key(Super)$key(H))
+
+[tr]
+* Move window
+* $keyseq($key(Alt)$key(F7))
+
+[tr]
+* Resize window
+* $keyseq($key(Alt)$key(F8))
+
+[tr]
+* Toggle window on all workspaces or one
+* Disabled
+
+[tr]
+* Raise window if covered, otherwise lower it
+* Disabled
+
+[tr]
+* Raise window above other windows
+* Disabled
+
+[tr]
+* Lower window below other windows
+* Disabled
+
+[tr]
+* Maximize window vertically
+* Disabled
+
+[tr]
+* Maximize window horizontally
+* Disabled
+
+[tr]
+* View split on left
+* $keyseq($key(Super)$key($2190;))
+
+[tr]
+* View split on right
+* $keyseq($key(Super)$key($2192;))
+
+
+== Custom shortcuts
+   [#custom]
+
+To create your own application keyboard shortcut in the
+$app(Keyboard) settings:
+
+[steps]
+* Click the $gui[.button](+) button. The $gui(Custom Shortcut)
+  window will appear.
+
+* Type a $gui(Name) to identify the shortcut, and a $gui(Command)
+  to run an application, then click $gui(Add). For example, if you
+  wanted the shortcut to open $app(Rhythmbox), you could name it
+  $input(Music) and use the $input(rhythmbox) command.
+
+* Click $gui(Disabled) in the row that was just added. When it
+  changes to $gui(New accelerator…), hold down the desired shortcut
+  key combination.
+
+The command name that you type should be a valid system command. You can
+check that the command works by opening a Terminal and typing it in there.
+The command that opens an application cannot have the same name as the
+application itself.
+
+If you want to change the command that is associated with a custom
+keyboard shortcut, double-click the $em(name) of the shortcut. The
+$gui(Custom Shortcut) window will appear, and you can edit the
+command.

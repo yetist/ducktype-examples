@@ -1,0 +1,42 @@
+@include gnome-help.defs
+
+= User accounts
+  [guide .task]
+@link[guide >prefs]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+@revision[pkgversion="3.10" date="2013-11-03" status="final"]
+@revision[pkgversion="3.18" date="2015-09-30" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@xi:include[>>legal.xml]
+
+@title[link role="trail"] Users
+
+@desc $link[>user-add](Add user),
+      $link[>user-changepassword](change password),
+      $link[>user-admin-change](administrators)…
+
+[-] TODO: add enterprise user account/login
+
+Each person that uses the computer should have a different user account.
+This allows them to keep their files separate from yours and to choose their
+own settings. It is also more secure. You can only access a different user
+account if you know their password.
+
+
+== Manage user accounts
+   [#manage .2column]
+@title[link role=trail] Accounts
+
+
+== Passwords
+   [#passwords .2column]
+
+
+== User privileges
+   [#privileges .2column]
+@title[link role=trail] Privileges

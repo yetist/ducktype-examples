@@ -1,0 +1,258 @@
+@include gnome-help.defs
+
+= Introduction to GNOME
+  [topic .ui version="1.0 if/1.0"]
+@link[guide >shell-overview group="#first"]
+@link[guide >index group="#first"]
+
+@revision[pkgversion="3.6.0" date="2012-10-13" status="review"]
+@revision[pkgversion="3.10" date="2013-11-02" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc A visual introduction to your desktop, the top bar, and the
+      $gui(Activities) overview.
+
+GNOME 3 features a completely reimagined user interface designed to
+stay out of your way, minimize distractions, and help you get things done.
+When you first log in, you will see an empty desktop and the top bar.
+
+[if:choose]
+  [if:when test="!platform:gnome-classic"]
+    [media image src=figures/shell-top-bar.png width=600 if:test="!target:mobile"]
+      GNOME shell top bar
+  [if:when test="platform:gnome-classic"]
+    [media image src=figures/shell-top-bar-classic.png width=500 height=40 if:test="!target:mobile"]
+      GNOME shell top bar
+
+The top bar provides access to your windows and applications, your
+calendar and appointments, and
+$link[>status-icons](system properties) like sound, networking,
+and power. In the status menu in the top bar, you can change the volume or
+screen brightness, edit your $gui(Wi-Fi) connection details, check your
+battery status, log out or switch users, and turn off your computer.
+
+[links section]
+
+
+== $gui(Activities) overview
+   [#activities]
+
+[if:choose]
+  [if:when test="!platform:gnome-classic"]
+    [media image src=figures/shell-activities.png .floatend .floatright if:test="!target:mobile"]
+      Activities button
+  [if:when test="platform:gnome-classic"]
+    [media image src=figures/shell-activities-classic.png width=108 height=69 .floatend .floatright if:test="!target:mobile"]
+      Activities button
+
+[p if:test="!platform:gnome-classic"]
+To access your windows and applications,
+click the $gui(Activities) button, or just move your mouse pointer to
+the top-left hot corner. You can also press the
+$key[>keyboard-key-super](Super) key on your keyboard. You can
+see your windows and applications in the overview. You can also just start
+typing to search your applications, files, folders, and the web.
+
+[p if:test="platform:gnome-classic"]
+To access your windows and applications,
+click the $gui[>shell-introduction#activities](Applications) menu
+at the top left of the screen and select the $gui(Activities Overview)
+item. You can also press the $key[>keyboard-key-super](Super) key
+to see your windows and applications in the $gui(Activities) overview. 
+Just start typing to search your applications, files, and folders.
+
+[-] TODO: retake without the flashy bit
+[media image src=figures/shell-dash.png height=300 .floatstart .floatleft if:test="!target:mobile"]
+  The dash
+
+On the left of the overview, you will find the $em(dash). The dash
+shows you your favorite and running applications. Click any icon in the
+dash to open that application; if the application is already running, it will
+be highlighted. Clicking its icon will bring up the most recently used 
+window. You can also drag the icon to the overview, or onto any workspace on
+the right.
+
+Right-clicking the icon displays a menu that allows you to pick any window
+in a running application, or to open a new window. You can also click the
+icon while holding down $key(Ctrl) to open a new window.
+
+When you enter the overview, you will initially be in the windows
+overview. This shows you live thumbnails of all the windows on the current
+workspace.
+
+Click the grid button at the bottom of the dash to display the
+applications overview. This shows you all the applications installed on your
+computer. Click any application to run it, or drag an application to the
+overview or onto a workspace thumbnail. You can also drag an application onto
+the dash to make it a favorite. Your favorite applications stay in the dash
+even when they’re not running, so you can access them quickly.
+
+[list .compact]
+* $link[>shell-apps-open](Learn more about starting applications.)
+* $link[>shell-windows](Learn more about windows and workspaces.)
+
+
+== Application menu
+   [#appmenu]
+
+[if:choose]
+  [if:when test="!platform:gnome-classic"]
+    [media image src=figures/shell-appmenu-shell.png
+           width=250 .floatend .floatright if:test="!target:mobile"]
+      App Menu of $app(Terminal)
+
+    Application menu, located beside the $gui(Activities) button,
+    shows the name of the active application alongside with its icon and
+    provides quick access to application preferences or help. The items that
+    are available in the application menu vary depending on the application.
+
+  [if:when test="platform:gnome-classic"]
+    [media image src=figures/shell-appmenu-classic.png
+           width=154 height=133 .floatend .floatright if:test="!target:mobile"]
+      App Menu of $app(Terminal)
+
+    Application menu, located next to the $gui(Applications) and
+    $gui(Places) menus, shows the name of the active application
+    alongside with its icon and provides quick access to application
+    preferences or help. The items that are available in the application menu
+    vary depending on the application.
+
+
+== Clock, calendar & appointments
+   [#clock]
+
+[if:choose]
+  [if:when test="!platform:gnome-classic"]
+    [media image src=figures/shell-appts.png
+           width=250 .floatend .floatright if:test="!target:mobile"]
+      Clock, calendar, appointments and notifications
+  [if:when test="platform:gnome-classic"]
+    [media image src=figures/shell-appts-classic.png
+           width=373 height=250 .floatend .floatright if:test="!target:mobile"]
+      Clock, calendar, and appointments
+
+Click the clock on the top bar to see the current date, a month-by-month
+calendar, a list of your upcoming appointments and new notifications. You can
+also open the calendar by pressing
+$keyseq($key(Super)$key(M)). You can access the date and
+time settings and open your full $app(Evolution) calendar directly from
+the menu.
+
+[list style="compact"]
+* $link[>clock-calendar](Learn more about the calendar and appointments.)
+* $link[>shell-notifications](Learn more about notifications and the message tray.)
+
+
+== You and your computer
+   [#yourname]
+
+[if:choose]
+  [if:when test="!platform:gnome-classic"]
+    [media image src=figures/shell-exit.png
+           width=250 .floatend .floatright if:test="!target:mobile"]
+      User menu
+  [if:when test="platform:gnome-classic"]
+    [media image src=figures/shell-exit-classic.png
+           width=250 height=200 .floatend .floatright if:test="!target:mobile"]
+      User menu
+
+Click the system menu in the top-right corner to manage your system
+settings and your computer.
+
+[--
+  Apparently not anymore. TODO: figure out how to update status.
+  <p>You can quickly set your availability directly from the menu. This will set
+  your status for your contacts to see in instant messaging applications such as
+  $app(Empathy).
+--]
+
+[comment]
+  [cite date="2012-02-19"]
+    shaunm
+  These are separate now. Write another blurb about "Notifications".
+  I'm also dropping shell-session-status UNTIL the docs for this get
+  cleared up. It was orphaned and incorrect.
+
+[--
+<p>If you set yourself to Unavailable, you won’t be bothered by message popups
+at the bottom of your screen. Messages will still be available in the message
+tray when you move your mouse to the bottom-right corner. But only urgent
+messages will be presented, such as when your battery is critically low.
+
+<list style="compact">
+  <item><p>$link[>shell-session-status](Learn more about changing
+  your availability.)</item>
+</list>
+--]
+
+When you leave your computer, you can lock your screen to prevent other
+people from using it. You can also quickly switch users without logging out
+completely to give somebody else access to the computer, or you can
+suspend or power off the computer from the menu. If you have a screen 
+that supports vertical or horizontal rotation, you can quickly rotate the 
+screen from the system menu. If your screen does not support rotation, 
+you will not see the button.
+
+[list style="compact"]
+* $link[>shell-exit](Learn more about switching users, logging out, and turning off your computer.)
+
+
+== Lock Screen
+   [#lockscreen]
+
+[media image src=figures/shell-lock.png width=250
+       .floatend .floatright if:test="!target:mobile"]
+  Lock Screen
+
+When you lock your screen, or it locks automatically, the lock screen is
+displayed. In addition to protecting your desktop while you’re away from your
+computer, the lock screen displays the date and time. It also shows
+information about your battery and network status, and allows you to control
+media playback.
+
+[list style="compact"]
+* $link[>shell-lockscreen](Learn more about the lock screen.)
+
+
+== Window List
+   [#window-list]
+
+[if:choose]
+  [if:when test="!platform:gnome-classic"]
+    GNOME features a different approach to switching windows than a
+    permanently visible window list found in other desktop environments. This
+    lets you focus on the task at hand without distractions.
+
+    [list .compact]
+    * $link[>shell-windows-switching](Learn more about switching windows.)
+
+  [if:when test="platform:gnome-classic"]
+    [media image src=figures/shell-window-list-classic.png
+           width=500 height=34 .floatend .floatright if:test="!target:mobile"]
+      Window List
+
+    The window list at the bottom of the screen provides access to all your
+    open windows and applications and lets you quickly minimize and restore
+    them.
+
+    At the right-hand side of the window list, GNOME displays a short
+    identifier for the current workspace, such as $gui(1) for the first
+    (top) workspace. In addition, the identifier also displays the total number
+    of available workspaces. To switch to a different workspace, you can click
+    the identifier and select the workspace you want to use from the menu.
+
+    If an application or a system component wants to get your attention, it
+    will display a blue icon at the right-hand side of the window list.
+    Clicking the blue icon shows the message tray.

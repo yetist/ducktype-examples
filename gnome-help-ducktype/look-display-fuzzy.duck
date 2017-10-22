@@ -1,0 +1,73 @@
+@include gnome-help.defs
+
+= Why do things look fuzzy/pixelated on my screen?
+  [.problem]
+@link[guide >hardware-problems-graphics]
+
+@revision[pkgversion="3.8.0" version="0.3" date="2013-03-09" status="candidate"]
+@revision[pkgversion="3.9.92" date="2013-10-11" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Natalia Ruz Leiva
+  @email nruz@alumnos.inf.utfsm.cl
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Shobha Tyagi
+  @email tyagishobha@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc The screen resolution may be set incorrectly.
+
+This can happen because the display resolution that you have set it is not
+the right one for your screen.
+
+To solve this, open the $Activities; overview and start typing $gui(Displays).
+Click on $gui(Displays) to open the panel. Try some of the $gui(Resolution)
+options and set the one that makes the screen look better.
+
+[comment]
+  [cite date="2012-02-19"]
+    shaunm
+  Would like a little more explanation on native resolution, which
+  is generally only applicable on LCDs. There's a stub for using two
+  monitors. Link from section below when it's added.
+
+== When multiple displays are connected
+   [#multihead]
+
+If you have two displays connected to the computer (for example, a normal
+monitor and a projector), the displays might have different resolutions.
+However, the computer’s graphics card can only display the screen in one
+resolution at a time, so at least one of the displays might look fuzzy.
+
+You can set it so that the two displays have different resolutions, but
+you will not be able to display the same thing on both screens
+simultaneously. In effect, you will have two independent screens connected at
+the same time. You can move windows from one screen to another, but you
+cannot show the same window on both screens at once.
+
+To set up the displays so that they each have their own resolution:
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Displays).
+
+* Click on $gui(Displays) to open the panel.
+
+* The displays should be listed as $gui(Mirrored). Select your main display.
+
+* Select $gui(Primary) in the list of display configurations, and then click
+  $gui[.button](Apply) to save.
+
+* Select each display in turn from the gray box at the top of the
+  $gui(Displays) window. Change the $gui(Resolution) until that
+  display looks right.

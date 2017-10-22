@@ -1,0 +1,34 @@
+@include gnome-help.defs
+
+= Hardware & drivers
+  [guide .task]
+@link[guide >index group="hardware"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@title[link role="trail"] Hardware
+
+@desc $link[>hardware#problems](Hardware problems),
+      $link[>printing](printers),
+      $link[>power](power settings),
+      $link[>color](color management),
+      $link[>bluetooth](Bluetooth),
+      $link[>disk](disks)…
+
+@xi:include[>>legal.xml]
+
+
+[links topic .toronto]
+
+[links topic .linklist groups="more"]
+  . More topics
+
+
+== Common problems
+   [#problems .2column]
+@title[link role="trail"] Problems
+@title[link] Hardware problems
+
+[links topic .linklist]

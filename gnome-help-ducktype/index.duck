@@ -1,0 +1,22 @@
+@include gnome-help.defs
+
+= $media[its:translate=no image src=figures/yelp-icon-big.png]($span[its:translate=yes](Yelp logo)) GNOME Help
+  [guide]
+@desc A guide for GNOME 3 desktop users
+
+@title[link] GNOME Help
+@title[text]GNOME Help
+
+@title[link role=trail] $media[its:translate=no image mime=image/png
+                        src=figures/gnome.png]($span[its:translate=yes](Help))
+@xi:include[>>legal.xml]
+
+[links topic groups="#gs"]
+
+[links topic groups="#first"]
+
+[links topic .toronto groups="
+       shell-overview
+       net media files
+       prefs hardware
+       a11y tips more-help"]

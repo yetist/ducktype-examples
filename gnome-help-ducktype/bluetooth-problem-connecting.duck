@@ -1,0 +1,73 @@
+@include gnome-help.defs
+
+= I cannot connect my Bluetooth device
+  [guide .problem version="1.0 if/1.0"]
+@link[guide >bluetooth#problems]
+@link[seealso >hardware-driver]
+
+@revision[pkgversion="3.4" date="2012-02-19" status="outdated"]
+@revision[pkgversion="3.10" date="2013-11-09" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.14" date="2014-10-12" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name David King
+  @email amigadave@amigadave.com
+
+@xi:include[>>legal.xml]
+
+@desc The adapter could be turned off or may not have drivers, or Bluetooth
+      might be disabled or blocked.
+
+There are a number of reasons why you may not be able to connect to a
+Bluetooth device, such as a phone or headset.
+
+[terms]
+- Connection blocked or untrusted
+* Some Bluetooth devices block connections by default, or require you to
+  change a setting to allow connections to be made. Make sure that your
+  device is set up to allow connections.
+
+- Bluetooth hardware not recognized
+* Your Bluetooth adapter or dongle may not have been recognized by the
+  computer. This could be because
+  $link[>hardware-driver](drivers) for the adapter are not
+  installed. Some Bluetooth adapters are not supported on Linux, so you may
+  not be able to get the right drivers for them. In this case, you will
+  probably have to get a different Bluetooth adapter.
+
+- Adapter is not switched on
+
+  [if:choose]
+    [if:when test="platform:unity"]
+      Make sure that your Bluetooth adapter is switched on. Click the
+      Bluetooth icon in the $gui(menu bar) and check that it’s not
+      $link[>bluetooth-turn-on-off](disabled).
+
+    Make sure that your Bluetooth adapter is switched on. Open the
+    Bluetooth panel and check that it is not
+    $link[>bluetooth-turn-on-off](disabled).
+
+- Device Bluetooth connection switched off
+* Check that Bluetooth is turned on on the device you are trying to
+  connect to, and that it is $link[>bluetooth-visibility](discoverable
+  or visible). For example, if you are trying to connect to a phone,
+  make sure that it is not in airplane mode.
+
+- No Bluetooth adapter in your computer
+* Many computers do not have Bluetooth adapters. You can buy an adapter
+  if you want to use Bluetooth.
+
+[comment]
+  [cite date="2013-11-09" href="mailto:mdhillca@gmail.com"]
+    mdhill
+  Add link to shell-terminology definition of system status *area* of top
+  bar when it has been written, explain that if your network connection is
+  through a Bluetooth device it will show up in the system status *menu*.

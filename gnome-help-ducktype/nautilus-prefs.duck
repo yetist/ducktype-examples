@@ -1,0 +1,11 @@
+= File manager preferences
+  [guide .ui]
+@link[guide >files#more-file-tasks]   
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@desc View and set preferences for the file browser.
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+  
+[links task .2column
+ groups="nautilus-views nautilus-behavior nautilus-display nautilus-list nautilus-preview"]

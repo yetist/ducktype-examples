@@ -1,0 +1,31 @@
+@include gnome-help.defs
+
+= Tile windows
+  [topic .task]
+@link[guide >shell-windows#working-with-windows]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="review"]
+@revision[pkgversion="3.4.0" date="2012-03-14" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+
+@xi:include[>>legal.xml]
+
+@desc Maximize two windows side-by-side.
+
+You can maximize a window on only the left or right side of the screen,
+allowing you to place two windows side-by-side to quickly switch between
+them.
+
+To maximize a window along a side of the screen, grab the titlebar and drag
+it to the left or right side until half of the screen is highlighted. Using
+the keyboard, hold down $Super; and press the $key(Left) or $key(Right) key.
+
+To restore a window to its original size, drag it away from the side of
+the screen, or use the same keyboard shortcut you used to maximize.
+
+[note .tip]
+  Hold down the $key(Alt) key and drag anywhere in a window to move it.

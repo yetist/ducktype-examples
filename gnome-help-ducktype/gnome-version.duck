@@ -1,0 +1,26 @@
+@include gnome-help.defs
+
+= Determine which version of GNOME is running
+  [topic .task]
+@link[guide >tips]
+@revision[version="3.14.2" date="2015-01-28" status="review"]
+
+@credit[author copyright]
+  @name Petr Kovar
+  @email pknbe@volny.cz
+  @years 2015
+
+@xi:include[>>legal.xml]
+
+@desc How to determine which version of GNOME is running.
+
+You can determine the version of GNOME that is running on your system by
+going to the $gui(Details) panel in $gui(Settings).
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Details).
+
+* Click on $gui(Details) to open the panel.
+
+  A window appears showing information about your system, including your
+  distribution’s name and the GNOME version.

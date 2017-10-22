@@ -1,0 +1,101 @@
+@include gnome-help.defs
+
+= What is GNOME Classic?
+  [topic .question version="1.0 if/1.0"]
+[-] @link[guide xref="shell-overview#desktop"]
+@revision[pkgversion="3.10.1" date="2013-10-28" status="review"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Petr Kovar
+  @email pknbe@volny.cz
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Consider switching to GNOME Classic if you prefer a more traditional
+      desktop experience.
+
+[if:choose]
+  [if:when test="!platform:gnome-classic"]
+    $em(GNOME Classic) is a feature for users who prefer a more traditional
+    desktop experience. While $em(GNOME Classic) is based on $em(GNOME 3)
+    technologies, it provides a number of changes to the user interface, such as
+    the $gui(Applications) and $gui(Places) menus on the top bar, and a window
+    list at the bottom of the screen.
+  [if:when test="platform:gnome-classic"]
+    $em(GNOME Classic) is a feature for users who prefer a more traditional
+    desktop experience. While $em(GNOME Classic) is based on $em(GNOME 3)
+    technologies, it provides a number of changes to the user interface, such as
+    the $gui[>shell-introduction#activities](Applications) and
+    $gui(Places) menus on the top bar, and a window
+    list at the bottom of the screen.
+
+You can use the $gui(Applications) menu on the top bar to launch applications.
+The $Activities; overview is available by selecting the $gui(Activities
+Overview) item from the menu.
+
+To access the $em($gui(Activities) overview), you can also press the
+$key[>keyboard-key-super](Super) key.
+
+
+== Window list
+   [#gnome-classic-window-list]
+
+The window list at the bottom of the screen provides access to all your open
+windows and applications and lets you quickly minimize and restore them.
+
+At the right-hand side of the window list, GNOME displays a short
+identifier for the current workspace, such as $gui(1) for the first
+(top) workspace. In addition, the identifier also displays the total number
+of available workspaces. To switch to a different workspace, you can click
+the identifier and select the workspace you want to use from the menu.
+
+If an application or a system component wants to get your attention, it
+will display a blue icon at the right-hand side of the window list. Clicking
+the blue icon shows the $link[>shell-notifications](message tray), which
+lets you access all your notifications.
+
+
+== Switch to and from GNOME Classic
+   [#gnome-classic-switch]
+
+[note if:test="!platform:gnome-classic" .important]
+  GNOME Classic is only available on systems with certain GNOME Shell extensions
+  installed. Some Linux distributions may not have these extensions available or
+  installed by default.
+
+[steps]
+. To switch from $em(GNOME) to $em(GNOME Classic):
+
+* Save any open work, and then log out. Click the system menu on the right
+  side of the top bar, click your name and then choose the right option.
+
+* A confirmation message will appear. Select $gui(Log Out) to confirm.
+
+* At the login screen, select your name from the list.
+
+* Enter your password in the password entry box.
+
+* Click the options icon, which is displayed to the left of the $gui(Sign In)
+  button, and select $gui(GNOME Classic).
+
+* Click the $gui(Sign In) button.
+
+[steps]
+. To switch from $em(GNOME Classic) to $em(GNOME):
+
+* Save any open work, and then log out. Click the system menu on the right
+  side of the top bar, click your name and then choose the right option.
+
+* A confirmation message will appear. Select $gui(Log Out) to confirm.
+
+* At the login screen, select your name from the list.
+
+* Enter your password in the password entry box.
+
+* Click the options icon, which is displayed to the left of the $gui(Sign In)
+  button, and select $gui(GNOME).
+
+* Click the $gui(Sign In) button.

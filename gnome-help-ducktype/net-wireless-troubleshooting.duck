@@ -1,0 +1,55 @@
+@include gnome-help.defs
+
+= Wireless network troubleshooter
+  [topic .task]
+@link[guide >net-wireless group="first"]
+@link[guide >hardware#problems group="first"]
+@link[next >net-wireless-troubleshooting-initial-check]
+
+@revision[pkgversion="3.10" date="2013-11-10" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Contributors to the Ubuntu documentation wiki
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@xi:include[>>legal.xml]
+
+@desc Identify and fix problems with wireless connections.
+
+This is a step-by-step troubleshooting guide to help you identify and fix
+wireless problems. If you cannot connect to a wireless network for some
+reason, try following the instructions here.
+
+We will proceed through the following steps to get your computer connected
+to the internet:
+
+[list numbered .compact]
+* Performing an initial check
+
+* Gathering information about your hardware
+
+* Checking your hardware
+
+* Attempting to create a connection to your wireless router
+
+* Performing a check of your modem and router
+
+To get started, click on the $em(Next) link at the top right of the
+page. This link, and others like it on following pages, will take you through
+each step in the guide.
+
+[note]
+  . Using the command line
+
+  Some of the instructions in this guide ask you to type commands into the
+  $em(command line) (Terminal). You can find the $app(Terminal) application in
+  the $gui(Activities) overview.
+
+  If you are not familiar with using a command line, don’t worry — this
+  guide will direct you at each step. All you need to remember is that
+  commands are case-sensitive (so you must type them $em(exactly) as they
+  appear here), and to press $key(Enter) after typing each command to
+  run it.

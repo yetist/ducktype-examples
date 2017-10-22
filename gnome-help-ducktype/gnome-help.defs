@@ -1,0 +1,10 @@
+@namespace e http://projectmallard.org/experimental/
+@namespace if http://projectmallard.org/if/1.0/
+@namespace ui http://projectmallard.org/ui/1.0/
+@namespace its http://www.w3.org/2005/11/its
+@namespace itst http://itstool.org/extensions/
+@namespace xlink http://www.w3.org/1999/xlink
+@namespace xi http://www.w3.org/2001/XInclude
+
+@define Activities $gui[>shell-introduction#activities](Activities)
+@define Super $key[>keyboard-key-super](Super)

@@ -1,0 +1,34 @@
+@include gnome-help.defs
+
+= How do I calibrate my camera?
+  [topic .task]
+@link[guide >color#calibration]
+@link[seealso >color-calibrationtargets]
+@link[seealso >color-calibrate-printer]
+@link[seealso >color-calibrate-scanner]
+@link[seealso >color-calibrate-screen]
+@desc Calibrating your camera is important to capture accurate colors.
+
+@credit[author]
+  @name Richard Hughes
+  @email richard@hughsie.com
+@xi:include[>>legal.xml]
+
+
+Camera devices are calibrated by taking a photograph of a target
+under the desired lighting conditions.
+By converting the RAW file to a TIFF file, it can be used to
+calibrate the camera device in the color control panel.
+  
+You will need to crop the TIFF file so that just the target is
+visible. Ensure the white or black borders are still visible.
+Calibration will not work if the image is upside-down or is
+distorted by a large amount.
+  
+
+[note .tip]
+  The resulting profile is only valid under the lighting condition
+  that you acquired the original image from.
+  This means you might need to profile several times for
+  $em(studio), $em(bright sunlight) and $em(cloudy)
+  lighting conditions.

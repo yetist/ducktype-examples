@@ -1,0 +1,57 @@
+@include gnome-help.defs
+
+= Staying safe on the internet
+  [guide .task]
+@link[guide >net-general]
+
+@revision[pkgversion="3.4.0" date="2012-02-21" status="final"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Steven Richards
+  @email steven.richardspc@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc General tips to keep in mind when using the internet.
+
+A possible reason for why you are using Linux is the robust security that
+it is known for. One reason that Linux is relatively safe from malware and
+viruses is due to the lower number of people who use it. Viruses are targeted
+at popular operating systems, like Windows, that have an extremely large user
+base. Linux is also very secure due to its open source nature, which allows
+experts to modify and enhance the security features included with each
+distribution.
+
+Despite the measures taken to ensure that your installation of Linux is
+secure, there are always vulnerabilities. As an average user on the internet
+you can still be susceptible to:
+
+* Phishing Scams (websites and emails that try to obtain sensitive
+      information through deception)
+
+* $link[>net-email-virus](Forwarding malicious emails)
+
+* $link[>net-antivirus](Applications with malicious intent (viruses))
+
+* $link[>net-wireless-wepwpa](Unauthorized remote/local network access)
+
+To stay safe online, keep in mind the following tips:
+
+* Be wary of emails, attachments, or links that were sent from people
+  you do not know.
+
+* If a website’s offer is too good to be true, or asks for sensitive
+  information that seems unnecessary, then think twice about what
+  information you are submitting and the potential consequences if that
+  information is compromised by identity thieves or other criminals.
+
+* Be careful in providing $link[>user-admin-explain](root level permissions)
+  to any application, especially ones that you have not used before or which
+  are not well-known. Providing anyone or anything with root level permissions
+  puts your computer at high risk to exploitation.
+
+* Make sure you are only running necessary remote-access services. Having SSH
+  or VNC running can be useful, but also leaves your computer open to intrusion
+  if not secured properly. Consider using a $link[>net-firewall-on-off](firewall)
+  to help protect your computer from intrusion.

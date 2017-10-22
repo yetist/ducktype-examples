@@ -1,0 +1,93 @@
+@include gnome-help.defs
+
+= Online services and applications
+  [topic .task]
+@link[guide >accounts]
+@link[seealso >accounts-disable-service]
+
+@revision[pkgversion="3.8.2" date="2013-05-22" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-20" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="incomplete"]
+
+@credit[author copyright]
+  @name Baptiste Mille-Mathias
+  @email baptistem@gnome.org
+  @years 2012, 2013
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Andre Klapper
+  @email ak-47@gmx.net
+
+@xi:include[>>legal.xml]
+
+@desc Applications can use the accounts created in $app(Online
+      Accounts) and the services they exploit.
+
+[comment]
+  [cite date="2015-09-28"]
+    shaunm
+  Figure out what Maps does. See TODO below.
+
+Once you have added an online account, any application can use that
+account for any of the available services that you have not
+$link[>accounts-disable-service](disabled). Different providers
+provide different services. This page lists the different services
+and some of the applications that are known to use them.
+
+[terms]
+- Calendar
+* The Calendar service allows you to view, add, and edit events in
+  an online calendar. It is used by applications like $app(Calendar),
+  $app(Evolution), and $app(California).
+
+- Chat
+* The Chat service allows you to chat with your contacts on popular
+  instant messaging platforms. It is used by the $app(Empathy)
+  application.
+
+- Contacts
+* The Contacts service allows you to see the published details of your
+  contacts on various services. It is used by applications like
+  $app(Contacts) and $app(Evolution).
+
+- Documents
+* The Documents service allows you to view your online documents
+  such as those in Google docs. You can view your documents using the
+  $app(Documents) application.
+
+- Files
+* The Files service adds a remote file location, as if you had added
+  one using the $link[>nautilus-connect](Connect to Server) functionality
+  in the file manager. You can access remote files using the file manager,
+  as well as through file open and save dialogs in any application.
+
+- Mail
+* The Mail service allows you to send and receive email through an
+  email provider like Google. It is used by $app(Evolution).
+
+[-- TODO: Not sure what this does. Doesn't seem to do anything in Maps app.
+- Maps
+--]
+
+- Photos
+* The Photos service allows you to view your online photos such as
+  those you post on Facebook. You can view your photos using the
+  $app(Photos) application.
+
+- Printers
+* The Printers service allows you to send a PDF copy to a provider from
+      within the print dialog of any application. The provider might provide
+      print services, or it might just serve as storage for the PDF, which
+      you can download and print later.
+
+- Read Later
+* The Read Later service allows you to save a web page to external
+  services so that you can read it later on another device. No
+  applications currently use this service.
+
+  [comment]
+    [cite date="2015-09-28"]
+      shaunm
+    Check this for 3.20. Might get support for Pocket in Epiphany.

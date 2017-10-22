@@ -1,0 +1,35 @@
+@include gnome-help.defs
+
+= Control location services
+  [topic .task]
+@link[guide >privacy group="#last"]
+
+@revision[pkgversion="3.14" date="2014-10-13" status="review"]
+@revision[pkgversion="3.18" date="2015-09-30" status="final"]
+
+@credit[author copyright]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+  @years 2014
+
+@xi:include[>>legal.xml]
+
+@desc Enable or disable geolocation.
+
+Geolocation, or location services, uses cell tower positioning, GPS, and
+nearby Wi-Fi access points to determine your current location for use in
+setting your timezone and by applications such as $app(Maps). When
+enabled, it is possible for your location to be shared over the network with
+a great deal of precision.
+
+[steps]
+. Turn off the geolocation features of your desktop
+
+* Open the $Activities; overview and start typing $gui(Privacy).
+
+* Click on $gui(Privacy) to open the panel.
+
+* Set the $gui(Location Services) switch to $gui(OFF).
+
+  To re-enable this feature, set the $gui(Location Services) switch
+  to $gui(ON).

@@ -1,0 +1,36 @@
+@include gnome-help.defs
+
+= Why add an account?
+  [topic .question]
+@link[guide >accounts group="#first"]
+
+@revision[pkgversion="3.5.5" date="2012-08-14" status="review"]
+@revision[pkgversion="3.13.92" date="2014-02-20" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author copyright]
+  @name Susanna Huhtanen
+  @email ihmis.suski@gmail.com
+  @years 2012
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2014
+
+@xi:include[>>legal.xml]
+
+@desc Why add your email or social media accounts to your desktop?
+
+Adding your online accounts brings your choice of services like calendar,
+chat, and e-mail straight to your desktop and makes the information of the
+services a seamless part of your user experience. By adding accounts you can
+easily keep in touch using services from different accounts, like chats, at
+the same time. Just set up your online accounts once and every time you start
+your computer all the accounts and services that you have added are ready to
+use.
+
+See $link[>accounts-which-application] for information on which
+applications can access which online services.

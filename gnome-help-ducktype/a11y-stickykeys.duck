@@ -1,0 +1,82 @@
+@include gnome-help.defs
+
+= Turn on sticky keys
+  [topic .task a11y]
+@link[guide >a11y#mobility group="keyboard"]
+@link[guide >keyboard group="a11y"]
+
+@revision[pkgversion="3.8.0" date="2013-03-13" status="candidate"]
+@revision[pkgversion="3.9.92" date="2013-09-18" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-20" status="final"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@xi:include[>>legal.xml]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@desc Type keyboard shortcuts one key at a time rather than having to hold
+      down all of the keys at once.
+
+
+$em(Sticky keys) allows you to type keyboard shortcuts one key at a
+time rather than having to hold down all of the keys at once. For example,
+the $keyseq($key[>keyboard-key-super](Super)$key(Tab))
+shortcut switches between windows. Without sticky keys turned on, you would
+have to hold down both keys at the same time; with sticky keys turned on, you
+would press $key(Super) and then $key(Tab) to do the same.
+
+You might want to turn on sticky keys if you find it difficult to hold
+down several keys at once.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Universal Access).
+
+* Click on $gui(Universal Access) to open the panel.
+
+* Press $gui(Typing Assist (AccessX)) in the $gui(Typing) section.
+
+* Switch $gui(Sticky Keys) to $gui(ON).
+
+[note .tip]
+  . Quickly turn sticky keys on and off
+
+  Under $gui(Enable by Keyboard), select
+  $gui(Turn on accessibility features from the keyboard)
+  to turn sticky keys on and off from the keyboard. When this option is
+  selected, you can press $key(Shift) five times in a row to enable or
+  disable sticky keys.
+
+  You can also turn sticky keys on and off by clicking the
+  $link[>a11y-icon](accessibility icon) on the top bar and
+  selecting $gui(Sticky Keys). The accessibility icon is visible when
+  one or more settings have been enabled from the $gui(Universal Access)
+  panel.
+
+If you press two keys at once, you can have sticky keys turn itself off
+temporarily to let you enter a keyboard shortcut in the normal way.
+
+For example, if you have sticky keys turned on but press $key(Super)
+and $key(Tab) simultaneously, sticky keys would not wait for you to
+press another key if you had this option turned on. It $em(would) wait if
+you only pressed one key, however. This is useful if you are able to press
+some keyboard shortcuts simultaneously (for example, keys that are close
+together), but not others.
+
+Select $gui(Disable if two keys are pressed together) to enable this.
+
+You can have the computer make a “beep” sound when you start typing a
+keyboard shortcut with sticky keys turned on. This is useful if you want to
+know that sticky keys is expecting a keyboard shortcut to be typed, so the
+next key press will be interpreted as part of a shortcut. Select $gui(Beep
+when a modifier key is pressed) to enable this.

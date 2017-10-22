@@ -1,0 +1,68 @@
+@include gnome-help.defs
+
+= Create a connection with a fixed IP address
+  [topic .task]
+@link[guide >net-wired]
+@link[seealso >net-findip]
+
+@revision[pkgversion="3.4.0" date="2012-03-13" status="final"]
+@revision[pkgversion="3.15" date="2014-12-04" status="final"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+@revision[pkgversion="3.24" date="2017-03-26" status="final"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+@credit[author]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+  @years 2014
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Using a static IP address can make it easier to provide some network
+      services from your computer.
+
+Most networks will automatically assign an
+$link[>net-what-is-ip-address](IP address) and other details to your
+computer when you connect to the network. These details can change
+periodically, but you might want to have a fixed IP address for the computer
+so you always know what its address is (for example, if it is a file
+server).
+
+[steps]
+. To give your computer a fixed (static) IP address:
+
+* Open the $Activities; overview and start typing $gui(Network).
+
+* Click on $gui(Network) to open the panel.
+
+* In the left pane, select the network connection that you want to have
+  a fixed address. If you plug in to the network with a cable, click
+  $gui(Wired), then click the
+  $media[its:translate=no image src=figures/emblem-system.png]($span[its:translate=yes](settings))
+  button in the lower right corner of the panel. For a $gui(Wi-Fi)
+  connection, the 
+  $media[its:translate=no image src=figures/emblem-system.png]($span[its:translate=yes](settings))
+  button will be located next to the active network.
+
+* Click on $gui(IPv4) or $gui(IPv6) in the left pane
+  and change the $gui(Addresses) to $em(Manual).
+
+* Type in the $gui[>net-what-is-ip-address](IP Address) and
+  $gui(Gateway), as well as the appropriate $gui(Netmask).
+
+* In the $gui(DNS) section, switch $gui(Automatic) to
+  $gui(OFF). Enter the IP address of a DNS server you want to use.
+  Enter additional DNS server addresses using the $gui(+) button.
+
+* In the $gui(Routes) section, switch $gui(Automatic) to
+  $gui(OFF). Enter the $gui(Address), $gui(Netmask),
+  $gui(Gateway) and $gui(Metric) for a route you want to use.
+  Enter additional routes using the $gui(+) button.
+
+* Click $gui(Apply). The network connection should now have a fixed
+  IP address.

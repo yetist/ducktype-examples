@@ -1,0 +1,88 @@
+@include gnome-help.defs
+
+= Start applications
+  [topic .task version="1.0 if/1.0"]
+@link[guide >shell-overview]
+@link[guide >index group="#first"]
+
+@revision[pkgversion="3.6.0" date="2012-10-14" status="review"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Shobha Tyagi
+  @email tyagishobha@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Launch apps from the $gui(Activities) overview.
+
+[comment]
+  [cite]
+    shaunm
+  If an app is running, it's focused. You can create a new window by dragging
+  to the windows overview or onto a workspace thumbnail. (Also mention dragging
+  to overview in list item below, not just workspace thumbnail.) Right-click
+  icon to choose a window to focus or get new window. Mention middle-click?
+
+[p if:test="!platform:gnome-classic"]
+Move your mouse pointer to the
+$gui(Activities) corner at the top left of the screen to show the
+$Activities; overview. This is where you
+can find all of your applications. You can also open the overview by pressing
+the $key[>keyboard-key-super](Super) key.
+  
+[p if:test="platform:gnome-classic"]
+You can start applications from the
+$gui[>shell-introduction#activities](Applications) menu at the top
+left of the screen, or you can use the $gui(Activities) overview by
+pressing the $key[>keyboard-key-super](Super) key.
+
+There are several ways of opening an application once you’re in the
+$gui(Activities) overview:
+
+* Start typing the name of an application — searching begins instantly.
+  (If this doesn’t happen, click the search bar at the top of the screen
+  and start typing.) If you don’t know the exact name of an application, try
+  to type an related term. Click the application’s icon to start it.
+
+* Some applications have icons in the $em(dash), the vertical strip
+  of icons on the left-hand side of the $gui(Activities) overview.
+  Click one of these to start the corresponding application.
+
+  If you have applications that you use very frequently, you can
+  $link[>shell-apps-favorites](add them to the dash)
+  yourself.
+
+* Click the grid button at the bottom of the dash. You will see the
+  frequently used applications if the $gui[.button](Frequent)
+  view is enabled. If you want to run a new application, press the
+  $gui[.button](All) button at the bottom to view all the
+  applications. Press on the application to start it.
+
+* You can launch an application in a separate
+  $link[>shell-workspaces](workspace) by dragging its icon from
+  the dash, and dropping it onto one of the workspaces on the right-hand
+  side of the screen. The application will open in the chosen
+  workspace.
+
+  You can launch an application in a $em(new) workspace by dragging
+  its icon to the empty workspace at the bottom of the workspace
+  switcher, or to the small gap between two workspaces.
+
+[note .tip]
+  . Quickly running a command
+
+  Another way of launching an application is to press
+  $keyseq($key(Alt)$key(F2)), enter its
+  $em(command name), and then press the $key(Enter) key.
+
+  For example, to launch $app(Rhythmbox), press
+  $keyseq($key(Alt)$key(F2)) and type
+  ‘$cmd(rhythmbox)’ (without the single-quotes). The name of the app is
+  the command to launch the program.

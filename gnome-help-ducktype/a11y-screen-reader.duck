@@ -1,0 +1,57 @@
+@include gnome-help.defs
+
+= Read screen aloud
+  [topic .a11y task]
+@link[guide >a11y#vision group="blind"]
+
+@revision[pkgversion="3.13.92" date="2014-09-20" status="incomplete"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@xi:include[>>legal.xml]
+
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Jana Heves
+  @email jsvarova@gnome.org
+
+@desc Use the $app(Orca) screen reader to speak the user interface.
+
+GNOME provides the $app(Orca) screen reader to speak the user
+interface. Depending on how you installed GNOME, you might not have
+Orca installed. If not, install Orca first.
+
+[p if:test="action:install"]
+  $link[.button action=install:orca](Install Orca)
+  
+To start $app(Orca) using the keyboard:
+  
+[steps]
+* Press $key(Super)+$key(Alt)+$key(S).
+  
+Or to start $app(Orca) using a mouse and keyboard:
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Universal Access).
+
+* Click $gui(Universal Access) to open the panel.
+
+* Click $gui(Screen Reader) in the $gui(Seeing) section, then
+  switch $gui(Screen Reader) on in the dialog.
+
+[note .tip]
+  . Quickly turn Screen Reader on and off
+
+  You can turn Screen Reader on and off by clicking the
+  $link[>a11y-icon](accessibility icon) in the top bar and
+  selecting $gui(Screen Reader).
+
+Refer to the $link[>>help:orca](Orca Help) for
+more information.
+
+[comment]
+  [cite date="2012-02-19"]
+    shaunm
+  I'd like this page to have more on how to start Orca, then pass
+  off to the Orca help for more information.

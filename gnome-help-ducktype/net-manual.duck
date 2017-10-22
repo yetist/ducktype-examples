@@ -1,0 +1,63 @@
+@include gnome-help.defs
+
+= Manually set network settings
+  [topic .task]
+@link[guide >net-wired]
+@link[guide >net-wireless]
+
+@revision[pkgversion="3.4.0" date="2012-02-20" status="final"]
+@revision[pkgversion="3.10" date="2013-11-11" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@desc You may have to enter network settings if they don’t get assigned
+      automatically.
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+If your network doesn’t automatically assign network settings to your
+computer, you may have to manually enter the settings yourself. This topic
+assumes that you already know the correct settings to use. If not, you may
+need to ask your network administrator or look at the settings of your router
+or network switch.
+
+[steps]
+. To manually set your network settings:
+
+* Open the $Activities; overview and  start typing $gui(Network).
+
+* Click on $gui(Network) to open the panel.
+
+* In the left pane, select the network connection that you want to set up manually.
+  If you plug in to the network with a cable, click $gui(Wired),then click the
+  $media[its:translate=no image src=figures/emblem-system.png]($span[its:translate=yes](settings))
+  button in the lower right corner of the panel. For a $gui(Wi-Fi) connection, the 
+  $media[its:translate=no image src=figures/emblem-system.png]($span[its:translate=yes](settings))
+  button will be located next to the active network.
+
+  Make sure that your wireless card is turned on or a network cable is plugged in.
+
+* Click on $gui(IPv4) or $gui(IPv6) in the left pane and change the
+  $gui(Addresses) to $em(Manual).
+
+* Type in the $gui[>net-what-is-ip-address](IP Address) and $gui(Gateway),
+  as well as the appropriate $gui(Netmask).
+
+* In the $gui(DNS) section, switch $gui(Automatic) to $gui(OFF). Enter the
+  IP address of a DNS server you want to use. Enter additional DNS server
+  addresses using the $gui(+) button.
+
+* In the $gui(Routes) section, switch $gui(Automatic) to $gui(OFF). Enter
+  the $gui(Address), $gui(Netmask), $gui(Gateway) and $gui(Metric) for a
+  route you want to use. Enter additional routes using the $gui(+) button.
+
+* Click $gui(Apply). If you are not connected to the network, click the
+  system status area on the top bar and connect. Test the network settings
+  by trying to visit a website or look at shared files on the network, for
+  example.

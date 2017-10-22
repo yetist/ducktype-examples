@@ -1,0 +1,60 @@
+@include gnome-help.defs
+
+= Purge trash & temporary files
+  [topic .task]
+@link[guide >privacy]
+@link[guide >files#more-file-tasks]
+
+@revision[pkgversion="3.10" date="2013-09-29" status="review"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.14" date="2014-10-12" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-30" status="candidate"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Shaun McCance
+  @email mdhillca@gmail.com
+  @years 2015
+
+@xi:include[>>legal.xml]
+
+@desc Set how often your trash and temporary files will be cleared
+      from your computer.
+
+Clearing out your trash and temporary files removes
+unwanted and unneeded files from your computer, and also frees up more
+space on your hard drive. You can manually empty your trash and clear
+your temporary files, but you can also set your computer to automatically
+do this for you.
+
+Temporary files are files created automatically by applications in the
+background. They can increase performance by providing a copy of data that
+was downloaded or computed.
+
+[steps]
+. Automatically empty your trash and clear temporary files
+
+* Open the $Activities; overview and start typing $gui(Privacy).
+
+* Click on $gui(Privacy) to open the panel.
+
+* Select $gui(Purge Trash & Temporary Files).
+
+* Set one or both of the $gui(Automatically empty Trash) or
+  $gui(Automatically purge Temporary Files) switches to $gui(ON).
+
+* Set how often you would like your $em(Trash)  and
+  $em(Temporary Files) to be purged by changing the
+  $gui(Purge After) value.
+
+* Use the $gui(Empty Trash) or $gui(Purge Temporary Files)
+  buttons to perform these actions immediately.
+
+[note .tip]
+  You can delete files immediately and permanently without using the Trash.
+  See $link[>files-delete#permanent] for information.

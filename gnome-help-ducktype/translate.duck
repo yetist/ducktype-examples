@@ -1,0 +1,38 @@
+= Participate to improve translations
+  [topic .tip]
+@link[guide >more-help]
+@link[seealso >get-involved]
+@desc >How and where to help translate these topics.
+@revision[pkgversion="3.11.4" version="0.1" date="2014-01-26" status="review"]
+
+@credit[author copyright]
+  @name Tiffany Antopolski
+  @email tiffany.antopolski@gmail.com
+  @years 2011
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+@credit[editor]
+  @name Petr Kovar
+  @email pknbe@volny.cz
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+GNOME’s help is being translated by a world-wide volunteer community.
+You are welcome to participate.
+
+There are $link[>>https://l10n.gnome.org/module/gnome-user-docs/](many
+languages) for which translations are still needed.
+
+To start translating, you will need to
+$link[>>https://l10n.gnome.org/register/](create an account) and join
+the $link[>>https://l10n.gnome.org/teams/](translation team) for your
+language. This will give you the ability to upload new translations.
+
+You can chat with GNOME translators by joining the #i18n channel on the
+$link[>help-irc](GNOME IRC server). People on the channel are located
+worldwide, so you may not get an immediate response as a result of
+timezone differences.
+
+Alternatively, you can contact the Internationalization Team using their
+$link[>>http://mail.gnome.org/mailman/listinfo/gnome-i18n](mailing list).

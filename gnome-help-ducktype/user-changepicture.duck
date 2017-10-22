@@ -1,0 +1,55 @@
+@include gnome-help.defs
+
+= Change your login screen photo
+  [topic .task]
+@link[guide >user-accounts#manage]
+@link[seealso >user-admin-explain]
+
+@revision[pkgversion="3.8.0" date="2013-03-09" status="candidate"]
+@revision[pkgversion="3.10" date="2013-11-01" status="review"]
+@revision[pkgversion="3.14.0" date="2014-10-08" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+@credit[author]
+  @name Shaun McCance
+  @email shaunm@gnome.org
+@credit[editor]
+  @name Ekaterina Gerasimova
+  @email kittykat3756@gmail.com
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+@desc Add your photo to the login and user screens.
+
+When you log in or switch users, you will see a list of users with
+their login photos. You can change your photo to a stock image or an
+image of your own. You can even take a new login photo with your
+webcam.
+
+You need $link[>user-admin-explain](administrator privileges)
+to edit user accounts other than your own.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Users).
+
+* Click $gui(Users) to open the panel.
+
+* If you want to edit a user other than yourself, press
+  $gui[.button](Unlock) in the top right corner and type in your
+  password when prompted.
+
+* Click the picture next to your name. A drop-down gallery will be shown
+  with some stock login photos. If you like one of them, click it to use it
+  for yourself.
+
+  * If you would rather use a picture you already have on your computer,
+    click $gui(Browse for more pictures…).
+
+  * If you have a webcam, you can take a new login photo right now by clicking
+    $gui(Take a photo…). Take your picture, then move and resize the square
+    outline to crop out the parts you do not want. If you do not like the
+    picture you took, click $gui[.button](Take Another Picture) to try again,
+    or $gui(Cancel) to give up.

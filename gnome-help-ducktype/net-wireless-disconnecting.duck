@@ -1,0 +1,75 @@
+= Why does my wireless network keep disconnecting?
+  [topic .problem]
+@link[guide >net-wireless]
+@link[guide >net-problem]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="outdated"]
+@revision[pkgversion="3.10" date="2013-11-10" status="review"]
+@revision[pkgversion="3.18" date="2015-09-28" status="final"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+
+@credit[author]
+  @name Phil Bull
+  @email philbull@gmail.com
+
+@desc You might have low signal, or the network might not be letting
+      you connect properly.
+
+@include[href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"]
+
+You may find that you have been disconnected from a wireless network even
+though you wanted to stay connected. Your computer will normally try to
+reconnect to the network as soon as this happens (the network icon on the top
+bar will display three dots if it is trying to reconnect), but it can be
+annoying, especially if you were using the internet at the time.
+
+
+== Weak wireless signal
+   [#signal]
+
+A common reason for being disconnected from a wireless network is that you
+have low signal. Wireless networks have a limited range, so if you are too far
+away from the wireless base station you may not be able to get a strong enough
+signal to maintain a connection. Walls and other objects between you and the
+base station can also weaken the signal.
+
+The network icon on the top bar displays how strong your wireless signal is.
+If the signal looks low, try moving closer to the wireless base station.
+
+
+== Network connection not being established properly
+   [#network]
+
+Sometimes, when you connect to a wireless network, it may appear that you
+have successfully connected at first, but then you will be disconnected soon
+after. This normally happens because your computer was only partially
+successful in connecting to the network — it managed to establish a connection,
+but was unable to finalize the connection for some reason and so was
+disconnected.
+
+A possible reason for this is that you entered the wrong wireless
+passphrase, or that your computer was not allowed on the network (because the
+network requires a username to log in, for example).
+
+
+== Unreliable wireless hardware/drivers
+   [#hardware]
+
+Some wireless network hardware can be a little unreliable. Wireless
+networks are complicated, so wireless cards and base stations occasionally run
+into minor problems and may drop connections. This is annoying, but it happens
+quite regularly with many devices. If you are disconnected from wireless
+connections from time to time, this may be the only reason. If it happens very
+regularly, you may want to consider getting some different hardware.
+
+
+== Busy wireless networks
+   [#busy]
+
+Wireless networks in busy places (in universities and coffee shops, for
+example) often have many computers trying to connect to them at once. Sometimes
+these networks get too busy and may not be able to handle all of the computers
+that are trying to connect, so some of them get disconnected.

@@ -1,0 +1,115 @@
+@include gnome-help.defs
+
+= I cannot hear any sounds on the computer
+  [topic .problem]
+@link[guide >sound-broken]
+
+@revision[pkgversion="3.4.0" date="2012-02-19" status="outdated"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="review"]
+@revision[pkgversion="3.18" date="2015-09-29" status="final"]
+
+@credit[author]
+  @name GNOME Documentation Project
+  @email gnome-doc-list@gnome.org
+
+@xi:include[>>legal.xml]
+
+@desc Check that the sound is not muted, that cables are plugged in
+      properly, and that the sound card is detected.
+
+If you cannot hear any sounds on your computer, for example when you try
+to play music, go through the following troubleshooting tips.
+
+
+== Make sure that the sound is not muted
+   [#mute]
+
+Open the $gui[>shell-introduction#yourname](system menu) and make sure that
+the sound is not muted or turned down.
+
+Some laptops have mute switches or keys on their keyboards — try pressing
+that key to see if it unmutes the sound.
+
+You should also check that you have not muted the application that you are
+using to play sound (for example, your music player or movie player). The
+application may have a mute or volume button in its main window, so check
+that.
+
+Also, you can check the $gui(Applications) tab in the $gui(Sound) GUI:
+
+[steps]
+* Open $app(Settings) from the $gui(Activities) overview.
+
+* Click $gui(Sound).
+
+* Go to the $gui(Applications) tab and check that your application is not muted.
+
+
+== Check that the speakers are turned on and connected properly
+   [#speakers]
+
+If your computer has external speakers, make sure that they are turned on
+and that the volume is turned up. Make sure that the speaker cable is securely
+plugged into the “output” audio socket on your computer. This socket
+is usually light green in color.
+
+Some sound cards can switch between the socket they use for output
+(to the speakers) and the socket for input (from a microphone, for instance).
+The output socket may be different when running Linux, Windows or Mac OS.
+Try connecting the speaker cable to a different audio socket on your
+computer.
+
+A final thing to check is that the audio cable is securely plugged into the
+back of the speakers. Some speakers have more than one input, too.
+
+
+== Check that the correct sound device is selected
+   [#device]
+
+Some computers have multiple “sound devices” installed. Some of these are
+capable of outputting sound and some are not, so you should check that you
+have the correct sound device selected. This might involve some
+trial-and-error to choose the right one.
+
+[steps]
+* Open the $Activities; overview and start typing $gui(Sound).
+
+* Click on $gui(Sound) to open the panel.
+
+* In the $gui(Output) tab, change the $gui(Profile)
+  settings for the selected device and play a sound to see if it works.
+  You might need to go through the list and try each profile.
+
+  If that does not work, you might want to try doing the same for any
+  other devices that are listed.
+
+
+== Check that the sound card was detected properly
+   [#hardware-detected]
+
+Your sound card may not have been detected properly probably because 
+the drivers for the card are not installed. You may need to install the drivers
+for the card manually. How you do this depends on the type of the card.
+
+Run the $cmd(lspci) command in the Terminal to find out what sound
+card you have:
+
+[steps]
+* Go to the $gui(Activities) overview and open a Terminal.
+
+* Run $cmd(lspci) as $link[>user-admin-explain](superuser);
+  either type $cmd(sudo lspci) and type your password, or type
+  $cmd(su), enter the $em(root) (administrative) password,
+  then type $cmd(lspci).
+
+* Check if an $em(audio controller) or $em(audio device) is listed:
+  in such case you should see the make and model number of the sound card. 
+  Also, $cmd(lspci -v) shows a list with more detailed information.
+
+You may be able to find and install drivers for your card. It is best to
+ask on support forums (or otherwise) for your Linux distribution for
+instructions.
+
+If you cannot get drivers for your sound card, you might prefer to buy a
+new sound card. You can get sound cards that can be installed inside the
+computer and external USB sound cards.

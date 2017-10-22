@@ -1,0 +1,67 @@
+@include gnome-help.defs
+
+= Turn off or limit file history tracking
+  [topic .task]
+@link[guide >privacy]
+@link[guide >files#more-file-tasks]
+
+@revision[pkgversion="3.8" date="2013-03-11" status="final"]
+@revision[pkgversion="3.12" date="2014-03-23" status="candidate"]
+@revision[pkgversion="3.13.92" date="2014-09-22" status="candidate"]
+@revision[pkgversion="3.18" date="2015-09-30" status="final"]
+
+@credit[author]
+  @name Jim Campbell
+  @email jwcampbell@gmail.com
+@credit[editor]
+  @name Michael Hill
+  @email mdhillca@gmail.com
+
+@xi:include[>>legal.xml]
+
+@desc Stop or limit your computer from tracking your recently-used
+      files.
+  
+Tracking recently used files and folders makes it easier to find
+items that you have been working on in the file manager and in file
+dialogs in applications. You may wish to keep your file usage history
+private instead, or only track your very recent history.
+
+[steps]
+. Turn off file history tracking
+
+* Open the $Activities; overview and start typing $gui(Privacy).
+
+* Click on $gui(Privacy) to open the panel.
+
+* Select $gui(Usage & History).
+
+* Set the $gui(Recently Used) switch to $gui(OFF).
+
+  To re-enable this feature, set the $gui(Recently Used) switch to
+  $gui(ON).
+
+* Use the $gui(Clear Recent History) button to purge the history
+  immediately.
+  
+[note]
+This setting will not affect how your web browser stores information
+about the web sites you visit.
+
+[steps]
+. Restrict the amount of time your file history is tracked
+
+* Open the $Activities; overview and start typing $gui(Privacy).
+
+* Click on $gui(Privacy) to open the panel.
+
+* Select $gui(Usage & History).
+
+* Ensure the $gui(Recently Used) switch is $gui(ON).
+
+* Select the length of time to $gui(Retain History). Choose from
+  options $gui(1 day), $gui(7 days), $gui(30 days), or
+  $gui(Forever).
+
+* Use the $gui(Clear Recent History) button to purge the history
+  immediately.
