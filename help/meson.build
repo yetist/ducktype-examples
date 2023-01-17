@@ -407,7 +407,7 @@ media_files = [
 
 page_sources = []
 foreach s : duck_sources
-  message('convert @0@...'.format(s))
+  message('convert @0@ ...'.format(s))
   run_command(ducktype, 'C/@0@'.format(s), check: true)
   page_sources += s.replace('.duck', '.page')
 endforeach
@@ -417,5 +417,4 @@ gnome.yelp('gnome-user-docs',
   'legal.xml',
   media: media_files,
   symlink_media: true,
-  languages: ['zh_CN'],
 )
