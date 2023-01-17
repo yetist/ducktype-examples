@@ -4,12 +4,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-panel 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
-"POT-Creation-Date: 2023-01-16 21:16+0800\n"
+"POT-Creation-Date: 2023-01-17 10:08+0800\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
 "Last-Translator: Wenbin Lv <wenbin816@gmail.com>, 2022\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/"
@@ -19,6 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
 
 #. (itstool) path: credit/name
 #: ../help/C/a11y-bouncekeys.page:12 ../help/C/a11y-braille.page:10
@@ -4622,7 +4626,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: ../help/C/disk-capacity.page:47
-#, fuzzy
 msgid "Check with System Monitor"
 msgstr ""
 
@@ -6715,7 +6718,7 @@ msgstr "选择应用程序..."
 
 #. (itstool) path: steps/title
 #. (itstool) path: td/p
-#: ../help/C/files-search.page:34 ../help/C/keyboard-shortcuts-set.page:119
+#: ../help/C/files-search.page:34 ../help/C/keyboard-shortcuts-set.page:120
 msgid "Search"
 msgstr "搜索"
 
@@ -8297,7 +8300,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:142 ../help/C/keyboard-shortcuts-set.page:537
+#: ../help/C/keyboard-nav.page:142 ../help/C/keyboard-shortcuts-set.page:538
 msgid "<keyseq><key>Super</key><key>F10</key></keyseq>"
 msgstr ""
 
@@ -8349,7 +8352,7 @@ msgid "Navigate the desktop"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:184 ../help/C/keyboard-shortcuts-set.page:238
+#: ../help/C/keyboard-nav.page:184 ../help/C/keyboard-shortcuts-set.page:239
 msgid "<keyseq><key>Alt</key><key>F6</key></keyseq>"
 msgstr ""
 
@@ -8363,7 +8366,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:195 ../help/C/keyboard-shortcuts-set.page:230
+#: ../help/C/keyboard-nav.page:195 ../help/C/keyboard-shortcuts-set.page:231
 msgid "<keyseq><key>Alt</key><key>Esc</key></keyseq>"
 msgstr ""
 
@@ -8374,7 +8377,7 @@ msgid "Cycle through all open windows on a workspace."
 msgstr "显示所有工作区的窗口"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:203 ../help/C/keyboard-shortcuts-set.page:513
+#: ../help/C/keyboard-nav.page:203 ../help/C/keyboard-shortcuts-set.page:514
 #: ../help/C/shell-keyboard-shortcuts.page:147
 msgid "<keyseq><key>Super</key><key>M</key></keyseq>"
 msgstr ""
@@ -8393,7 +8396,7 @@ msgid "Navigate windows"
 msgstr "从不对窗口分组(_N)"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:215 ../help/C/keyboard-shortcuts-set.page:706
+#: ../help/C/keyboard-nav.page:215 ../help/C/keyboard-shortcuts-set.page:707
 msgid "<keyseq><key>Alt</key><key>F4</key></keyseq>"
 msgstr ""
 
@@ -8419,7 +8422,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:234 ../help/C/keyboard-shortcuts-set.page:722
+#: ../help/C/keyboard-nav.page:234 ../help/C/keyboard-shortcuts-set.page:723
 msgid "<keyseq><key>Alt</key><key>F7</key></keyseq>"
 msgstr ""
 
@@ -8432,7 +8435,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:245 ../help/C/keyboard-shortcuts-set.page:730
+#: ../help/C/keyboard-nav.page:245 ../help/C/keyboard-shortcuts-set.page:731
 msgid "<keyseq><key>Alt</key><key>F8</key></keyseq>"
 msgstr ""
 
@@ -8461,7 +8464,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:269 ../help/C/keyboard-shortcuts-set.page:714
+#: ../help/C/keyboard-nav.page:269 ../help/C/keyboard-shortcuts-set.page:715
 msgid "<keyseq><key>Super</key><key>H</key></keyseq>"
 msgstr ""
 
@@ -8472,7 +8475,7 @@ msgid "Minimize a window."
 msgstr "在还原最小化的窗口时"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:277 ../help/C/keyboard-shortcuts-set.page:786
+#: ../help/C/keyboard-nav.page:277 ../help/C/keyboard-shortcuts-set.page:787
 msgid "<keyseq><key>Super</key><key>←</key></keyseq>"
 msgstr ""
 
@@ -8485,7 +8488,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:288 ../help/C/keyboard-shortcuts-set.page:794
+#: ../help/C/keyboard-nav.page:288 ../help/C/keyboard-shortcuts-set.page:795
 msgid "<keyseq><key>Super</key><key>→</key></keyseq>"
 msgstr ""
 
@@ -8498,7 +8501,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-nav.page:299 ../help/C/keyboard-shortcuts-set.page:658
+#: ../help/C/keyboard-nav.page:299 ../help/C/keyboard-shortcuts-set.page:659
 msgid "<keyseq><key>Alt</key><key>Space</key></keyseq>"
 msgstr ""
 
@@ -8660,811 +8663,811 @@ msgid ""
 "clear."
 msgstr ""
 
-#. (itstool) path: page/p
-#: ../help/C/keyboard-shortcuts-set.page:66
-msgid "= Pre-defined shortcuts"
+#. (itstool) path: section/title
+#: ../help/C/keyboard-shortcuts-set.page:67
+msgid "Pre-defined shortcuts"
 msgstr ""
 
-#. (itstool) path: page/p
-#: ../help/C/keyboard-shortcuts-set.page:67
+#. (itstool) path: section/p
+#: ../help/C/keyboard-shortcuts-set.page:68
 msgid ""
 "There are a number of pre-configured shortcuts that can be changed, grouped "
 "into these categories:"
 msgstr ""
 
 #. (itstool) path: table/title
-#: ../help/C/keyboard-shortcuts-set.page:70
+#: ../help/C/keyboard-shortcuts-set.page:71
 #, fuzzy
 msgid "Launchers"
 msgstr "启动(_L)"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:73
+#: ../help/C/keyboard-shortcuts-set.page:74
 #, fuzzy
 msgid "Launch help browser"
 msgstr "启动器属性"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:76
-#: ../help/C/keyboard-shortcuts-set.page:134
-#: ../help/C/keyboard-shortcuts-set.page:142
-#: ../help/C/keyboard-shortcuts-set.page:150
-#: ../help/C/keyboard-shortcuts-set.page:158
-#: ../help/C/keyboard-shortcuts-set.page:206
-#: ../help/C/keyboard-shortcuts-set.page:214
-#: ../help/C/keyboard-shortcuts-set.page:254
-#: ../help/C/keyboard-shortcuts-set.page:262
-#: ../help/C/keyboard-shortcuts-set.page:270
-#: ../help/C/keyboard-shortcuts-set.page:278
-#: ../help/C/keyboard-shortcuts-set.page:286
-#: ../help/C/keyboard-shortcuts-set.page:556
-#: ../help/C/keyboard-shortcuts-set.page:564
-#: ../help/C/keyboard-shortcuts-set.page:572
-#: ../help/C/keyboard-shortcuts-set.page:580
-#: ../help/C/keyboard-shortcuts-set.page:615
-#: ../help/C/keyboard-shortcuts-set.page:623
-#: ../help/C/keyboard-shortcuts-set.page:631
-#: ../help/C/keyboard-shortcuts-set.page:639
-#: ../help/C/keyboard-shortcuts-set.page:647
-#: ../help/C/keyboard-shortcuts-set.page:666
-#: ../help/C/keyboard-shortcuts-set.page:698
-#: ../help/C/keyboard-shortcuts-set.page:738
-#: ../help/C/keyboard-shortcuts-set.page:746
-#: ../help/C/keyboard-shortcuts-set.page:754
-#: ../help/C/keyboard-shortcuts-set.page:762
-#: ../help/C/keyboard-shortcuts-set.page:770
-#: ../help/C/keyboard-shortcuts-set.page:778
+#: ../help/C/keyboard-shortcuts-set.page:77
+#: ../help/C/keyboard-shortcuts-set.page:135
+#: ../help/C/keyboard-shortcuts-set.page:143
+#: ../help/C/keyboard-shortcuts-set.page:151
+#: ../help/C/keyboard-shortcuts-set.page:159
+#: ../help/C/keyboard-shortcuts-set.page:207
+#: ../help/C/keyboard-shortcuts-set.page:215
+#: ../help/C/keyboard-shortcuts-set.page:255
+#: ../help/C/keyboard-shortcuts-set.page:263
+#: ../help/C/keyboard-shortcuts-set.page:271
+#: ../help/C/keyboard-shortcuts-set.page:279
+#: ../help/C/keyboard-shortcuts-set.page:287
+#: ../help/C/keyboard-shortcuts-set.page:557
+#: ../help/C/keyboard-shortcuts-set.page:565
+#: ../help/C/keyboard-shortcuts-set.page:573
+#: ../help/C/keyboard-shortcuts-set.page:581
+#: ../help/C/keyboard-shortcuts-set.page:616
+#: ../help/C/keyboard-shortcuts-set.page:624
+#: ../help/C/keyboard-shortcuts-set.page:632
+#: ../help/C/keyboard-shortcuts-set.page:640
+#: ../help/C/keyboard-shortcuts-set.page:648
+#: ../help/C/keyboard-shortcuts-set.page:667
+#: ../help/C/keyboard-shortcuts-set.page:699
+#: ../help/C/keyboard-shortcuts-set.page:739
+#: ../help/C/keyboard-shortcuts-set.page:747
+#: ../help/C/keyboard-shortcuts-set.page:755
+#: ../help/C/keyboard-shortcuts-set.page:763
+#: ../help/C/keyboard-shortcuts-set.page:771
+#: ../help/C/keyboard-shortcuts-set.page:779
 msgid "Disabled"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:81
+#: ../help/C/keyboard-shortcuts-set.page:82
 #, fuzzy
 msgid "Launch calculator"
 msgstr "启动器位置"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:84
+#: ../help/C/keyboard-shortcuts-set.page:85
 msgid "<_:media-1/> or <key>Calculator</key>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:90
+#: ../help/C/keyboard-shortcuts-set.page:91
 #, fuzzy
 msgid "Launch email client"
 msgstr "启动器位置"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:93
+#: ../help/C/keyboard-shortcuts-set.page:94
 msgid "<_:media-1/> or <key>Mail</key>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:99
+#: ../help/C/keyboard-shortcuts-set.page:100
 #, fuzzy
 msgid "Launch web browser"
 msgstr "启动器属性"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:102
+#: ../help/C/keyboard-shortcuts-set.page:103
 msgid "<_:media-1/> or <_:media-2/> or <key>WWW</key>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:109
+#: ../help/C/keyboard-shortcuts-set.page:110
 #, fuzzy
 msgid "Home folder"
 msgstr "主文件夹"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:112
+#: ../help/C/keyboard-shortcuts-set.page:113
 msgid "<_:media-1/> or <_:media-2/> or <key>Explorer</key>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:122
+#: ../help/C/keyboard-shortcuts-set.page:123
 msgid "<_:media-1/> or <key>Search</key>"
 msgstr ""
 
 #. (itstool) path: table/title
-#: ../help/C/keyboard-shortcuts-set.page:128
+#: ../help/C/keyboard-shortcuts-set.page:129
 #, fuzzy
 msgid "Navigation"
 msgstr "动画"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:131
+#: ../help/C/keyboard-shortcuts-set.page:132
 #, fuzzy
 msgid "Move window to workspace 1"
 msgstr "显示所有工作区的窗口"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:139
+#: ../help/C/keyboard-shortcuts-set.page:140
 #, fuzzy
 msgid "Move window to workspace 2"
 msgstr "显示所有工作区的窗口"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:147
+#: ../help/C/keyboard-shortcuts-set.page:148
 #, fuzzy
 msgid "Move window to workspace 3"
 msgstr "显示所有工作区的窗口"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:155
+#: ../help/C/keyboard-shortcuts-set.page:156
 #, fuzzy
 msgid "Move window to workspace 4"
 msgstr "显示所有工作区的窗口"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:163
+#: ../help/C/keyboard-shortcuts-set.page:164
 #, fuzzy
 msgid "Move window one workspace to the left"
 msgstr "取消窗口最小化时将窗口移动到当前工作区"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:166
+#: ../help/C/keyboard-shortcuts-set.page:167
 msgid ""
 "<keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>←</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:171
+#: ../help/C/keyboard-shortcuts-set.page:172
 #, fuzzy
 msgid "Move window one workspace to the right"
 msgstr "取消窗口最小化时将窗口移动到当前工作区"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:174
+#: ../help/C/keyboard-shortcuts-set.page:175
 msgid ""
 "<keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>→</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:179
+#: ../help/C/keyboard-shortcuts-set.page:180
 #, fuzzy
 msgid "Move window one workspace up"
 msgstr "取消窗口最小化时将窗口移动到当前工作区"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:182
+#: ../help/C/keyboard-shortcuts-set.page:183
 msgid ""
 "<keyseq><key>Shift</key><key xref=\"keyboard-key-super\">Super</"
 "key><key>Page Up</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:187
+#: ../help/C/keyboard-shortcuts-set.page:188
 #, fuzzy
 msgid "Move window one workspace down"
 msgstr "取消窗口最小化时将窗口移动到当前工作区"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:190
+#: ../help/C/keyboard-shortcuts-set.page:191
 msgid "<keyseq><key>Shift</key><key>Super</key><key>Page Down</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:195
+#: ../help/C/keyboard-shortcuts-set.page:196
 #, fuzzy
 msgid "Switch applications"
 msgstr "显示应用程序菜单"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:198
+#: ../help/C/keyboard-shortcuts-set.page:199
 #: ../help/C/shell-keyboard-shortcuts.page:54
 msgid "<keyseq><key>Super</key><key>Tab</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:203
+#: ../help/C/keyboard-shortcuts-set.page:204
 msgid "Switch windows"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:211
+#: ../help/C/keyboard-shortcuts-set.page:212
 #, fuzzy
 msgid "Switch windows of an application"
 msgstr "显示已知应用程序的列表(_A)"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:219
+#: ../help/C/keyboard-shortcuts-set.page:220
 msgid "Switch system controls"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:222
+#: ../help/C/keyboard-shortcuts-set.page:223
 #: ../help/C/shell-keyboard-shortcuts.page:75
 msgid "<keyseq><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:227
+#: ../help/C/keyboard-shortcuts-set.page:228
 msgid "Switch windows directly"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:235
+#: ../help/C/keyboard-shortcuts-set.page:236
 msgid "Switch windows of an app directly"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:243
+#: ../help/C/keyboard-shortcuts-set.page:244
 msgid "Switch system controls directly"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:246
+#: ../help/C/keyboard-shortcuts-set.page:247
 msgid "<keyseq><key>Ctrl</key><key>Alt</key><key>Esc</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:251
+#: ../help/C/keyboard-shortcuts-set.page:252
 msgid "Hide all normal windows"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:259
+#: ../help/C/keyboard-shortcuts-set.page:260
 #, fuzzy
 msgid "Switch to workspace 1"
 msgstr "在工作区之间切换"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:267
+#: ../help/C/keyboard-shortcuts-set.page:268
 #, fuzzy
 msgid "Switch to workspace 2"
 msgstr "在工作区之间切换"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:275
+#: ../help/C/keyboard-shortcuts-set.page:276
 #, fuzzy
 msgid "Switch to workspace 3"
 msgstr "在工作区之间切换"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:283
+#: ../help/C/keyboard-shortcuts-set.page:284
 #, fuzzy
 msgid "Switch to workspace 4"
 msgstr "在工作区之间切换"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:291
+#: ../help/C/keyboard-shortcuts-set.page:292
 #, fuzzy
 msgid "Move to workspace left"
 msgstr "还原到原工作区(_T)"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:294
+#: ../help/C/keyboard-shortcuts-set.page:295
 msgid "<keyseq><key>Ctrl</key><key>Alt</key><key>←</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:299
+#: ../help/C/keyboard-shortcuts-set.page:300
 #, fuzzy
 msgid "Move to workspace right"
 msgstr "工作区切换器中的行数"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:302
+#: ../help/C/keyboard-shortcuts-set.page:303
 msgid "<keyseq><key>Ctrl</key><key>Alt</key><key>→</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:307
+#: ../help/C/keyboard-shortcuts-set.page:308
 msgid "Move to workspace above"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:310
+#: ../help/C/keyboard-shortcuts-set.page:311
 msgid "<keyseq><key>Super</key><key>Page Up</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:315
+#: ../help/C/keyboard-shortcuts-set.page:316
 msgid "Move to workspace below"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:318
+#: ../help/C/keyboard-shortcuts-set.page:319
 msgid "<keyseq><key>Super</key><key>Page Down</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: table/title
-#: ../help/C/keyboard-shortcuts-set.page:323
+#: ../help/C/keyboard-shortcuts-set.page:324
 msgid "Screenshots"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:326
+#: ../help/C/keyboard-shortcuts-set.page:327
 msgid "Save a screenshot to file"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:329
+#: ../help/C/keyboard-shortcuts-set.page:330
 msgid "<key>Print</key>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:334
+#: ../help/C/keyboard-shortcuts-set.page:335
 msgid "Save a screenshot of a window to file"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:337
+#: ../help/C/keyboard-shortcuts-set.page:338
 msgid "<keyseq><key>Alt</key><key>Print</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:342
+#: ../help/C/keyboard-shortcuts-set.page:343
 msgid "Save a screenshot of an area to file"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:345
+#: ../help/C/keyboard-shortcuts-set.page:346
 msgid "<keyseq><key>Shift</key><key>Print</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:350
+#: ../help/C/keyboard-shortcuts-set.page:351
 msgid "Copy a screenshot to clipboard"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:353
+#: ../help/C/keyboard-shortcuts-set.page:354
 msgid "<keyseq><key>Ctrl</key><key>Print</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:358
+#: ../help/C/keyboard-shortcuts-set.page:359
 msgid "Copy a screenshot of a window to clipboard"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:361
+#: ../help/C/keyboard-shortcuts-set.page:362
 msgid "<keyseq><key>Ctrl</key><key>Alt</key><key>Print</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:366
+#: ../help/C/keyboard-shortcuts-set.page:367
 msgid "Copy a screenshot of an area to clipboard"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:369
+#: ../help/C/keyboard-shortcuts-set.page:370
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Print</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:374
+#: ../help/C/keyboard-shortcuts-set.page:375
 msgid "Record a screencast"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:377
+#: ../help/C/keyboard-shortcuts-set.page:378
 msgid ""
 "<keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>R</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: table/title
-#: ../help/C/keyboard-shortcuts-set.page:382
+#: ../help/C/keyboard-shortcuts-set.page:383
 msgid "Sound and Media"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:385
+#: ../help/C/keyboard-shortcuts-set.page:386
 msgid "Volume mute"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:388
+#: ../help/C/keyboard-shortcuts-set.page:389
 msgid "<_:media-1/> (Audio mute)"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:394
+#: ../help/C/keyboard-shortcuts-set.page:395
 msgid "Volume down"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:397
+#: ../help/C/keyboard-shortcuts-set.page:398
 msgid "<_:media-1/> (Audio lower volume)"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:403
+#: ../help/C/keyboard-shortcuts-set.page:404
 msgid "Volume up"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:406
+#: ../help/C/keyboard-shortcuts-set.page:407
 msgid "<_:media-1/> (Audio raise volume)"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:412
+#: ../help/C/keyboard-shortcuts-set.page:413
 msgid "Launch media player"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:415
+#: ../help/C/keyboard-shortcuts-set.page:416
 msgid "<_:media-1/> (Audio media)"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:421
+#: ../help/C/keyboard-shortcuts-set.page:422
 msgid "Play (or play/pause)"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:424
+#: ../help/C/keyboard-shortcuts-set.page:425
 msgid "<_:media-1/> (Audio play)"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:430
+#: ../help/C/keyboard-shortcuts-set.page:431
 msgid "Pause playback"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:433
+#: ../help/C/keyboard-shortcuts-set.page:434
 msgid "<_:media-1/> (Audio pause)"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:439
+#: ../help/C/keyboard-shortcuts-set.page:440
 msgid "Stop playback"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:442
+#: ../help/C/keyboard-shortcuts-set.page:443
 msgid "<_:media-1/> (Audio stop)"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:448
+#: ../help/C/keyboard-shortcuts-set.page:449
 msgid "Previous track"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:451
+#: ../help/C/keyboard-shortcuts-set.page:452
 msgid "<_:media-1/> (Audio previous)"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:457
+#: ../help/C/keyboard-shortcuts-set.page:458
 msgid "Next track"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:460
+#: ../help/C/keyboard-shortcuts-set.page:461
 msgid "<_:media-1/> (Audio next)"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:466
+#: ../help/C/keyboard-shortcuts-set.page:467
 msgid "Eject"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:469
+#: ../help/C/keyboard-shortcuts-set.page:470
 msgid "<_:media-1/> (Eject)"
 msgstr ""
 
 #. (itstool) path: table/title
-#: ../help/C/keyboard-shortcuts-set.page:475
+#: ../help/C/keyboard-shortcuts-set.page:476
 msgid "System"
 msgstr "系统"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:478
+#: ../help/C/keyboard-shortcuts-set.page:479
 #, fuzzy
 msgid "Show the run command prompt"
 msgstr "无法运行命令“%s”"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:481
+#: ../help/C/keyboard-shortcuts-set.page:482
 #: ../help/C/shell-keyboard-shortcuts.page:46
 msgid "<keyseq><key>Alt</key><key>F2</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:486
+#: ../help/C/keyboard-shortcuts-set.page:487
 msgid "Show the activities overview"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:489
+#: ../help/C/keyboard-shortcuts-set.page:490
 msgid "<keyseq><key>Alt</key><key>F1</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:494
+#: ../help/C/keyboard-shortcuts-set.page:495
 #, fuzzy
 msgid "Log out"
 msgstr "注销..."
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:497
+#: ../help/C/keyboard-shortcuts-set.page:498
 #: ../help/C/shell-keyboard-shortcuts.page:131
 msgid "<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:502
+#: ../help/C/keyboard-shortcuts-set.page:503
 #, fuzzy
 msgid "Lock screen"
 msgstr "锁定屏幕"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:505
+#: ../help/C/keyboard-shortcuts-set.page:506
 #: ../help/C/shell-keyboard-shortcuts.page:139
 msgid "<keyseq><key>Super</key><key>L</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:510
+#: ../help/C/keyboard-shortcuts-set.page:511
 #, fuzzy
 msgid "Show the message tray"
 msgstr "显示温度(_T)"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:518
+#: ../help/C/keyboard-shortcuts-set.page:519
 msgid "Focus the active notification"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:521
+#: ../help/C/keyboard-shortcuts-set.page:522
 msgid "<keyseq><key>Super</key><key>N</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:526
+#: ../help/C/keyboard-shortcuts-set.page:527
 #, fuzzy
 msgid "Show all applications"
 msgstr "显示应用程序菜单"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:529
+#: ../help/C/keyboard-shortcuts-set.page:530
 #: ../help/C/shell-keyboard-shortcuts.page:86
 msgid "<keyseq><key>Super</key><key>A</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:534
+#: ../help/C/keyboard-shortcuts-set.page:535
 #, fuzzy
 msgid "Open the application menu"
 msgstr "显示应用程序菜单"
 
 #. (itstool) path: table/title
-#: ../help/C/keyboard-shortcuts-set.page:542
+#: ../help/C/keyboard-shortcuts-set.page:543
 msgid "Typing"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:545
+#: ../help/C/keyboard-shortcuts-set.page:546
 msgid "Switch to next input source"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:548
+#: ../help/C/keyboard-shortcuts-set.page:549
 msgid "<keyseq><key>Super</key><key>Space</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:553
+#: ../help/C/keyboard-shortcuts-set.page:554
 msgid "Switch to previous input source"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:561
+#: ../help/C/keyboard-shortcuts-set.page:562
 msgid "Modifiers-only switch to next source"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:569
+#: ../help/C/keyboard-shortcuts-set.page:570
 msgid "Compose Key"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:577
+#: ../help/C/keyboard-shortcuts-set.page:578
 msgid "Alternative Characters Key"
 msgstr ""
 
 #. (itstool) path: table/title
-#: ../help/C/keyboard-shortcuts-set.page:585
+#: ../help/C/keyboard-shortcuts-set.page:586
 msgid "Universal Access"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:588
+#: ../help/C/keyboard-shortcuts-set.page:589
 msgid "Turn zoom on or off"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:591
+#: ../help/C/keyboard-shortcuts-set.page:592
 msgid "<keyseq><key>Alt</key><key>Super</key><key>8</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:596
+#: ../help/C/keyboard-shortcuts-set.page:597
 msgid "Zoom in"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:599
+#: ../help/C/keyboard-shortcuts-set.page:600
 msgid "<keyseq><key>Alt</key><key>Super</key><key>=</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:604
+#: ../help/C/keyboard-shortcuts-set.page:605
 msgid "Zoom out"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:607
+#: ../help/C/keyboard-shortcuts-set.page:608
 msgid "<keyseq><key>Alt</key><key>Super</key><key>-</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:612
+#: ../help/C/keyboard-shortcuts-set.page:613
 msgid "Turn screen reader on or off"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:620
+#: ../help/C/keyboard-shortcuts-set.page:621
 msgid "Turn on-screen keyboard on or off"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:628
+#: ../help/C/keyboard-shortcuts-set.page:629
 msgid "Increase text size"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:636
+#: ../help/C/keyboard-shortcuts-set.page:637
 msgid "Decrease text size"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:644
+#: ../help/C/keyboard-shortcuts-set.page:645
 msgid "High contrast on or off"
 msgstr ""
 
 #. (itstool) path: table/title
-#: ../help/C/keyboard-shortcuts-set.page:652
+#: ../help/C/keyboard-shortcuts-set.page:653
 #, fuzzy
 msgid "Windows"
 msgstr "窗口列表"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:655
+#: ../help/C/keyboard-shortcuts-set.page:656
 msgid "Activate the window menu"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:663
+#: ../help/C/keyboard-shortcuts-set.page:664
 msgid "Toggle fullscreen mode"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:671
+#: ../help/C/keyboard-shortcuts-set.page:672
 msgid "Toggle maximization state"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:674
+#: ../help/C/keyboard-shortcuts-set.page:675
 msgid "<keyseq><key>Alt</key><key>F10</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:679
+#: ../help/C/keyboard-shortcuts-set.page:680
 msgid "Maximize window"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:682
+#: ../help/C/keyboard-shortcuts-set.page:683
 msgid "<keyseq><key>Super</key><key>↑</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:687
+#: ../help/C/keyboard-shortcuts-set.page:688
 #, fuzzy
 msgid "Restore window"
 msgstr "在还原最小化的窗口时"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:690
+#: ../help/C/keyboard-shortcuts-set.page:691
 msgid "<keyseq><key>Super</key><key>↓</key></keyseq>"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:695
+#: ../help/C/keyboard-shortcuts-set.page:696
 msgid "Toggle shaded state"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:703
+#: ../help/C/keyboard-shortcuts-set.page:704
 msgid "Close window"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:711
+#: ../help/C/keyboard-shortcuts-set.page:712
 msgid "Hide window"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:719
+#: ../help/C/keyboard-shortcuts-set.page:720
 msgid "Move window"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:727
+#: ../help/C/keyboard-shortcuts-set.page:728
 #, fuzzy
 msgid "Resize window"
 msgstr "在还原最小化的窗口时"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:735
+#: ../help/C/keyboard-shortcuts-set.page:736
 #, fuzzy
 msgid "Toggle window on all workspaces or one"
 msgstr "显示所有工作区的窗口"
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:743
+#: ../help/C/keyboard-shortcuts-set.page:744
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:751
+#: ../help/C/keyboard-shortcuts-set.page:752
 msgid "Raise window above other windows"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:759
+#: ../help/C/keyboard-shortcuts-set.page:760
 msgid "Lower window below other windows"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:767
+#: ../help/C/keyboard-shortcuts-set.page:768
 msgid "Maximize window vertically"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:775
+#: ../help/C/keyboard-shortcuts-set.page:776
 msgid "Maximize window horizontally"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:783
+#: ../help/C/keyboard-shortcuts-set.page:784
 msgid "View split on left"
 msgstr ""
 
 #. (itstool) path: td/p
-#: ../help/C/keyboard-shortcuts-set.page:791
+#: ../help/C/keyboard-shortcuts-set.page:792
 msgid "View split on right"
 msgstr ""
 
 #. (itstool) path: section/title
-#: ../help/C/keyboard-shortcuts-set.page:799
+#: ../help/C/keyboard-shortcuts-set.page:801
 msgid "Custom shortcuts"
 msgstr ""
 
 #. (itstool) path: section/p
-#: ../help/C/keyboard-shortcuts-set.page:800
+#: ../help/C/keyboard-shortcuts-set.page:802
 msgid ""
 "To create your own application keyboard shortcut in the <app>Keyboard</app> "
 "settings:"
 msgstr ""
 
 #. (itstool) path: item/p
-#: ../help/C/keyboard-shortcuts-set.page:804
+#: ../help/C/keyboard-shortcuts-set.page:806
 msgid ""
 "Click the <gui style=\"button\">+</gui> button. The <gui>Custom Shortcut</"
 "gui> window will appear."
 msgstr ""
 
 #. (itstool) path: item/p
-#: ../help/C/keyboard-shortcuts-set.page:808
+#: ../help/C/keyboard-shortcuts-set.page:810
 msgid ""
 "Type a <gui>Name</gui> to identify the shortcut, and a <gui>Command</gui> to "
 "run an application, then click <gui>Add</gui>. For example, if you wanted "
@@ -9473,14 +9476,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: ../help/C/keyboard-shortcuts-set.page:814
+#: ../help/C/keyboard-shortcuts-set.page:816
 msgid ""
 "Click <gui>Disabled</gui> in the row that was just added. When it changes to "
 "<gui>New accelerator…</gui>, hold down the desired shortcut key combination."
 msgstr ""
 
 #. (itstool) path: section/p
-#: ../help/C/keyboard-shortcuts-set.page:819
+#: ../help/C/keyboard-shortcuts-set.page:821
 msgid ""
 "The command name that you type should be a valid system command. You can "
 "check that the command works by opening a Terminal and typing it in there. "
@@ -9489,7 +9492,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: ../help/C/keyboard-shortcuts-set.page:823
+#: ../help/C/keyboard-shortcuts-set.page:825
 msgid ""
 "If you want to change the command that is associated with a custom keyboard "
 "shortcut, double-click the <em>name</em> of the shortcut. The <gui>Custom "
@@ -16121,37 +16124,39 @@ msgid ""
 "and multi-page</link>… &lt;/desc&gt;"
 msgstr ""
 
-#. (itstool) path: page/p
-#: ../help/C/printing.page:22
-msgid "= Set up a printer"
-msgstr ""
-
-#. (itstool) path: page/p
-#: ../help/C/printing.page:23
-msgid "@title[link role=\"trail\"] Setup"
-msgstr ""
-
-#. (itstool) path: page/p
+#. (itstool) path: info/title
 #: ../help/C/printing.page:24
-msgid "= Different paper sizes and layouts"
+msgctxt "link:trail"
+msgid "Setup"
 msgstr ""
 
-#. (itstool) path: page/p
-#: ../help/C/printing.page:25
-msgid "@title[link role=\"trail\"] Sizes and layouts"
-msgstr ""
-
-#. (itstool) path: page/p
+#. (itstool) path: section/title
 #: ../help/C/printing.page:26
-msgid "= Printer problems"
+#, fuzzy
+msgid "Set up a printer"
+msgstr "设置默认面板布局"
+
+#. (itstool) path: info/title
+#: ../help/C/printing.page:30
+msgctxt "link:trail"
+msgid "Sizes and layouts"
 msgstr ""
 
-#. (itstool) path: page/p
-#: ../help/C/printing.page:27
-msgid ""
-"@link[guide &gt;hardware#problems] @desc Undetected printers, paper jams, "
-"print-outs that look wrong…"
+#. (itstool) path: section/title
+#: ../help/C/printing.page:32
+msgid "Different paper sizes and layouts"
 msgstr ""
+
+#. (itstool) path: info/desc
+#: ../help/C/printing.page:37
+msgid "Undetected printers, paper jams, print-outs that look wrong…"
+msgstr ""
+
+#. (itstool) path: section/title
+#: ../help/C/printing.page:39
+#, fuzzy
+msgid "Printer problems"
+msgstr "网络位置"
 
 #. (itstool) path: info/desc
 #: ../help/C/printing-envelopes.page:17
