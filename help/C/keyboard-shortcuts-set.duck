@@ -60,7 +60,7 @@ To change the key or keys to be pressed for a keyboard shortcut:
 * Hold down the desired key combination, or press $key(Backspace) to clear.
 
 
-= Pre-defined shortcuts
+== Pre-defined shortcuts
   [#defined]
 There are a number of pre-configured shortcuts that can be changed,
 grouped into these categories:

@@ -24,17 +24,17 @@
     Jim C
   Needs info about network printing - 2011-06-08
 
-= Set up a printer
+== Set up a printer
   [#setup .2column]
 @title[link role="trail"] Setup
 
 
-= Different paper sizes and layouts
+== Different paper sizes and layouts
   [#paper .2column]
 @title[link role="trail"] Sizes and layouts
 
 
-= Printer problems
+== Printer problems
   [#problems .2column]
 @link[guide >hardware#problems]
 @desc Undetected printers, paper jams, print-outs that look wrong…
